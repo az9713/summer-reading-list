@@ -4,6 +4,8 @@ Sourced research reports on the 12 books from the [a16z crypto summer reading li
 
 **[View the live page](https://az9713.github.io/summer-reading-list/)** - the tabbed viewer, hosted on GitHub Pages.
 
+[![Screenshot of the reading-list viewer](screenshot.png)](https://az9713.github.io/summer-reading-list/)
+
 ## What's here
 
 - **`reading-list.html`** - a self-contained, offline tabbed viewer. One tab per book plus an overview tab. Open it directly in any browser (no server, no internet needed; the Markdown renderer is vendored inline).
