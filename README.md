@@ -2,6 +2,8 @@
 
 Sourced research reports on the 12 books from the [a16z crypto summer reading list](https://a16zcrypto.substack.com/p/a-reading-list-for-the-deeply-curious), built to help decide which are worth reading when time is premium.
 
+**[View the live page](https://az9713.github.io/summer-reading-list/)** - the tabbed viewer, hosted on GitHub Pages.
+
 ## What's here
 
 - **`reading-list.html`** - a self-contained, offline tabbed viewer. One tab per book plus an overview tab. Open it directly in any browser (no server, no internet needed; the Markdown renderer is vendored inline).
