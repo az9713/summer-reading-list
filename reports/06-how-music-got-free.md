@@ -3,7 +3,7 @@
 ## Bottom line
 - **What it is:** A narrative-nonfiction history of how digital technology (the MP3, then file-sharing, then streaming) dismantled the recorded-music business, told through three interlocking true stories - the German engineers who invented the MP3, the CD-plant worker who became piracy's "patient zero," and the major-label CEO who fought the collapse.
 - **Who should read it:** Anyone interested in technology obliterating incumbent business models - investors, founders, product people, and music/media fans. It's a strong case study for a tech reader thinking about disruption.
-- **Time investment:** ~290–300 pages / roughly an 8–9 hour read (or ~9.5 hour audiobook). Reads fast - reviewers repeatedly compare it to Michael Lewis.
+- **Time investment:** \~290–300 pages / roughly an 8–9 hour read (or \~9.5 hour audiobook). Reads fast - reviewers repeatedly compare it to Michael Lewis.
 
 ---
 
@@ -31,7 +31,7 @@ The connective tissue the a16z list highlights - MP3 → mass piracy (Napster/Ka
 
 ## Author background - Stephen Witt
 - **Stephen Richard Witt**, American journalist/nonfiction author, born 1979 (New Hampshire; raised in Minnesota).
-- Degrees from the **University of Chicago** (2001) and the **Columbia University Graduate School of Journalism** (2011). Before journalism he worked ~six years in finance (stock trading / hedge funds) and did a stint in economic development in East Africa.
+- Degrees from the **University of Chicago** (2001) and the **Columbia University Graduate School of Journalism** (2011). Before journalism he worked \~six years in finance (stock trading / hedge funds) and did a stint in economic development in East Africa.
 - Contributor to **The New Yorker** and other outlets. `How Music Got Free` was his debut book.
 - Later wrote **`The Thinking Machine`** (2025), a history of Nvidia and Jensen Huang, which won the 2025 Financial Times Business Book of the Year Award.
 
@@ -48,7 +48,7 @@ The connective tissue the a16z list highlights - MP3 → mass piracy (Napster/Ka
 - **Full title (US hardcover):** `How Music Got Free: The End of an Industry, the Turn of the Century, and the Patient Zero of Piracy`
 - **Publisher:** Viking (Penguin Random House)
 - **Publication date:** June 16, 2015
-- **Length:** ~296 pages (some retailers list 304); ISBN-13 978-0-525-42661-5.
+- **Length:** \~296 pages (some retailers list 304); ISBN-13 978-0-525-42661-5.
 - Paperback editions carry alternate subtitles, e.g. `A Story of Obsession and Invention` (US paperback) and `What Happens When an Entire Generation Commits the Same Crime?` (UK edition).
 
 ## Open questions / uncertainties

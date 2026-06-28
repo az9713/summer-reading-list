@@ -2,8 +2,8 @@
 
 ## Bottom line
 - **What it is:** A practical, reference-style operating manual for managing people and building companies, distilled from the author's time scaling Google teams and serving as Stripe's COO during hypergrowth. It comes with 100+ pages of reusable worksheets, templates, and example documents.
-- **Who should read it:** Founders, executives, and managers (especially at high-growth tech companies of ~30+ people) who want concrete systems and templates, not inspiration. Less useful as cover-to-cover leisure reading.
-- **Time investment:** Substantial - ~480 pages, dense and textbook-like. Best used as a reference you dip into by chapter/process rather than a single linear read.
+- **Who should read it:** Founders, executives, and managers (especially at high-growth tech companies of \~30+ people) who want concrete systems and templates, not inspiration. Less useful as cover-to-cover leisure reading.
+- **Time investment:** Substantial - \~480 pages, dense and textbook-like. Best used as a reference you dip into by chapter/process rather than a single linear read.
 
 ---
 
@@ -35,13 +35,13 @@ Reviews and summaries consistently describe a structure built around **four core
 
 ## Author background
 
-**Claire Hughes Johnson** was **COO of Stripe from October 2014 to 2021**, joining when the company had roughly 160 employees and helping it scale to **6,000–7,000+** (sources vary on the exact end figure). She built out customer-facing functions, sales, recruiting, and management practices. Before Stripe she spent **~10 years at Google**, leading business teams across Gmail, Google Apps, and consumer operations, and serving as a VP for AdWords online sales/operations, Google Offers, and the self-driving car project. She holds a BA in English/American literature from Brown and an MBA from Yale School of Management; she began her career in Massachusetts state politics. She has served on boards including Aurora Innovation, HubSpot, The Atlantic, and Ameresco. ([Stripe Press](https://press.stripe.com/scaling-people), [Yale SOM](https://som.yale.edu/profile/alumni/claire-hughes-johnson-01))
+**Claire Hughes Johnson** was **COO of Stripe from October 2014 to 2021**, joining when the company had roughly 160 employees and helping it scale to **6,000–7,000+** (sources vary on the exact end figure). She built out customer-facing functions, sales, recruiting, and management practices. Before Stripe she spent **\~10 years at Google**, leading business teams across Gmail, Google Apps, and consumer operations, and serving as a VP for AdWords online sales/operations, Google Offers, and the self-driving car project. She holds a BA in English/American literature from Brown and an MBA from Yale School of Management; she began her career in Massachusetts state politics. She has served on boards including Aurora Innovation, HubSpot, The Atlantic, and Ameresco. ([Stripe Press](https://press.stripe.com/scaling-people), [Yale SOM](https://som.yale.edu/profile/alumni/claire-hughes-johnson-01))
 
 ## Publisher, date, length, format
 
 - **Publisher:** Stripe Press
 - **Publication date:** March 7, 2023 ([Goodreads](https://www.goodreads.com/en/book/show/63063173-scaling-people))
-- **Length:** ~480 pages (hardcover), including 100+ pages of worksheets/templates ([Goodreads](https://www.goodreads.com/en/book/show/63063173-scaling-people), [Stripe Press](https://press.stripe.com/scaling-people))
+- **Length:** \~480 pages (hardcover), including 100+ pages of worksheets/templates ([Goodreads](https://www.goodreads.com/en/book/show/63063173-scaling-people), [Stripe Press](https://press.stripe.com/scaling-people))
 - **Price / ISBN:** $35 list; ISBN 9781953953216 ([Stripe Press](https://press.stripe.com/scaling-people), [Amazon](https://www.amazon.com/Scaling-People-Tactics-Management-Building/dp/1953953212))
 - Also available as ebook and audiobook (narrated by the author).
 
@@ -49,13 +49,13 @@ Reviews and summaries consistently describe a structure built around **four core
 
 - **Awards:** Named one of the **Best Books of 2023 by Bloomberg and The Economist.** ([McKinsey](https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-scale-your-people-not-just-your-company))
 - **Endorsements:** Praised by Kim Scott (*Radical Candor*), Reid Hoffman (LinkedIn co-founder), and Frances Frei (Harvard Business School). ([Stripe Press](https://press.stripe.com/scaling-people))
-- **Reader ratings:** Goodreads ~**4.25/5** across ~1,705 ratings / ~146 reviews (as of retrieval). ([Goodreads](https://www.goodreads.com/en/book/show/63063173-scaling-people))
+- **Reader ratings:** Goodreads \~**4.25/5** across \~1,705 ratings / \~146 reviews (as of retrieval). ([Goodreads](https://www.goodreads.com/en/book/show/63063173-scaling-people))
 - **Common praise:** tactical and practical; useful as a reference/roadmap for managers in high-growth environments; templates and the leadership-vs-management and self-awareness material singled out.
 - **Common criticism:** some find it dense and textbook-like (better as reference than a read-through); a few feel the ideas are not novel or that tech-specific advice may not generalize. The most pointed published critique ([The Psmiths](https://www.thepsmiths.com/p/review-scaling-people-by-claire-hughes)) rejects the book's premise that management technique is broadly transferable across domains.
 
 ## Who it's for
 
-Founders, operators, and managers building or scaling organizations - most directly useful at high-growth companies (~30+ employees) and for director-level-and-above leaders who need concrete systems, documents, and processes rather than motivational reading. This matches the a16z crypto reading-list framing (Scott Duke Kominers) of it as a top practical book on managing people and managing how people interact with you.
+Founders, operators, and managers building or scaling organizations - most directly useful at high-growth companies (\~30+ employees) and for director-level-and-above leaders who need concrete systems, documents, and processes rather than motivational reading. This matches the a16z crypto reading-list framing (Scott Duke Kominers) of it as a top practical book on managing people and managing how people interact with you.
 
 ---
 

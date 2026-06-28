@@ -4,19 +4,19 @@ Twelve books from the [a16z crypto reading list](https://a16zcrypto.substack.com
 
 ## Decision table (sorted by time-to-payoff)
 
-| # | Book | Author | ~Pages | Lift | Best if you want… | Recommender (a16z) |
+| # | Book | Author | \~Pages | Lift | Best if you want… | Recommender (a16z) |
 |---|------|--------|--------|------|-------------------|--------------------|
-| 06 | [How Music Got Free](06-how-music-got-free.md) | Stephen Witt | ~296 | **Easy** | A gripping disruption thriller; tech obliterating a business model | Drew Coffman, editorial |
-| 10 | [A Man for All Markets](10-a-man-for-all-markets.md) | Edward O. Thorp | ~416 | **Easy** | Math-beats-the-house memoir; origins of quant investing | Ben Wu, talent |
-| 04 | [Apple in China](04-apple-in-china.md) | Patrick McGee | ~448 | Easy–Med | How China became a manufacturing superpower via Apple; geopolitics | Dan Boneh, research |
-| 05 | [Apple: The First 50 Years](05-apple-first-50-years.md) | David Pogue | ~600* | Easy (browse) | An illustrated victory lap of Apple history; coffee-table + interviews | Drew Coffman, editorial |
-| 03 | [Energy: A Human History](03-energy-richard-rhodes.md) | Richard Rhodes | ~465 | Medium | Intuition on how energy transitions *scale* (relevant to the AI/compute buildout) | Aiden Slavin, policy |
-| 12 | [Scaling People](12-scaling-people.md) | Claire Hughes Johnson | ~480 | Med (reference) | A practical operating manual for managing/building teams | Scott Duke Kominers, research |
-| 08 | [Why Nations Fail](08-why-nations-fail.md) | Acemoglu & Robinson | ~529 | Medium | The institutions thesis (2024 Nobel); a governance lens for crypto | Kira Song, finance |
-| 07 | [Moral Economics](07-moral-economics-roth.md) | Alvin E. Roth | ~352 | Medium | Market design & "repugnant" markets, from a Nobel laureate (new, May 2026) | Scott Duke Kominers, research |
-| 01 | [How Life Works](01-how-life-works.md) | Philip Ball | ~552 | **Hard** | To unlearn "DNA = blueprint"; cells as emergent, multi-level systems | Dan Boneh, research |
-| 09 | [An Engine, Not a Camera](09-an-engine-not-a-camera.md) | Donald MacKenzie | ~377 | **Hard** (academic) | The deep idea that financial models *make* the markets they describe | Tim Sullivan, editorial |
-| 02 | [The Art and Craft of Problem Solving](02-art-and-craft-of-problem-solving.md) | Paul Zeitz | ~366 | **Hard** (do the problems) | To train mathematical problem-solving as a transferable skill | Scott Duke Kominers, research |
+| 06 | [How Music Got Free](06-how-music-got-free.md) | Stephen Witt | \~296 | **Easy** | A gripping disruption thriller; tech obliterating a business model | Drew Coffman, editorial |
+| 10 | [A Man for All Markets](10-a-man-for-all-markets.md) | Edward O. Thorp | \~416 | **Easy** | Math-beats-the-house memoir; origins of quant investing | Ben Wu, talent |
+| 04 | [Apple in China](04-apple-in-china.md) | Patrick McGee | \~448 | Easy–Med | How China became a manufacturing superpower via Apple; geopolitics | Dan Boneh, research |
+| 05 | [Apple: The First 50 Years](05-apple-first-50-years.md) | David Pogue | \~600* | Easy (browse) | An illustrated victory lap of Apple history; coffee-table + interviews | Drew Coffman, editorial |
+| 03 | [Energy: A Human History](03-energy-richard-rhodes.md) | Richard Rhodes | \~465 | Medium | Intuition on how energy transitions *scale* (relevant to the AI/compute buildout) | Aiden Slavin, policy |
+| 12 | [Scaling People](12-scaling-people.md) | Claire Hughes Johnson | \~480 | Med (reference) | A practical operating manual for managing/building teams | Scott Duke Kominers, research |
+| 08 | [Why Nations Fail](08-why-nations-fail.md) | Acemoglu & Robinson | \~529 | Medium | The institutions thesis (2024 Nobel); a governance lens for crypto | Kira Song, finance |
+| 07 | [Moral Economics](07-moral-economics-roth.md) | Alvin E. Roth | \~352 | Medium | Market design & "repugnant" markets, from a Nobel laureate (new, May 2026) | Scott Duke Kominers, research |
+| 01 | [How Life Works](01-how-life-works.md) | Philip Ball | \~552 | **Hard** | To unlearn "DNA = blueprint"; cells as emergent, multi-level systems | Dan Boneh, research |
+| 09 | [An Engine, Not a Camera](09-an-engine-not-a-camera.md) | Donald MacKenzie | \~377 | **Hard** (academic) | The deep idea that financial models *make* the markets they describe | Tim Sullivan, editorial |
+| 02 | [The Art and Craft of Problem Solving](02-art-and-craft-of-problem-solving.md) | Paul Zeitz | \~366 | **Hard** (do the problems) | To train mathematical problem-solving as a transferable skill | Scott Duke Kominers, research |
 | 11 | [The Super Gap (초격차)](11-the-super-gap.md) | Kwon Oh-hyun | - | ⚠️ **Korean only** | Samsung-chairman leadership lessons - **no verified English edition** | SungMo Park, go-to-market |
 
 \* Page counts are approximate; several primary pages were access-blocked during research (see each report's "Open questions"). "Lift" = reading effort, not quality.

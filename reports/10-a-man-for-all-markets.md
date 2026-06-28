@@ -1,9 +1,9 @@
 # A Man for All Markets - Edward O. Thorp (2017)
 
 ## Bottom line
-- **What it is:** A first-person memoir by the mathematician who proved you can beat blackjack with card counting (*Beat the Dealer*), built the first wearable computer with Claude Shannon to beat roulette, then became one of the founding figures of quantitative investing - running a hedge fund (Princeton/Newport Partners) that reportedly never had a losing year over its ~19–22 year life.
+- **What it is:** A first-person memoir by the mathematician who proved you can beat blackjack with card counting (*Beat the Dealer*), built the first wearable computer with Claude Shannon to beat roulette, then became one of the founding figures of quantitative investing - running a hedge fund (Princeton/Newport Partners) that reportedly never had a losing year over its \~19–22 year life.
 - **Who should read it:** Quants, traders, crypto/DeFi builders, and anyone drawn to applying math, probability, and edge-finding to "beatable" systems - plus risk-management discipline (Kelly criterion, avoiding ruin).
-- **Time investment:** ~416 pages / a moderate weekend read; engaging memoir prose, light on equations. Skim-friendly if you only want the Vegas, Shannon, Buffett, and Madoff set pieces.
+- **Time investment:** \~416 pages / a moderate weekend read; engaging memoir prose, light on equations. Skim-friendly if you only want the Vegas, Shannon, Buffett, and Madoff set pieces.
 
 ---
 
@@ -11,9 +11,9 @@
 - **Born** Chicago, 1932; raised in southern California. **UCLA:** BA physics (1953), MA (1955), **PhD in mathematics (1958)**. [Wikipedia; Society for Science]
 - **Academia:** MIT (1959–1961), New Mexico State (1961–1965), then **UC Irvine** professor of mathematics (1965–1977). [Wikipedia]
 - **Blackjack / card counting:** Authored ***Beat the Dealer*** (1962), the book that mathematically proved the house edge in blackjack could be overcome by counting cards - it launched a gambling renaissance and forced casinos to change rules. [Wikipedia; publisher description via search]
-- **Roulette / wearable computer with Claude Shannon:** Thorp conceived a roulette-prediction device and built it jointly with information-theory founder **Claude Shannon** in 1960–61 at Shannon's home workshop in Winchester, MA. The cigarette-pack-sized device (~12 transistors, toe-operated micro-switches) was tested in **Las Vegas in August 1961** and gave a ~44% edge; they abandoned live use for fear of being caught. It is widely credited as the first wearable computer. [MIT Museum; Thorp's own paper "The Invention of the First Wearable Computer"; Engadget; Winton]
+- **Roulette / wearable computer with Claude Shannon:** Thorp conceived a roulette-prediction device and built it jointly with information-theory founder **Claude Shannon** in 1960–61 at Shannon's home workshop in Winchester, MA. The cigarette-pack-sized device (\~12 transistors, toe-operated micro-switches) was tested in **Las Vegas in August 1961** and gave a \~44% edge; they abandoned live use for fear of being caught. It is widely credited as the first wearable computer. [MIT Museum; Thorp's own paper "The Invention of the First Wearable Computer"; Engadget; Winton]
 - **Wall Street / quant investing:** Co-wrote ***Beat the Market*** (1967), then turned mathematical/statistical methods on markets. Co-founded the hedge fund that became **Princeton/Newport Partners** (1969, with stockbroker Jay Regan), pioneering convertible-bond and market-neutral/statistical arbitrage. He is routinely called the **"father of quantitative investing."** [Wikipedia; Princeton Newport Partners (Wikipedia)]
-- **Track record:** Princeton/Newport reportedly returned roughly **15–20% annually** for ~two decades **with no losing year** (sources cite ~15.1% net / 19.1% gross over 19 years; "227 winning months, 3 losing months none worse than 1%"). The fund wound down in **1988**. He later ran Ridgeline Partners. [ValueWalk; OpenBB; mastersinvest]
+- **Track record:** Princeton/Newport reportedly returned roughly **15–20% annually** for \~two decades **with no losing year** (sources cite \~15.1% net / 19.1% gross over 19 years; "227 winning months, 3 losing months none worse than 1%"). The fund wound down in **1988**. He later ran Ridgeline Partners. [ValueWalk; OpenBB; mastersinvest]
 
 ## Themes
 - **Applying math/probability/logic to beat "rigged" or inefficient systems** - the throughline from casino to Wall Street: find a quantifiable edge, then exploit it systematically.
@@ -23,7 +23,7 @@
 ## Notable stories and figures (all verified)
 - **Claude Shannon (roulette computer):** Verified - see Life arc above. Their wives (Vivian Thorp, Betty Shannon) accompanied the Vegas test. [MIT Museum; Engadget]
 - **Warren Buffett (1968 bridge meeting):** Verified. UC Irvine graduate dean **Ralph Gerard**, an early Buffett Partnership investor, was winding down with Buffett and needed a new manager; he had Buffett vet Thorp over an afternoon of **bridge** in 1968. Thorp came away predicting Buffett would become **the richest man in America**. [Scribd "Bridge with Buffett"; valueandopportunity review; Quantitative Value excerpt]
-- **Bernie Madoff (early fraud detection):** Verified. Hired ~**1991** to do due diligence on a client's hedge-fund holdings, Thorp concluded **Madoff was a fraud ~17 years before the 2008 collapse**. Red flags: implausibly smooth/consistent returns with virtually no losing months, and trades that his market contacts confirmed never actually occurred (reported volume exceeded the entire market's). He was barred from visiting Madoff's operation by Peter Madoff. [Thorp book excerpt via trendfollowing.com; Acquirer's Multiple; csinvesting]
+- **Bernie Madoff (early fraud detection):** Verified. Hired \~**1991** to do due diligence on a client's hedge-fund holdings, Thorp concluded **Madoff was a fraud \~17 years before the 2008 collapse**. Red flags: implausibly smooth/consistent returns with virtually no losing months, and trades that his market contacts confirmed never actually occurred (reported volume exceeded the entire market's). He was barred from visiting Madoff's operation by Peter Madoff. [Thorp book excerpt via trendfollowing.com; Acquirer's Multiple; csinvesting]
 
 ## Author background
 Edward O. Thorp (b. 1932): mathematician, blackjack theorist, hedge-fund manager, and author. Known as the "father of card counting" and a founding figure of quantitative finance. His net worth/earnings from markets are often cited in the hundreds of millions. [Wikipedia; Society for Science]
@@ -34,7 +34,7 @@ A genuine **memoir** told in the first person (Thorp also narrates the audiobook
 ## Publication facts
 - **Publisher:** Random House (US hardcover, 2017); paperback via Random House Trade Paperbacks; UK edition by Oneworld. [Amazon; Penguin Random House listing via search]
 - **Publication date:** **January 24, 2017** (US hardcover). [Amazon/retailer listings]
-- **Length:** ~416 pages. [retailer listings]
+- **Length:** \~416 pages. [retailer listings]
 - **ISBNs:** 9781400067961 (hardcover), 9780812979909 (paperback).
 
 ## Reception
@@ -43,7 +43,7 @@ A genuine **memoir** told in the first person (Thorp also narrates the audiobook
 - **Kirkus:** called Thorp's "in-the-trenches account of gaming the system(s) a pleasure - and instructive, too." [Kirkus]
 - **Library Journal:** "Illuminating for the mathematically inclined, and cautionary for would-be gamblers and day traders."
 - **Financial Analysts Journal / CFA Institute:** a substantive professional review praising his problem-solving and risk analysis. [rpc.cfainstitute.org]
-- **Reader reception:** Strongly positive on Goodreads (Thorp's works average ~4.2; hundreds of reviews for this title). Exact per-title average not confirmed from search snippet. [Goodreads]
+- **Reader reception:** Strongly positive on Goodreads (Thorp's works average \~4.2; hundreds of reviews for this title). Exact per-title average not confirmed from search snippet. [Goodreads]
 
 ## Why a quant / crypto / builder reader might value it
 - It is a **case study in finding and sizing an edge** in adversarial, "beatable" systems - directly analogous to market-making, arbitrage, and MEV/DeFi mindsets.
@@ -58,7 +58,7 @@ A genuine **memoir** told in the first person (Thorp also narrates the audiobook
 - **Page count (416)** and **publisher imprint details** come from retailer/aggregator listings; the publisher's own page (penguinrandomhouse.com) and the author's site were not directly reachable in this environment (WebFetch blocked), so these rest on secondary listings rather than the primary publisher page.
 - **A formal New York Times Book Review** of this title was not located; the WSJ review is well-attested, but I could not verify a dedicated NYT review (could not verify).
 - **Princeton/Newport return figures** vary by source (≈15% net vs ≈20% headline); the "no losing year" claim is consistently reported but exact span (19 vs 22 years) differs between accounts.
-- The Madoff due-diligence **year (~1991)** and the "17 years early" framing come from Thorp's own account and secondary write-ups; consistent across sources but ultimately self-reported.
+- The Madoff due-diligence **year (\~1991)** and the "17 years early" framing come from Thorp's own account and secondary write-ups; consistent across sources but ultimately self-reported.
 
 ## Sources
 - [Edward O. Thorp - Wikipedia](https://en.wikipedia.org/wiki/Edward_O._Thorp)

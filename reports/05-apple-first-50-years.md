@@ -1,9 +1,9 @@
 # Apple: The First 50 Years - David Pogue
 
 ## Bottom line
-- **What it is:** A 600-page, lavishly illustrated full-color narrative history of Apple from 1976 to its 50th anniversary, by veteran Apple journalist David Pogue, built on 150+ new interviews (Wozniak, Sculley, Ive, current Apple staff) and ~350 photos.
+- **What it is:** A 600-page, lavishly illustrated full-color narrative history of Apple from 1976 to its 50th anniversary, by veteran Apple journalist David Pogue, built on 150+ new interviews (Wozniak, Sculley, Ive, current Apple staff) and \~350 photos.
 - **Who should read it:** Apple fans, tech-history readers, and anyone wanting the definitive single-volume reference on the company - equally a cover-to-cover read and a coffee-table/keep-on-the-shelf reference.
-- **Time investment:** Long (~600 pages), but reviewers note it's broken into short, digestible sections, sidebars, and profiles, so it reads more lightly than its length suggests.
+- **Time investment:** Long (\~600 pages), but reviewers note it's broken into short, digestible sections, sidebars, and profiles, so it reads more lightly than its length suggests.
 
 ---
 
@@ -14,7 +14,7 @@ Pogue tells Apple's complete life story: how it was born (1976), nearly died, wa
 It is a hybrid of narrative history and illustrated/coffee-table book, not a dry chronicle. The print edition is printed in full color throughout (not the usual 16-page color insert), with roughly 350–360 full-color photographs. MacRumors describes a long book broken into digestible sections, interspersed with photos, a map of key Apple-related Cupertino locations, employee profiles, and smaller stories and anecdotes. John Gruber (Daring Fireball) emphasizes the print edition specifically because it is "a gorgeous book, printed in color throughout." (Sources: MacRumors; Daring Fireball - via search snippets)
 
 ## Author background
-David Pogue has written about Apple for essentially his entire career: ~13 years as a Macworld columnist (starting in the 1980s) and ~13 years as the personal-tech columnist for The New York Times. He is a CBS Sunday Morning correspondent (seven-time Emmy winner), a five-time TED speaker, host of 20 NOVA specials on PBS, and a New York Times bestselling author. This deep, decades-long proximity to Apple is the book's core credential. (Sources: Simon & Schuster; search results)
+David Pogue has written about Apple for essentially his entire career: \~13 years as a Macworld columnist (starting in the 1980s) and \~13 years as the personal-tech columnist for The New York Times. He is a CBS Sunday Morning correspondent (seven-time Emmy winner), a five-time TED speaker, host of 20 NOVA specials on PBS, and a New York Times bestselling author. This deep, decades-long proximity to Apple is the book's core credential. (Sources: Simon & Schuster; search results)
 
 ## Publication date / recency
 - **Published:** March 10, 2026, by Simon & Schuster, timed to Apple's 50th anniversary.
@@ -27,7 +27,7 @@ David Pogue has written about Apple for essentially his entire career: ~13 years
 - **Myth-busting + production values:** Corrects long-standing record and is presented as a full-color illustrated volume rather than a text-only history. Forbes called it "the most in-depth, well-researched, and well-written tome on Apple's history." (Sources: Simon & Schuster; search snippets of WSJ and Forbes blurbs)
 
 ## Reception
-Reception is genuinely positive but, given the book is only ~3 months old, the body of criticism is still limited; treat it as early.
+Reception is genuinely positive but, given the book is only \~3 months old, the body of criticism is still limited; treat it as early.
 - **Wall Street Journal** and **Forbes** gave strong blurbs (above).
 - **NPR** featured it as a Book of the Day (Pogue interviewed by Michel Martin, March 2026).
 - **Daring Fireball (John Gruber):** "nothing short of an instant classic - simultaneously a very enjoyable read, and a meticulously-researched reference for the decades to come."
@@ -36,7 +36,7 @@ Reception is genuinely positive but, given the book is only ~3 months old, the b
 - Major-outlet star ratings and aggregate reader scores (e.g., Goodreads) could not be verified in this research because several review/retail domains were not fetchable. (Sources: NPR; Daring Fireball; MacRumors; CBS News - via search)
 
 ## Length / publisher
-- **Length:** ~600 pages (Amazon lists 608); ~350–360 full-color photos.
+- **Length:** \~600 pages (Amazon lists 608); \~350–360 full-color photos.
 - **Publisher:** Simon & Schuster. ISBN 9781982134594 (US hardcover). Available in hardcover, ebook, and audiobook. (Sources: Amazon; Simon & Schuster; Waterstones)
 
 ## Who it's for
@@ -45,7 +45,7 @@ Apple enthusiasts, students of tech and business history, and general readers wh
 ---
 
 ## Open questions / uncertainties
-- **Photo count:** Sources vary between ~350 and ~360 full-color photos.
+- **Photo count:** Sources vary between \~350 and \~360 full-color photos.
 - **Page count:** Cited as both "600 pages" and 608.
 - **"NPR Best Book of the Year":** Surfaced in one search summary but seems implausible for a book published March 2026 and reported on in June 2026; **could not verify** - likely a search-summary error, treat as unconfirmed.
 - **Tim Cook exit timing** relative to release: stated by the recommender but **not independently verified** here.

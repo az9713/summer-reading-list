@@ -3,7 +3,7 @@
 **Bottom line (verdict)**
 - *What it is:* A graduate-of-the-Olympiad's training manual for **how to solve hard math problems** - organized around transferable *strategies, tactics, and tools* rather than memorized facts, spanning algebra, combinatorics, number theory, geometry, and calculus.
 - *Who should read it:* Mathematically curious people who want to **sharpen reasoning and investigation skills** - competition students (AIME/Putnam/IMO), undergraduates, and self-learners willing to struggle productively. Not a reference text and not for someone wanting worked-out answers handed over.
-- *Time investment:* A ~366–384 page book, but it is **worked, not read** - realistically months of active practice if you do the problems. Skimming the four foundational chapters alone (~a few evenings) already conveys the method.
+- *Time investment:* A \~366–384 page book, but it is **worked, not read** - realistically months of active practice if you do the problems. Skimming the four foundational chapters alone (\~a few evenings) already conveys the method.
 
 ---
 
@@ -50,7 +50,7 @@ Approximate chapter arc (foundations → subject areas):
 ## Length, edition history, publisher, publication date
 
 - **Publisher:** John Wiley & Sons (Hoboken, NJ).
-- **3rd edition:** Published **2017**. Print ISBN **9781119239901**; digital ISBN **9781119094845**. Length reported as **~384 pages (hardcover) / ~366 pages (paperback)**. ([Wiley](https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving,+3rd+Edition-p-9781119239901); [Waterstones](https://www.waterstones.com/book/the-art-and-craft-of-problem-solving/paul-zeitz/9781119239901); [VitalSource](https://www.vitalsource.com/products/the-art-and-craft-of-problem-solving-paul-zeitz-v9781119094845))
+- **3rd edition:** Published **2017**. Print ISBN **9781119239901**; digital ISBN **9781119094845**. Length reported as **\~384 pages (hardcover) / \~366 pages (paperback)**. ([Wiley](https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving,+3rd+Edition-p-9781119239901); [Waterstones](https://www.waterstones.com/book/the-art-and-craft-of-problem-solving/paul-zeitz/9781119239901); [VitalSource](https://www.vitalsource.com/products/the-art-and-craft-of-problem-solving-paul-zeitz-v9781119094845))
 - **Edition history:** 1st edition **1999**; 2nd edition **2007**; 3rd edition **2017**. ([Wikipedia: Paul Zeitz, via search](https://en.wikipedia.org/wiki/Paul_Zeitz); Goodreads editions)
 
 ## Author
@@ -59,7 +59,7 @@ Approximate chapter arc (foundations → subject areas):
 
 ## Reception and reputation
 
-- **Goodreads:** Reported average **~4.59 / 5 across ~267 ratings** - very strong. Reviewers call it something that "should be on the shelf of every problem solver" and "the single best resource for any high schooler looking to get into olympiad math." ([Goodreads](https://www.goodreads.com/book/show/593458.The_Art_and_Craft_of_Problem_Solving))
+- **Goodreads:** Reported average **\~4.59 / 5 across \~267 ratings** - very strong. Reviewers call it something that "should be on the shelf of every problem solver" and "the single best resource for any high schooler looking to get into olympiad math." ([Goodreads](https://www.goodreads.com/book/show/593458.The_Art_and_Craft_of_Problem_Solving))
 - **MAA Review (Jack Chen, 2016):** Calls it "an excellent gateway to the culture of problem solving," "challenging and rewarding," that "shines a new light on mathematics." Praises the emphasis on *methodology*; the main criticism is the lack of solutions to the problem sets. ([MAA Review](https://old.maa.org/press/maa-reviews/the-art-and-craft-of-problem-solving))
 - **Community standing:** Widely regarded in the olympiad/competition-math community as a standard "bridge" text into serious problem solving. A common, nuanced take (e.g., on Quora) is that it is "**excellent and often essential, but by itself not sufficient**" to medal at the IMO - it must be paired with focused practice, advanced theory, and mentorship. ([Quora discussion](https://www.quora.com/Is-studying-Paul-Zeitz-The-Art-and-Craft-of-Problem-Solving-sufficient-to-get-you-a-medal-in-IMO))
 
@@ -75,7 +75,7 @@ This is the throughline that matches the a16z/Kominers recommendation ("fine-tun
 
 - **Exact page count and chapter titles:** The Wiley publisher page returned HTTP 403 and could not be fetched directly; page counts (366 vs. 384) come from retailer listings and differ by binding. The detailed chapter-title list above reflects the book's well-known structure and the MAA review's description, but the precise titles in the 3rd edition were **not verified line-by-line from the table of contents** (the front-matter PDF could not be fetched in this environment). Treat the chapter list as approximate.
 - **3rd-edition-specific changes:** I did not find a source detailing exactly what changed between the 2nd (2007) and 3rd (2017) editions.
-- **Rating freshness:** The ~4.59/267-ratings Goodreads figure is as reported by search at retrieval time and may aggregate editions; exact current numbers could differ.
+- **Rating freshness:** The \~4.59/267-ratings Goodreads figure is as reported by search at retrieval time and may aggregate editions; exact current numbers could differ.
 - **Author bio / edition years** are sourced from a search-summarized Wikipedia entry (the page itself could not be fetched directly here); core facts (USAMO 1974, USF professor, Berkeley PhD 1992, 1994 Dream Team, Haimo award) are corroborated across multiple summaries.
 
 ## Sources

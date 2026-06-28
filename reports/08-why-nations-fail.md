@@ -1,14 +1,14 @@
 # Why Nations Fail: The Origins of Power, Prosperity, and Poverty
 
-**Authors:** Daron Acemoglu & James A. Robinson · **Publisher:** Crown Business (New York) · **Published:** March 20, 2012 · **Length:** ~529 pages, 15 chapters
+**Authors:** Daron Acemoglu & James A. Robinson · **Publisher:** Crown Business (New York) · **Published:** March 20, 2012 · **Length:** \~529 pages, 15 chapters
 
 ---
 
 ## Bottom line
 
-- **What it is:** A sweeping, story-driven argument from two economists (2024 Nobel laureates) that *institutions* - inclusive vs. extractive - are the root cause of why some nations are rich and others poor, told through ~500 pages of historical case studies rather than equations.
+- **What it is:** A sweeping, story-driven argument from two economists (2024 Nobel laureates) that *institutions* - inclusive vs. extractive - are the root cause of why some nations are rich and others poor, told through \~500 pages of historical case studies rather than equations.
 - **Who should read it:** Anyone thinking about governance design, incentives, and long-run power distribution - including crypto/protocol designers mapping "inclusive vs. extractive" onto decentralization. Read it for the *framework and examples*, not for rigorous proof.
-- **Time investment:** Substantial. ~500 accessible pages; budget 12–18 hours for a full read, or 1–2 hours for the first two chapters (Nogales + Korea) plus the closing chapter, which carry most of the thesis.
+- **Time investment:** Substantial. \~500 accessible pages; budget 12–18 hours for a full read, or 1–2 hours for the first two chapters (Nogales + Korea) plus the closing chapter, which carry most of the thesis.
 
 ---
 
@@ -52,7 +52,7 @@ A recurring sub-claim: a degree of **political centralization** (a functioning s
 - **Methodological critiques of the underlying papers:** Economists (e.g., Albouy; McArthur & Sachs; Easterly & Levine; Glaeser et al.) have challenged the settler-mortality instrument used in the colonial-origins work - arguing mortality data are unreliable and that the instrument may violate the exclusion restriction (disease affects income directly, not just via institutions). ([Reversal of Fortune NBER PDF](https://users.nber.org/~confer/2001/si2001/acemoglu.pdf), [academic critique survey](https://onlinelibrary.wiley.com/doi/full/10.1111/sjoe.12599))
 - **Policy vs. institutions / culture:** Critics contend good *policies* (not just institutions) can drive development, that some autocracies grow well, and that the book dismisses culture too quickly. ([Econlib contrarian take](https://www.econlib.org/archives/2013/11/why_nations_fai.html), ["Institutions Without Culture" critique](https://ideas.repec.org/p/ann/wpaper/9-2016.html))
 
-**Reception was nonetheless strongly positive overall.** Endorsed by Francis Fukuyama and Niall Ferguson; the *Financial Times* called it "intellectually rich... It should be widely read" (and it was an FT/Goldman Sachs Business Book of the Year finalist); *The Economist* named it a book of the year; Goodreads shows ~4.09/5 across ~65,000 ratings. ([Five Books](https://fivebooks.com/book/why-nations-fail-by-daron-acemoglu-and-james-robinson/), [Goodreads](https://www.goodreads.com/book/show/12158480-why-nations-fail))
+**Reception was nonetheless strongly positive overall.** Endorsed by Francis Fukuyama and Niall Ferguson; the *Financial Times* called it "intellectually rich... It should be widely read" (and it was an FT/Goldman Sachs Business Book of the Year finalist); *The Economist* named it a book of the year; Goodreads shows \~4.09/5 across \~65,000 ratings. ([Five Books](https://fivebooks.com/book/why-nations-fail-by-daron-acemoglu-and-james-robinson/), [Goodreads](https://www.goodreads.com/book/show/12158480-why-nations-fail))
 
 ## Why a governance / crypto reader might value it
 
@@ -67,7 +67,7 @@ The book gives a rigorous-sounding vocabulary for an idea crypto cares about dee
 
 ## Open questions / uncertainties
 
-- **Page count varies by edition.** Multiple academic citations list the Crown Business 2012 edition at **529 pages**; other editions/formats differ. Treat ~500 as the working figure. ([academic citation](https://www.academia.edu/50508018/), [Cambridge Core review](https://www.cambridge.org/core/journals/the-economic-and-labour-relations-review/article/abs/daron-acemoglu-james-a-robinson-why-nations-fail-the-origins-of-power-prosperity-and-poverty-crown-publishers-new-york-2012529-pp-9780307719218))
+- **Page count varies by edition.** Multiple academic citations list the Crown Business 2012 edition at **529 pages**; other editions/formats differ. Treat \~500 as the working figure. ([academic citation](https://www.academia.edu/50508018/), [Cambridge Core review](https://www.cambridge.org/core/journals/the-economic-and-labour-relations-review/article/abs/daron-acemoglu-james-a-robinson-why-nations-fail-the-origins-of-power-prosperity-and-poverty-crown-publishers-new-york-2012529-pp-9780307719218))
 - **Publisher imprint naming:** Sources variously say "Crown Business" and "Crown Publishers" (both Crown/Penguin Random House imprints); U.S. hardcover ISBN 978-0-307-71921-8. The exact imprint label could not be fully reconciled across sources.
 - **Diamond's "50 percent" figure** is his own rhetorical estimate of how much institutions explain, not a precise empirical result - quoted as characterization, not measurement.
 - **Verification limits:** WebFetch was blocked for several primary domains (Wikipedia, nobelprize.org, gatesnotes.com, nybooks.com, mit.edu), so the Nobel citation wording, Gates quotes, and Diamond quotes here are drawn from search-result excerpts of those same primary pages. The wording is consistent across multiple independent sources, but exact punctuation of direct quotes could not be confirmed against the rendered original pages in this session.

@@ -3,7 +3,7 @@
 ## Bottom line
 - **What it is:** A 2026 popular-economics book by Nobel laureate Alvin E. Roth applying market-design thinking to "repugnant" / morally contested transactions - sex work, surrogacy, organ and kidney exchange, drugs, blood plasma, assisted dying, and more.
 - **Who should read it:** Anyone interested in market design, mechanism design, law-and-economics, or the ethics of markets - and crypto/mechanism-design readers thinking about where markets are permitted to exist and how norms form and collapse.
-- **Time investment:** ~352–368 pp. hardcover; a trade book aimed at general readers, so a moderate weekend-length read, not a technical slog.
+- **Time investment:** \~352–368 pp. hardcover; a trade book aimed at general readers, so a moderate weekend-length read, not a technical slog.
 
 > **Verification status: CONFIRMED REAL.** The book exists with the exact title/subtitle given, is published by Basic Books (Basic Venture / Hachette Book Group), ISBN 978-1-5417-0201-1, **published May 12, 2026**. This is a *distinct, later* book from Roth's 2015 popular book *Who Gets What - and Why*; they are not conflated here. Most claims about content trace to the publisher copy, the Stanford/SIEPR write-ups, Roth's own Market Design blog, and a Publishers Weekly pre-pub review. See "Open questions" for the few unverified specifics.
 
@@ -20,7 +20,7 @@
 | **Publication date** | May 12, 2026 |
 | **ISBN-13 (hardcover)** | 978-1-5417-0201-1 |
 | **ISBN-13 (ebook)** | 978-1-5417-0203-5 |
-| **Length** | ~352–368 pages (listings vary) |
+| **Length** | \~352–368 pages (listings vary) |
 | **Formats** | Hardcover, Kindle/ebook |
 
 Note: at least one retail listing (Walmart) carried an alternate/earlier marketing subtitle, *"What to Do When We Can't Agree on Right and Wrong."* The official Hachette/Basic Books subtitle is the "From Prostitution to Organ Sales…" form above. (Flagged as a minor data discrepancy, not a different book.)
@@ -71,7 +71,7 @@ Roth won the 2012 Nobel for the theory and practice of **market design / matchin
 
 ## 5. Reception (early / pre-publication)
 
-- **Publishers Weekly (pre-pub review, ~March 2026):** Positive - calls it a "stimulating study of morally contested products and services," and concludes: *"Bringing balanced, evidence-based analyses to emotionally fraught debates, Roth reveals the power of markets to inspire solutions. This is trailblazing."*
+- **Publishers Weekly (pre-pub review, \~March 2026):** Positive - calls it a "stimulating study of morally contested products and services," and concludes: *"Bringing balanced, evidence-based analyses to emotionally fraught debates, Roth reveals the power of markets to inspire solutions. This is trailblazing."*
 - **David Thesmar (economist, MIT Sloan)** publicly reviewed it, calling it "truly entertaining and thought-provoking… in the line of his reflections on repugnant markets. Highly recommend!" while noting "a few disagreements."
 - Coverage/interviews around launch: Stanford Report and SIEPR (the "Econ To Go" podcast, "Morality, money and markets"), Next Big Idea Club ("A Nobel Economist Explains Why Some Markets Make Us Uneasy"), Thought Economics interview, and The Ignited Life ("Why We Ban What We Fear").
 - A critical/contrasting essay ("Moral Economics vs. Economic Morality," Medium/Gödelian Letters, May 2026) pushes back on the framing - useful as a counterpoint.

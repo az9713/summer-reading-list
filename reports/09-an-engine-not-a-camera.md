@@ -3,7 +3,7 @@
 ## Bottom line
 - **What it is:** A rigorously documented work of economic sociology / science-and-technology studies arguing that finance theory (Black-Scholes, CAPM, efficient markets) did not merely *describe* markets - it *performed* them, becoming embedded in the plumbing, language, and legitimacy of modern finance.
 - **Who should read it:** Markets/TradFi/crypto people who want the deep intellectual case for "models reshape the thing they model," and who can tolerate a scholarly (not pop-business) treatment. Not a quick airport read.
-- **Time investment:** High. ~370–410 pages of dense but well-written academic prose; budget real reading time. Skimmable by chapter if you only want the performativity argument and the 1987/LTCM cases.
+- **Time investment:** High. \~370–410 pages of dense but well-written academic prose; budget real reading time. Skimmable by chapter if you only want the performativity argument and the 1987/LTCM cases.
 
 ---
 

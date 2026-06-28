@@ -3,7 +3,7 @@
 ## Bottom line
 - **What it is:** A narrative, character-driven history of roughly five centuries of energy transitions - wood → coal → oil/gas → electricity → nuclear and (briefly) renewables - told through the inventors, engineers, and entrepreneurs who drove each shift. By the Pulitzer-winning author of *The Making of the Atomic Bomb*.
 - **Who should read it:** Tech/policy readers who want narrative intuition for how energy systems actually transition (messily, incrementally, with competing designs coexisting) rather than a quantitative or climate-policy treatise. Strong fit for the a16z "compute & energy buildout" framing - with the caveat that the closing third becomes a pro-nuclear argument.
-- **Time investment:** ~465–480 pages; an accessible, anecdote-driven read. Budget ~10–14 hours. Skimmable: reviewers agree the first two-thirds (coal/steam, then lighting/oil/electricity) are the strongest; the final third on nuclear reads faster as advocacy.
+- **Time investment:** \~465–480 pages; an accessible, anecdote-driven read. Budget \~10–14 hours. Skimmable: reviewers agree the first two-thirds (coal/steam, then lighting/oil/electricity) are the strongest; the final third on nuclear reads faster as advocacy.
 
 ---
 
@@ -45,14 +45,14 @@ Popular narrative history, anecdote-rich and accessible, applying the storytelli
 ## Length, publisher, publication
 - **Publisher:** Simon & Schuster.
 - **Hardcover:** 2018 (New York: Simon & Schuster, 2018; xiv + 465 pp.; figures, bibliography, notes, index; cloth $30.00; ISBN 978-1-5011-0535-7) ([Cambridge Core / *Business History Review* citation](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DF6A29DEE522730C5B2886C9082D38D5)).
-- **Paperback:** ISBN 9781501105364, listed at **480 pages**, dated June 11, 2019 ([verified Simon & Schuster metadata](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)). (Page counts vary by edition; eBook ~481 pp.)
+- **Paperback:** ISBN 9781501105364, listed at **480 pages**, dated June 11, 2019 ([verified Simon & Schuster metadata](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)). (Page counts vary by edition; eBook \~481 pp.)
 
 ## Reception
 - **Wall Street Journal** (Charles R. Morris): "a riveting account of humanity's 400-year quest to bend the natural world to its own purposes, for good or ill … an easy canter through industrial history, enlivened by anecdote and unexpected detail"; noted the powerful case for nuclear revival ([via Book Marks aggregator](https://bookmarks.reviews/reviews/all/energy-a-human-history/)).
 - **Kirkus** (starred): "a magisterial history… a tour de force of popular science, which is no surprise from this author" ([verified, Simon & Schuster](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)).
 - **New York Times Book Review:** called it a "meticulously researched" examination of energy transitions ([verified blurb, Simon & Schuster](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)).
 - **NPR / Booklist (starred):** "entertaining and informative" / "a beautifully written, often inspiring saga of ingenuity and progress" ([Simon & Schuster](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)).
-- **Readers (Goodreads):** average ~3.75 from ~1,980 ratings - a solid but not rapturous popular reception ([Goodreads](https://www.goodreads.com/book/show/36373616-energy)).
+- **Readers (Goodreads):** average \~3.75 from \~1,980 ratings - a solid but not rapturous popular reception ([Goodreads](https://www.goodreads.com/book/show/36373616-energy)).
 
 Overall: warmly received as popular history and storytelling; the main reservations are the pro-nuclear tilt of the closing chapters, thin coverage of renewables and the post-1950s period, and limited quantitative depth.
 
@@ -70,13 +70,13 @@ Overall: warmly received as popular history and storytelling; the main reservati
 - The Inquisitive Biologist - full book review (verified: section-by-section structure, named inventors, nuclear/Malthusian critique, renewables/post-1950s gaps): https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/
 - Book Marks - aggregated critic reviews (WSJ quote): https://bookmarks.reviews/reviews/all/energy-a-human-history/
 - Cambridge Core / *Business History Review* - bibliographic citation (2018, xiv + 465 pp., ISBN 978-1-5011-0535-7): https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DF6A29DEE522730C5B2886C9082D38D5
-- Goodreads - ratings (~3.75 / ~1,980): https://www.goodreads.com/book/show/36373616-energy
+- Goodreads - ratings (\~3.75 / \~1,980): https://www.goodreads.com/book/show/36373616-energy
 - Washington Post - review (Oct 18, 2018; could not load full text - see uncertainties): https://www.washingtonpost.com/outlook/how-technology-and-innovation-shaped-our-world/2018/10/18/eb140002-c5a8-11e8-9b1c-a90f1daae309_story.html
 - H-Net - Taylor on Rhodes (academic review, surfaced via search): https://networks.h-net.org/node/19397/reviews/9539757/taylor-rhodes-energy-human-history
 
 ## Open questions / uncertainties
 - **Exact chapter list could not be fully verified.** Chapter One's title ("No Wood, No Kingdom") and opening are confirmed from the publisher's excerpt; the section/era ordering above is corroborated by a detailed review but the complete chapter titles/sequence were not obtained (publisher TOC and Google Books were inaccessible).
-- **Page count varies by edition.** Hardcover ~465 pp. of text (per the *Business History Review* citation, the most authoritative); paperback listed at 480 pp.; eBook ~481 pp. A specific hardcover *day* of publication in June 2018 could not be verified; only "2018" / "June 2018" is supported.
+- **Page count varies by edition.** Hardcover \~465 pp. of text (per the *Business History Review* citation, the most authoritative); paperback listed at 480 pp.; eBook \~481 pp. A specific hardcover *day* of publication in June 2018 could not be verified; only "2018" / "June 2018" is supported.
 - **WSJ and NYT text** comes from the Book Marks aggregator and the publisher's quoted blurbs, not from reading the full original articles (paywalls). The phrasing is consistent across sources but the full originals were not independently read.
 - **Washington Post review** returned no readable text to the fetch tool. The criticisms attributed to it - "short shrift to social and political forces" and the omission of women (Lise Meitner, Mária Telkes) - appeared in search-engine summaries with outlet attribution I could not confirm against the original. Treat these as plausible but unverified.
 - **The "decarbonizing for centuries" framing** appeared in a search summary and was not confirmed in the primary review text I read; I have therefore not stated it as a verified thesis.

@@ -3,7 +3,7 @@
 ## Bottom line
 - **What it is:** A management/leadership book by Kwon Oh-hyun (권오현), the former Vice Chairman and CEO of Samsung Electronics who ran its semiconductor business - distilling 33 years at Samsung into four pillars: **leader, organization, strategy, talent**. The title concept "초격차 / super gap" means building a lead so wide that rivals can't even conceive of competing.
 - **Who should read it:** Operators, managers, and executives interested in how Samsung's semiconductor dominance was actually run - especially leaders thinking about org design, talent, and "innovation vs. improvement." Less useful as a startup go-to-market manual; it's large-company operating wisdom.
-- **Time / access:** ~300+ pages, written to read easily. **CRITICAL CAVEAT: there is no verified official English translation.** The book is Korean-only (the Amazon listing is the Korean-language edition). English speakers face a hard reading barrier unless they read Korean or use machine translation.
+- **Time / access:** \~300+ pages, written to read easily. **CRITICAL CAVEAT: there is no verified official English translation.** The book is Korean-only (the Amazon listing is the Korean-language edition). English speakers face a hard reading barrier unless they read Korean or use machine translation.
 
 ---
 

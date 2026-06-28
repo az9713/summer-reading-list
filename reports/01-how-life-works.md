@@ -1,9 +1,9 @@
 # How Life Works: A User's Guide to the New Biology - Philip Ball
 
 **Bottom line (verdict):**
-- **What it is:** A ~550-page, ambitious popular-science synthesis arguing that the familiar "DNA-is-a-blueprint, genes-are-instructions" story of life is incomplete and partly wrong - and that life is better understood as a multi-level, emergent, self-organizing system in which cells have a kind of "agency."
+- **What it is:** A \~550-page, ambitious popular-science synthesis arguing that the familiar "DNA-is-a-blueprint, genes-are-instructions" story of life is incomplete and partly wrong - and that life is better understood as a multi-level, emergent, self-organizing system in which cells have a kind of "agency."
 - **Who should read it:** Technically curious readers (including CS/systems people) who want a rigorous, up-to-date mental model of cellular complexity and are comfortable with dense biochemistry; not the lightest "beach read" pop-sci.
-- **Time investment:** High. ~552 pages of substantive material; budget real reading time. Reviewers split between "essential primer" and "longer than necessary."
+- **Time investment:** High. \~552 pages of substantive material; budget real reading time. Reviewers split between "essential primer" and "longer than necessary."
 
 ---
 
@@ -40,13 +40,13 @@ Recurring themes across these: the failure of the "machine"/"blueprint" metaphor
 
 ## Length, publication, publisher
 
-- **Page count:** ~552 pages (U. Chicago Press).
+- **Page count:** \~552 pages (U. Chicago Press).
 - **Publisher:** University of Chicago Press (US edition). The UK edition was published by Picador. ISBNs include 9780226826684 (hardcover) and 9780226840062 / 9780226826691.
 - **Publication date:** UK edition 2023; US (University of Chicago Press) edition listed as 2023/2024 - see Open questions below.
 
 ## Critical reception
 
-**Overall:** Strongly positive among professional reviewers; solid reader rating. Goodreads **4.20/5** across ~734 ratings / ~149 reviews (as fetched June 2026).
+**Overall:** Strongly positive among professional reviewers; solid reader rating. Goodreads **4.20/5** across \~734 ratings / \~149 reviews (as fetched June 2026).
 
 **Praise (professional):**
 - **Nature (Denis Noble):** "a must-read user's guide for biologists and non-biologists alike."
