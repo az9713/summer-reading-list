@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>a16z crypto Summer Reading List - Reports</title>
+<style>
+  :root { --fg:#1a1a1a; --muted:#666; --line:#e3e3e3; --accent:#0b5; --bg:#fafafa; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--fg); background:var(--bg); }
+  header { padding:18px 24px; border-bottom:1px solid var(--line); background:#fff; }
+  header h1 { margin:0; font-size:18px; }
+  header p { margin:4px 0 0; color:var(--muted); font-size:13px; }
+  .layout { display:flex; align-items:flex-start; }
+  .tabs { display:flex; flex-direction:column; gap:2px; padding:16px 10px; width:280px; flex:0 0 280px; position:sticky; top:0; align-self:flex-start; max-height:100vh; overflow:auto; background:#fff; border-right:1px solid var(--line); }
+  .tab { border:none; background:transparent; padding:8px 12px; border-radius:8px; font-size:13.5px; line-height:1.35; cursor:pointer; color:var(--fg); text-align:left; display:flex; gap:8px; align-items:baseline; }
+  .tab:hover { background:#f0f0f0; }
+  .tab.active { background:var(--accent); color:#fff; }
+  .tnum { color:var(--muted); font-variant-numeric:tabular-nums; font-size:12px; }
+  .tab.active .tnum { color:#dfffe9; }
+  .content { flex:1 1 auto; max-width:820px; margin:0 auto; padding:28px 24px 80px; min-width:0; }
+  @media (max-width:760px) {
+    .layout { flex-direction:column; }
+    .tabs { flex-direction:row; flex-wrap:wrap; width:auto; flex:none; position:static; max-height:none; border-right:none; border-bottom:1px solid var(--line); }
+    .tab { border:1px solid var(--line); border-radius:999px; }
+  }
+  .panel { display:none; }
+  .md-body h1 { font-size:26px; margin:.2em 0 .4em; }
+  .md-body h2 { font-size:20px; margin:1.4em 0 .4em; padding-bottom:4px; border-bottom:1px solid var(--line); }
+  .md-body h3 { font-size:16px; margin:1.2em 0 .3em; }
+  .md-body a { color:#06c; }
+  .md-body code { background:#eee; padding:1px 5px; border-radius:4px; font-size:.9em; }
+  .md-body pre { background:#f4f4f4; padding:12px; border-radius:8px; overflow:auto; white-space:pre-wrap; }
+  .md-body blockquote { margin:1em 0; padding:.2em 1em; border-left:3px solid var(--accent); color:#333; background:#fff; }
+  .md-body table { border-collapse:collapse; width:100%; margin:1em 0; font-size:14px; }
+  .md-body th, .md-body td { border:1px solid var(--line); padding:6px 10px; text-align:left; vertical-align:top; }
+  .md-body th { background:#f0f0f0; }
+  .md-body hr { border:none; border-top:1px solid var(--line); margin:1.5em 0; }
+  .md-body ul { padding-left:22px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>a16z crypto Summer Reading List - Research Reports</h1>
+  <p>One tab per book. Sourced, verification-flagged. Click a tab to read. &middot; <a href="https://a16zcrypto.substack.com/p/a-reading-list-for-the-deeply-curious" target="_blank" rel="noopener">a16z source list</a></p>
+</header>
+<div class="layout">
+<div class="tabs">
+      <button class="tab" type="button"><span class="tnum">&#9733;</span> Overview &amp; decision guide</button>
+      <button class="tab" type="button"><span class="tnum">01</span> How Life Works: A User's Guide to the New Biology</button>
+      <button class="tab" type="button"><span class="tnum">02</span> The Art and Craft of Problem Solving</button>
+      <button class="tab" type="button"><span class="tnum">03</span> Energy: A Human History</button>
+      <button class="tab" type="button"><span class="tnum">04</span> Apple in China: The Capture of the World's Greatest Company</button>
+      <button class="tab" type="button"><span class="tnum">05</span> Apple: The First 50 Years</button>
+      <button class="tab" type="button"><span class="tnum">06</span> How Music Got Free</button>
+      <button class="tab" type="button"><span class="tnum">07</span> Moral Economics</button>
+      <button class="tab" type="button"><span class="tnum">08</span> Why Nations Fail: The Origins of Power, Prosperity, and Poverty</button>
+      <button class="tab" type="button"><span class="tnum">09</span> An Engine, Not a Camera: How Financial Models Shape Markets</button>
+      <button class="tab" type="button"><span class="tnum">10</span> A Man for All Markets</button>
+      <button class="tab" type="button"><span class="tnum">11</span> The Super Gap (초격차, Cho-gyeok-cha)</button>
+      <button class="tab" type="button"><span class="tnum">12</span> Scaling People: Tactics for Management and Company Building</button>
+</div>
+<div class="content">
+    <div class="panel"><script type="text/markdown"># a16z crypto Summer Reading List - Research Reports
+
+Twelve books from the [a16z crypto reading list](https://a16zcrypto.substack.com/p/a-reading-list-for-the-deeply-curious) (Jun 27, 2026), each researched into a sourced report so you can decide what's worth your time. One file per book; each opens with a 3-line "Bottom line." Nothing below is invented - every report lists its sources and flags its own uncertainties.
+
+## Decision table (sorted by time-to-payoff)
+
+| # | Book | Author | ~Pages | Lift | Best if you want… | Recommender (a16z) |
+|---|------|--------|--------|------|-------------------|--------------------|
+| 06 | [How Music Got Free](#tab-6) | Stephen Witt | ~296 | **Easy** | A gripping disruption thriller; tech obliterating a business model | Drew Coffman, editorial |
+| 10 | [A Man for All Markets](#tab-10) | Edward O. Thorp | ~416 | **Easy** | Math-beats-the-house memoir; origins of quant investing | Ben Wu, talent |
+| 04 | [Apple in China](#tab-4) | Patrick McGee | ~448 | Easy–Med | How China became a manufacturing superpower via Apple; geopolitics | Dan Boneh, research |
+| 05 | [Apple: The First 50 Years](#tab-5) | David Pogue | ~600* | Easy (browse) | An illustrated victory lap of Apple history; coffee-table + interviews | Drew Coffman, editorial |
+| 03 | [Energy: A Human History](#tab-3) | Richard Rhodes | ~465 | Medium | Intuition on how energy transitions *scale* (relevant to the AI/compute buildout) | Aiden Slavin, policy |
+| 12 | [Scaling People](#tab-12) | Claire Hughes Johnson | ~480 | Med (reference) | A practical operating manual for managing/building teams | Scott Duke Kominers, research |
+| 08 | [Why Nations Fail](#tab-8) | Acemoglu & Robinson | ~529 | Medium | The institutions thesis (2024 Nobel); a governance lens for crypto | Kira Song, finance |
+| 07 | [Moral Economics](#tab-7) | Alvin E. Roth | ~352 | Medium | Market design & "repugnant" markets, from a Nobel laureate (new, May 2026) | Scott Duke Kominers, research |
+| 01 | [How Life Works](#tab-1) | Philip Ball | ~552 | **Hard** | To unlearn "DNA = blueprint"; cells as emergent, multi-level systems | Dan Boneh, research |
+| 09 | [An Engine, Not a Camera](#tab-9) | Donald MacKenzie | ~377 | **Hard** (academic) | The deep idea that financial models *make* the markets they describe | Tim Sullivan, editorial |
+| 02 | [The Art and Craft of Problem Solving](#tab-2) | Paul Zeitz | ~366 | **Hard** (do the problems) | To train mathematical problem-solving as a transferable skill | Scott Duke Kominers, research |
+| 11 | [The Super Gap (초격차)](#tab-11) | Kwon Oh-hyun | - | ⚠️ **Korean only** | Samsung-chairman leadership lessons - **no verified English edition** | SungMo Park, go-to-market |
+
+\* Page counts are approximate; several primary pages were access-blocked during research (see each report's "Open questions"). "Lift" = reading effort, not quality.
+
+## Flags worth knowing before you pick
+
+- **#11 The Super Gap - likely unreadable for you.** No verified English translation exists; the book is Korean-only. High confidence, but not absolute. **Want me to dig harder for an English edition / equivalent?**
+- **#07 Moral Economics & #05 Apple: The First 50 Years are brand new** (May 2026 and Mar 2026). Confirmed real, but reception is thin and a full-text read wasn't possible - reports rest on publisher copy, early reviews, and interviews.
+- **#04 Apple in China "controversy":** Apple issued a blanket denial ("untrue / full of inaccuracies") to Vanity Fair, but I could **not** verify any formal published correction/retraction. Report says so plainly rather than asserting one.
+- **Network caveat (all reports):** WebFetch was blocked for several primary domains, so some softer details come from cross-corroborated search snippets rather than full-page reads. Load-bearing facts were checked across multiple sources; each report's "Open questions" section is honest about what couldn't be pinned (exact page counts, verbatim chapter lists, a few attributed quotes).
+
+## If I had to recommend a path (time is premium)
+
+- **One book, pure enjoyment + a tech lesson:** #06 *How Music Got Free* or #10 *A Man for All Markets* - fast, narrative, and each carries a real idea (disruption; quantitative edge).
+- **One book that maps to your crypto/markets work:** #08 *Why Nations Fail* (governance) or #09 *An Engine, Not a Camera* (reflexive, model-driven markets - harder but the deepest idea on the list).
+- **A genuine mind-changer if you'll do the work:** #01 *How Life Works*.
+- **Skip unless directly useful:** #02 (only pays off if you actually solve the problems), #11 (language barrier).
+</script></div>
+    <div class="panel"><script type="text/markdown"># How Life Works: A User's Guide to the New Biology - Philip Ball
+
+**Bottom line (verdict):**
+- **What it is:** A ~550-page, ambitious popular-science synthesis arguing that the familiar "DNA-is-a-blueprint, genes-are-instructions" story of life is incomplete and partly wrong - and that life is better understood as a multi-level, emergent, self-organizing system in which cells have a kind of "agency."
+- **Who should read it:** Technically curious readers (including CS/systems people) who want a rigorous, up-to-date mental model of cellular complexity and are comfortable with dense biochemistry; not the lightest "beach read" pop-sci.
+- **Time investment:** High. ~552 pages of substantive material; budget real reading time. Reviewers split between "essential primer" and "longer than necessary."
+
+---
+
+## Core thesis / argument
+
+Ball's central claim is that several pillars of the standard textbook picture of biology - "the idea of the genome as a blueprint, of genes as instructions for building an organism, of proteins as precisely tailored molecular machines, of cells as entities with fixed identities, and more - have been exposed as incomplete, misleading, or wrong" (publisher / multiple reviews). This maps directly onto the a16z/Boneh recommendation: the simple "DNA = blueprint" story we learn in basic biology is, in an important sense, wrong.
+
+His positive alternative: life is **a system of many levels** - genes, proteins, cells, tissues, and body modules such as the immune and nervous systems - each with its own rules and principles, that interface and work together. Complex life is more **"emergent" than "programmed."** Ball goes further (and more controversially) to argue that life is a "meaning generator": cells respond to their environment and take autonomous actions, which he frames as a form of biological **agency, purpose, and even meaning** - while trying to stay clear of vitalism/teleology. (Sources: U. Chicago Press page; Goodreads; Nature/Guardian review excerpts; BookBrowse.)
+
+A frequently cited one-line distillation from readers: **"genes are ingredients, not blueprints."**
+
+## Structure and main themes
+
+The book runs to **eleven chapters** that progress (per the publisher) from fundamentals to applications:
+- **Fundamentals of molecular biology:** genes, RNA, proteins, and networks.
+- **Biological organization:** cells, tissues, and bodies (development, cell identity).
+- **Applications and implications:** agency, medicine, and synthetic biology - including the idea that researchers can now reprogram cells and potentially regenerate organs.
+
+Recurring themes across these: the failure of the "machine"/"blueprint" metaphor; gene **regulation** and context-dependence; **protein folding** and the messiness of "molecular machines" (including disordered proteins); **emergence** and multi-level causation; and cellular **agency**. (Sources: U. Chicago Press; Goodreads; Nature review framing that scientists have leaned on "the lazy metaphor of living systems operating simply like machines.")
+
+## Concrete examples / ideas it uses
+
+- **Gene regulation** and why the same genome yields many cell types - genes as context-dependent "ingredients."
+- **Protein folding** and the reality that proteins are not always precisely tailored, rigid machines.
+- **Embryonic development** and how form emerges without a literal blueprint.
+- **Cell reprogramming and organ regeneration** as evidence that cell "identity" is not fixed.
+- The reframing of cells as agents that respond autonomously to their environment ("meaning generator").
+(Sources: Goodreads reader-review synthesis; U. Chicago Press description.)
+
+## Who it's for / difficulty
+
+- **Assumed background:** Aimed at "biologists and non-biologists alike" (Nature/Denis Noble), but reader reception indicates it is **demanding**: several note dense biochemistry sections that benefit from prior background. Best for motivated, technically comfortable readers rather than casual ones.
+- **Difficulty:** Moderate-to-high for a general-audience title. Described as "accessible yet rigorous," but also "overly technical" by some readers.
+
+## Length, publication, publisher
+
+- **Page count:** ~552 pages (U. Chicago Press).
+- **Publisher:** University of Chicago Press (US edition). The UK edition was published by Picador. ISBNs include 9780226826684 (hardcover) and 9780226840062 / 9780226826691.
+- **Publication date:** UK edition 2023; US (University of Chicago Press) edition listed as 2023/2024 - see Open questions below.
+
+## Critical reception
+
+**Overall:** Strongly positive among professional reviewers; solid reader rating. Goodreads **4.20/5** across ~734 ratings / ~149 reviews (as fetched June 2026).
+
+**Praise (professional):**
+- **Nature (Denis Noble):** "a must-read user's guide for biologists and non-biologists alike."
+- **The Guardian (Adam Rutherford):** "Ball is a terrific writer"; an "essential primer."
+- **Siddhartha Mukherjee:** "marvelous… both wide-ranging and deep"; "leaves the reader full of awe and wonder."
+- **Henry Gee:** "a milestone in its field… required reading for anyone seeking to take an undergraduate degree in biology."
+- **Publishers Weekly (starred):** "provocative and profound"; Ball "takes glee in tearing down scientific shibboleths."
+- **Kirkus (starred):** "a bold effort to create a new language."
+- **Popular Science (Brian Clegg):** "Ball's best by a mile… the best biology book I've ever read."
+- Also positive: Wall Street Journal ("bold and intriguing"), Financial Times ("ambitious and eye-opening"), Spectator, Sunday Times.
+
+**Criticism / pushback:**
+- Some readers find it **overly technical / dense** for general audiences.
+- Some argue Ball spends **too much time attacking outdated ideas** while offering limited cutting-edge science, and that the book is **longer than necessary** / occasionally indulgent.
+- A recurring intellectual critique: the emphasis on **"agency" and "purpose"** flirts with **teleology/vitalism** and may **downplay stochastic/random processes**; critics note he doesn't fully resolve *how* cells "know" how to respond in unprogrammed ways. Ball himself acknowledges these terms carry "the unsettling odour of teleology and vitalism." (Sources: Goodreads synthesis; search-surfaced critical commentary.)
+
+## Why a technical / CS audience might value it
+
+- It is fundamentally about **multi-level complex systems, networks, emergence, and causation** - concepts that resonate with distributed systems, complexity theory, and information processing.
+- It directly interrogates the **"genome as code / blueprint" software metaphor** and argues why naive program/machine analogies break down - useful intellectual hygiene for anyone tempted to map computing abstractions onto biology.
+- It treats **information, regulation, and "meaning"** in cells, and covers **synthetic biology and cell reprogramming**, areas adjacent to bio-computing and engineering-of-life interests.
+- Matches Boneh's framing precisely: how a vast number of interacting molecules in a single cell **regulate the cell and keep it alive**, giving a "more accurate, yet still incomplete" picture. (Source: provided recommendation context.)
+
+## Open questions / uncertainties
+
+- **Exact US publication date:** The University of Chicago Press page (as fetched) rendered the year as 2023, but Chicago's US edition is commonly dated **2024**, while the UK Picador edition is **2023**. I could not definitively reconcile this from the sources fetched - **treat the precise US release date as not fully verified.**
+- **Exact chapter titles:** I confirmed an **eleven-chapter** structure and its broad arc (genes → RNA → proteins → networks → cells → tissues → bodies → agency → medicine → synthetic biology) from the publisher, but did not capture the verbatim chapter titles - **could not verify** the exact wording of each.
+- Some review quotes were retrieved via the author's own review-roundup page and aggregated search results rather than from each outlet's original article; wording is reliable but I did not independently open every primary review (e.g., the full Nature and Guardian pieces).
+
+## Sources
+
+- [How Life Works - University of Chicago Press (publisher page)](https://press.uchicago.edu/ucp/books/book/chicago/H/bo207403562.html)
+- [Reviews roundup - Philip Ball's official site](https://philipball.co.uk/reviews-how-life-works-a-users-guide-to-the-new-biology/)
+- [How Life Works - Goodreads](https://www.goodreads.com/book/show/123012858-how-life-works)
+- [Book Summary and Reviews - BookBrowse](https://www.bookbrowse.com/bb_briefs/detail/index.cfm/ezine_preview_number/18250/how-life-works)
+- [How Life Works - Kirkus Reviews](https://www.kirkusreviews.com/book-reviews/philip-ball/how-life-works/)
+- [How Life Works - Amazon (US edition listing, ISBN 9780226826684)](https://www.amazon.com/How-Life-Works-Users-Biology/dp/0226826686)
+- [Author page for the book - Philip Ball's official site](https://philipball.co.uk/how-life-works-a-users-guide-to-the-new-biology/)
+</script></div>
+    <div class="panel"><script type="text/markdown"># The Art and Craft of Problem Solving - Paul Zeitz (3rd ed.)
+
+**Bottom line (verdict)**
+- *What it is:* A graduate-of-the-Olympiad's training manual for **how to solve hard math problems** - organized around transferable *strategies, tactics, and tools* rather than memorized facts, spanning algebra, combinatorics, number theory, geometry, and calculus.
+- *Who should read it:* Mathematically curious people who want to **sharpen reasoning and investigation skills** - competition students (AIME/Putnam/IMO), undergraduates, and self-learners willing to struggle productively. Not a reference text and not for someone wanting worked-out answers handed over.
+- *Time investment:* A ~366–384 page book, but it is **worked, not read** - realistically months of active practice if you do the problems. Skimming the four foundational chapters alone (~a few evenings) already conveys the method.
+
+---
+
+## What the book is about and its pedagogical approach
+
+Zeitz's central premise is a distinction between an **exercise** (you already know a procedure; you just execute it) and a **problem** (you do *not* have an immediate path to the answer and must investigate). The book's stated goal is to develop genuine problem-solving skill by encouraging students to **"do" math rather than just study it** - a problem-solving approach as opposed to the traditional exercises-and-drills approach. ([Wiley product page](https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving,+3rd+Edition-p-9781119239901), as summarized in search; [MAA Review](https://old.maa.org/press/maa-reviews/the-art-and-craft-of-problem-solving))
+
+What reviewers single out as distinctive is that the book **teaches methodology, not just a problem dump**: sample problems are "thoroughly explored and investigated," showing *how* a solver arrives at a solution - the messy search process - rather than presenting a polished final answer. ([MAA Review](https://old.maa.org/press/maa-reviews/the-art-and-craft-of-problem-solving))
+
+Zeitz also foregrounds the **psychological dimension** of problem solving - confidence, concentration, persistence, and creativity ("courage") - arguing that success depends as much on mindset and a willingness to not attack a problem head-on as on technique. He uses motivational devices (e.g., the "Mouse Story") to make the point. ([book summaries/Goodreads-adjacent sources](https://www.goodreads.com/book/show/593458.The_Art_and_Craft_of_Problem_Solving))
+
+## Main themes and structure: strategies vs. tactics vs. tools
+
+The book's signature organizing idea is a three-level hierarchy of problem-solving methods (an explicit analogy to military thinking):
+
+- **Strategies** - broad, non-technical orientations for opening up a problem (e.g., get your hands dirty, penultimate step, wishful thinking, make it easier). You think strategically *first*, on a "less focused level," before trying to solve. ([summary sources](https://www.goodreads.com/book/show/593458.The_Art_and_Craft_of_Problem_Solving))
+- **Tactics** - more focused, broadly applicable techniques such as symmetry, the extreme principle, invariants, and the pigeonhole principle.
+- **Tools** - narrow, technical methods specific to a subject area.
+
+Per the MAA review and publisher summaries, the **first four chapters** build the reader's general "toolkit" of strategies and tactics (including a chapter on important *crossover* tactics that recur across subjects). The book then devotes one chapter each to the **four main problem categories - algebra, combinatorics, number theory, and geometry - and concludes with a chapter on calculus.** ([MAA Review](https://old.maa.org/press/maa-reviews/the-art-and-craft-of-problem-solving))
+
+Approximate chapter arc (foundations → subject areas):
+1. What this book is about / how to read it
+2. Strategies for investigating problems
+3. Tactics for solving problems
+4. Crossover tactics
+5. Algebra
+6. Combinatorics
+7. Number theory
+8. Geometry
+9. Calculus
+
+*(The foundations-then-five-subject-areas structure is confirmed by the MAA review; the exact chapter titles above are the well-known structure of the book and should be treated as approximate - see Open questions.)*
+
+**Problem types.** Problems come in three flavors, deliberately mixed: **recreational/classic** (creative puzzles), **contest** (formal problems sourced from AIME, IMO, Putnam, etc., which can be quite hard), and **exploration** (open-ended problems that may have no clean answer - described by reviewers as the most challenging but most rewarding). ([MAA Review](https://old.maa.org/press/maa-reviews/the-art-and-craft-of-problem-solving))
+
+## Difficulty, prerequisites, and audience
+
+- **Prerequisites:** High-school algebra and geometry plus mathematical maturity/motivation. The calculus chapter assumes basic calculus, but most of the book does not. Reviewers note prerequisites are not heavy on paper - the difficulty comes from the *problems*, not from required background. ([MAA Review](https://old.maa.org/press/maa-reviews/the-art-and-craft-of-problem-solving))
+- **Difficulty:** Ranges from approachable to very hard (IMO/Putnam-level). It is designed to stretch the reader.
+- **Audience:** Aimed at **competition-math students, undergraduates, and self-learners**, as well as teachers/coaches. Zeitz's coaching background (USAMO, IMO teams) directly shapes the contest orientation. ([Wiley summary](https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving,+3rd+Edition-p-9781119239901); [MAA Review](https://old.maa.org/press/maa-reviews/the-art-and-craft-of-problem-solving))
+- **Caveat for self-study:** A repeatedly noted limitation is that the **end-of-chapter problems largely lack full solutions** in the book itself - a deliberate pedagogical choice that frustrates some self-learners. ([MAA Review](https://old.maa.org/press/maa-reviews/the-art-and-craft-of-problem-solving))
+
+## Length, edition history, publisher, publication date
+
+- **Publisher:** John Wiley & Sons (Hoboken, NJ).
+- **3rd edition:** Published **2017**. Print ISBN **9781119239901**; digital ISBN **9781119094845**. Length reported as **~384 pages (hardcover) / ~366 pages (paperback)**. ([Wiley](https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving,+3rd+Edition-p-9781119239901); [Waterstones](https://www.waterstones.com/book/the-art-and-craft-of-problem-solving/paul-zeitz/9781119239901); [VitalSource](https://www.vitalsource.com/products/the-art-and-craft-of-problem-solving-paul-zeitz-v9781119094845))
+- **Edition history:** 1st edition **1999**; 2nd edition **2007**; 3rd edition **2017**. ([Wikipedia: Paul Zeitz, via search](https://en.wikipedia.org/wiki/Paul_Zeitz); Goodreads editions)
+
+## Author
+
+**Paul Zeitz** (b. 1958) is a professor of mathematics at the **University of San Francisco**, specializing in math enrichment. He **won the USA Mathematical Olympiad (USAMO) in 1974** and was on the **first U.S. team at the International Mathematical Olympiad (IMO)** that year. He studied history at Harvard (BA, 1981) and earned a **PhD in mathematics from UC Berkeley (1992)** in ergodic theory. He has composed/edited problems for national contests including the USAMO and helped train U.S. IMO teams - most notably the **1994 "Dream Team," the first to achieve a perfect score**. He received the **MAA's Deborah Tepper Haimo award** for distinguished college teaching (2003) and co-founded **Proof School** (2015). He has also recorded a related course ("The Art and Craft of Mathematical Problem Solving") for The Great Courses. ([search-sourced Wikipedia biography](https://en.wikipedia.org/wiki/Paul_Zeitz); [The Great Courses author page](https://plus.thegreatcourses.com/paul-zeitz))
+
+## Reception and reputation
+
+- **Goodreads:** Reported average **~4.59 / 5 across ~267 ratings** - very strong. Reviewers call it something that "should be on the shelf of every problem solver" and "the single best resource for any high schooler looking to get into olympiad math." ([Goodreads](https://www.goodreads.com/book/show/593458.The_Art_and_Craft_of_Problem_Solving))
+- **MAA Review (Jack Chen, 2016):** Calls it "an excellent gateway to the culture of problem solving," "challenging and rewarding," that "shines a new light on mathematics." Praises the emphasis on *methodology*; the main criticism is the lack of solutions to the problem sets. ([MAA Review](https://old.maa.org/press/maa-reviews/the-art-and-craft-of-problem-solving))
+- **Community standing:** Widely regarded in the olympiad/competition-math community as a standard "bridge" text into serious problem solving. A common, nuanced take (e.g., on Quora) is that it is "**excellent and often essential, but by itself not sufficient**" to medal at the IMO - it must be paired with focused practice, advanced theory, and mentorship. ([Quora discussion](https://www.quora.com/Is-studying-Paul-Zeitz-The-Art-and-Craft-of-Problem-Solving-sufficient-to-get-you-a-medal-in-IMO))
+
+## Why a technical reader sharpening reasoning might value it
+
+This is the throughline that matches the a16z/Kominers recommendation ("fine-tune mathematical thinking and problem-solving"):
+
+- It teaches a **domain-general method for attacking unfamiliar problems** - orient before attacking, run experiments ("get your hands dirty"), exploit symmetry/invariants/extremes, work backward from the goal - which transfers directly to research, algorithm design, cryptography, and any open-ended technical reasoning.
+- It explicitly trains the **investigation process and the right psychological posture** (tolerance for not-knowing, persistence), which is exactly the skill that distinguishes routine execution from genuine problem solving.
+- The strategy/tactic/tool taxonomy gives a **reusable mental checklist** rather than subject trivia, so the value survives even if you never touch a contest.
+
+## Open questions / uncertainties
+
+- **Exact page count and chapter titles:** The Wiley publisher page returned HTTP 403 and could not be fetched directly; page counts (366 vs. 384) come from retailer listings and differ by binding. The detailed chapter-title list above reflects the book's well-known structure and the MAA review's description, but the precise titles in the 3rd edition were **not verified line-by-line from the table of contents** (the front-matter PDF could not be fetched in this environment). Treat the chapter list as approximate.
+- **3rd-edition-specific changes:** I did not find a source detailing exactly what changed between the 2nd (2007) and 3rd (2017) editions.
+- **Rating freshness:** The ~4.59/267-ratings Goodreads figure is as reported by search at retrieval time and may aggregate editions; exact current numbers could differ.
+- **Author bio / edition years** are sourced from a search-summarized Wikipedia entry (the page itself could not be fetched directly here); core facts (USAMO 1974, USF professor, Berkeley PhD 1992, 1994 Dream Team, Haimo award) are corroborated across multiple summaries.
+
+## Sources
+- [The Art and Craft of Problem Solving, 3rd Edition - Wiley](https://www.wiley.com/en-us/The+Art+and+Craft+of+Problem+Solving,+3rd+Edition-p-9781119239901) (accessed via search summary; direct fetch returned 403)
+- [MAA Review - The Art and Craft of Problem Solving (Jack Chen, 2016)](https://old.maa.org/press/maa-reviews/the-art-and-craft-of-problem-solving)
+- [Goodreads - The Art and Craft of Problem Solving](https://www.goodreads.com/book/show/593458.The_Art_and_Craft_of_Problem_Solving)
+- [Goodreads - Art Craft Problem Solving 3E](https://www.goodreads.com/book/show/56083501-art-craft-problem-solving-3e)
+- [VitalSource - 3rd edition listing](https://www.vitalsource.com/products/the-art-and-craft-of-problem-solving-paul-zeitz-v9781119094845)
+- [Waterstones - 3rd edition (page count)](https://www.waterstones.com/book/the-art-and-craft-of-problem-solving/paul-zeitz/9781119239901)
+- [Amazon - Art Craft Problem Solving 3E](https://www.amazon.com/Art-Craft-Problem-Solving-3E/dp/1119424992)
+- [Quora - Is Zeitz sufficient for an IMO medal?](https://www.quora.com/Is-studying-Paul-Zeitz-The-Art-and-Craft-of-Problem-Solving-sufficient-to-get-you-a-medal-in-IMO)
+- [Wikipedia - Paul Zeitz](https://en.wikipedia.org/wiki/Paul_Zeitz) (accessed via search summary; direct fetch unavailable)
+- [The Great Courses - Dr. Paul Zeitz](https://plus.thegreatcourses.com/paul-zeitz)
+</script></div>
+    <div class="panel"><script type="text/markdown"># Energy: A Human History - Richard Rhodes (2018)
+
+## Bottom line
+- **What it is:** A narrative, character-driven history of roughly five centuries of energy transitions - wood → coal → oil/gas → electricity → nuclear and (briefly) renewables - told through the inventors, engineers, and entrepreneurs who drove each shift. By the Pulitzer-winning author of *The Making of the Atomic Bomb*.
+- **Who should read it:** Tech/policy readers who want narrative intuition for how energy systems actually transition (messily, incrementally, with competing designs coexisting) rather than a quantitative or climate-policy treatise. Strong fit for the a16z "compute & energy buildout" framing - with the caveat that the closing third becomes a pro-nuclear argument.
+- **Time investment:** ~465–480 pages; an accessible, anecdote-driven read. Budget ~10–14 hours. Skimmable: reviewers agree the first two-thirds (coal/steam, then lighting/oil/electricity) are the strongest; the final third on nuclear reads faster as advocacy.
+
+---
+
+## Scope and thesis
+Rhodes traces how humanity moved from one dominant energy source to the next over roughly the last 400–500 years, framing energy history as a *human* story: progress driven by curious, fallible people solving practical problems, often through false starts and side-by-side competing designs rather than clean linear breakthroughs. The publisher's own copy frames it as: "how wood gave way to coal and coal made room for oil, as we now turn to natural gas, nuclear power, and renewable energy," looking "back on five centuries of progress" and "the successes and failures that led to each breakthrough in energy production; from animal and waterpower to the steam engine, from internal-combustion to the electric motor" ([Simon & Schuster publisher page](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364); [Internet Archive listing](https://archive.org/details/energy-a-human-history-by-richard-rhodes-z-lib.org)).
+
+The book is explicitly motivated by "the current challenges presented by global warming, a surging world population, and renewable energy," and closes on "the specter of global warming, and a population hurtling towards ten billion by 2100" ([Simon & Schuster](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)). A recurring through-line emphasized by reviewers: "the story of technological progress is rarely straightforward and linear," illustrated by "the many different designs for steam engines and later combustion engines that existed side by side for a while" ([Inquisitive Biologist review](https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/)).
+
+## Structure (eras/fuels/transitions, in order)
+The book proceeds chronologically. Based on the verified opening chapter and a detailed review that walks through the sections:
+
+1. **Wood scarcity → coal (Tudor/Stuart England).** Chapter One ("No Wood, No Kingdom") opens in 1598 with Elizabethan England's timber shortage (ship masts, charcoal for iron) and the shift to "sea coal," with Queen Elizabeth I and King James I as period figures ([verified Chapter One text via Simon & Schuster](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)).
+2. **Coal → the steam engine → rail.** Surface coal runs out, requiring stationary steam engines to pump water from mineshafts, then mobile steam engines that produce trains for freight and then passengers - "rich in historical detail" on the hurdles to reliable steam power ([Inquisitive Biologist](https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/)).
+3. **Lighting and the path to oil & electricity (second section).** Natural gas (long dismissed as a novelty), a brief history of industrial whaling, the drilling for oil, and the discovery of electricity; the first hydropower experiments at Niagara Falls in 1895; "a brief nod to horse power" before internal-combustion engines enabled cars ([Inquisitive Biologist](https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/)).
+4. **Nuclear and renewables (final third).** A brief history of the first steps toward nuclear energy; only "lip service to wind and solar energy in the final chapter," and little on energy since the 1950s ([Inquisitive Biologist](https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/)).
+
+## Notable figures and stories
+Rhodes tells the history through people. The publisher highlights "Queen Elizabeth I, King James I, Benjamin Franklin, Herman Melville, John D. Rockefeller, and Henry Ford" ([Simon & Schuster](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)). Reviewers single out his attention to forgotten or obscure inventors, with verified examples including:
+- **Richard Trevithick**, who tinkered with high-pressure steam before metalworking could make boilers to withstand it;
+- **Archibald Cochrane**, who discovered coal gas's inflammable nature but dismissed it as a curiosity;
+- **Luigi Galvani and Alessandro Volta**, whose dispute over "animal electricity" led to the battery ([Inquisitive Biologist](https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/)).
+
+The narrative texture is on display in Chapter One, which opens with Shakespeare's company dismantling the Theatre playhouse in 1598 to reuse scarce timber, and runs through London's coal-smoke pollution, John Evelyn's 1661 anti-smog tract *Fumifugium*, and child chimney sweeps ([verified Chapter One text, Simon & Schuster](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)).
+
+## Tone and approach
+Popular narrative history, anecdote-rich and accessible, applying the storytelling craft Rhodes brought to his Pulitzer-winning *The Making of the Atomic Bomb*.
+
+**Strengths (per reviewers):**
+- "Gracefully written"; excels at "the human stories of the forgotten inventors who revolutionised the world," with the earlier periods (steam, coal, gas, oil) the most "fascinating" ([Inquisitive Biologist](https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/)).
+- Conveys the non-linear, trial-and-error nature of technological progress.
+- Praised across trade reviews: "magisterial history…a tour de force of popular science" (*Kirkus*, starred); "entertaining and informative…a powerful look at the importance of science" (NPR.org); "a beautifully written, often inspiring saga of ingenuity and progress" (*Booklist*, starred) - all quoted on the [Simon & Schuster page](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364).
+
+**Common criticisms:**
+- **The final third "runs out of steam" and turns pro-nuclear.** One reviewer notes Rhodes is "irked by the opposition to nuclear energy by the environmental movement" and ties it into a broader critique of "neo-Malthusians such as the Club of Rome" - a framing the reviewer found less persuasive ([Inquisitive Biologist](https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/)). The WSJ review likewise noted he "makes a powerful case for regenerating the nuclear power industry" ([WSJ review by Charles R. Morris, via Book Marks aggregator](https://bookmarks.reviews/reviews/all/energy-a-human-history/)).
+- **Light on renewables and on the post-1950s era** (population, modern fossil-fuel consumption) ([Inquisitive Biologist](https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/)).
+- **Breadth over depth:** given the range, "many subjects are understandably not treated in-depth" ([Inquisitive Biologist](https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/)).
+- Reviews surfaced (but not independently verified from full originals) the criticisms that Rhodes gives "short shrift to the social and political forces" shaping technology, and omits key women such as fission co-discoverer **Lise Meitner** and solar pioneer **Mária Telkes** (attributed in search results to the Washington Post and other reviews; see uncertainties).
+
+## Length, publisher, publication
+- **Publisher:** Simon & Schuster.
+- **Hardcover:** 2018 (New York: Simon & Schuster, 2018; xiv + 465 pp.; figures, bibliography, notes, index; cloth $30.00; ISBN 978-1-5011-0535-7) ([Cambridge Core / *Business History Review* citation](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DF6A29DEE522730C5B2886C9082D38D5)).
+- **Paperback:** ISBN 9781501105364, listed at **480 pages**, dated June 11, 2019 ([verified Simon & Schuster metadata](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)). (Page counts vary by edition; eBook ~481 pp.)
+
+## Reception
+- **Wall Street Journal** (Charles R. Morris): "a riveting account of humanity's 400-year quest to bend the natural world to its own purposes, for good or ill … an easy canter through industrial history, enlivened by anecdote and unexpected detail"; noted the powerful case for nuclear revival ([via Book Marks aggregator](https://bookmarks.reviews/reviews/all/energy-a-human-history/)).
+- **Kirkus** (starred): "a magisterial history… a tour de force of popular science, which is no surprise from this author" ([verified, Simon & Schuster](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)).
+- **New York Times Book Review:** called it a "meticulously researched" examination of energy transitions ([verified blurb, Simon & Schuster](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)).
+- **NPR / Booklist (starred):** "entertaining and informative" / "a beautifully written, often inspiring saga of ingenuity and progress" ([Simon & Schuster](https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364)).
+- **Readers (Goodreads):** average ~3.75 from ~1,980 ratings - a solid but not rapturous popular reception ([Goodreads](https://www.goodreads.com/book/show/36373616-energy)).
+
+Overall: warmly received as popular history and storytelling; the main reservations are the pro-nuclear tilt of the closing chapters, thin coverage of renewables and the post-1950s period, and limited quantitative depth.
+
+## Why a tech/policy reader thinking about compute & energy might value it
+- **Transitions are slow, contested, and incremental.** The book's central, repeatedly evidenced lesson - competing designs coexist for decades; "winners" emerge gradually; progress is rarely one clean breakthrough - maps onto today's AI/data-center energy debates and tempers "one breakthrough will save us" thinking.
+- **Deployment and scaling are the story, not just invention.** The arc from surface coal → deep mines → steam pumps → rail shows that meeting demand historically meant scaling and adapting capacity over long horizons - the exact tension the a16z recommender flags for compute/energy. (Caveat: this is narrative intuition; the book does not supply rigorous capacity/energy-density analysis.)
+- **Pattern-matching for policy.** Inventors, incumbents, public fears (coal was feared "toxic… diabolic," much as nuclear later), and false starts give useful historical analogies for how new energy sources get financed, resisted, and adopted - relevant to anyone reasoning about a nuclear revival and grid expansion for AI.
+- **Caveat for this reader:** For energy-density math, climate-policy rigor, or renewables/grid economics, supplement it (reviewers repeatedly point to Vaclav Smil's *Energy and Civilization*). Read the closing nuclear chapters as argument, not a neutral survey.
+
+---
+
+## Sources
+- Simon & Schuster - official book page (publisher description, Chapter One excerpt, Kirkus/NYT/NPR/Booklist blurbs, 480-pp paperback metadata): https://www.simonandschuster.com/books/Energy/Richard-Rhodes/9781501105364
+- Internet Archive - book listing (2018; publisher synopsis): https://archive.org/details/energy-a-human-history-by-richard-rhodes-z-lib.org
+- The Inquisitive Biologist - full book review (verified: section-by-section structure, named inventors, nuclear/Malthusian critique, renewables/post-1950s gaps): https://inquisitivebiologist.com/2018/12/19/book-review-energy-a-human-history/
+- Book Marks - aggregated critic reviews (WSJ quote): https://bookmarks.reviews/reviews/all/energy-a-human-history/
+- Cambridge Core / *Business History Review* - bibliographic citation (2018, xiv + 465 pp., ISBN 978-1-5011-0535-7): https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DF6A29DEE522730C5B2886C9082D38D5
+- Goodreads - ratings (~3.75 / ~1,980): https://www.goodreads.com/book/show/36373616-energy
+- Washington Post - review (Oct 18, 2018; could not load full text - see uncertainties): https://www.washingtonpost.com/outlook/how-technology-and-innovation-shaped-our-world/2018/10/18/eb140002-c5a8-11e8-9b1c-a90f1daae309_story.html
+- H-Net - Taylor on Rhodes (academic review, surfaced via search): https://networks.h-net.org/node/19397/reviews/9539757/taylor-rhodes-energy-human-history
+
+## Open questions / uncertainties
+- **Exact chapter list could not be fully verified.** Chapter One's title ("No Wood, No Kingdom") and opening are confirmed from the publisher's excerpt; the section/era ordering above is corroborated by a detailed review but the complete chapter titles/sequence were not obtained (publisher TOC and Google Books were inaccessible).
+- **Page count varies by edition.** Hardcover ~465 pp. of text (per the *Business History Review* citation, the most authoritative); paperback listed at 480 pp.; eBook ~481 pp. A specific hardcover *day* of publication in June 2018 could not be verified; only "2018" / "June 2018" is supported.
+- **WSJ and NYT text** comes from the Book Marks aggregator and the publisher's quoted blurbs, not from reading the full original articles (paywalls). The phrasing is consistent across sources but the full originals were not independently read.
+- **Washington Post review** returned no readable text to the fetch tool. The criticisms attributed to it - "short shrift to social and political forces" and the omission of women (Lise Meitner, Mária Telkes) - appeared in search-engine summaries with outlet attribution I could not confirm against the original. Treat these as plausible but unverified.
+- **The "decarbonizing for centuries" framing** appeared in a search summary and was not confirmed in the primary review text I read; I have therefore not stated it as a verified thesis.
+- **The "scaling capacity vs. fundamental breakthroughs" emphasis** is the a16z recommender's framing; it is consistent with the book's documented non-linear-progress theme, but at least one academic-leaning critique argued the book under-delivers on the deeper capacity-scaling problem.
+</script></div>
+    <div class="panel"><script type="text/markdown"># Apple in China: The Capture of the World's Greatest Company - Patrick McGee (2025)
+
+## Bottom line
+- **What it is:** A deeply reported business/geopolitics narrative arguing that Apple, over ~two decades, poured money and engineering expertise into China and thereby helped build the very manufacturing superpower it is now hostage to.
+- **Who should read it:** Anyone interested in tech supply chains, US–China decoupling, industrial policy, or "how China got so good at hardware." It is the single best long-form answer to that question and directly supports the a16z/Boneh framing.
+- **Time investment:** ~448 pages / ~14–16 hours. Highly readable; you can get most of the thesis from the first third plus a few set-piece chapters.
+
+---
+
+## Central argument
+McGee's thesis is that Apple's drive to manufacture coveted, high-precision consumer hardware led it to concentrate its supply chain in China - the only place offering enough cheap, flexible labor at the scale it needed - and that in doing so Apple effectively transferred an enormous body of advanced manufacturing know-how to Chinese firms. The result is a "Faustian bargain": Apple got the world's best production machine, and China got a "Marshall Plan"-scale transfer of technology and training that turbocharged its rise as a tech-manufacturing power. Apple is now structurally dependent on, and politically exposed in, a country it helped elevate. McGee's vivid framing: Apple played "Prometheus handing the Chinese the gift of fire," and may be "the single biggest supporter" of Xi Jinping's *Made in China 2025* initiative. ([Wikipedia](https://en.wikipedia.org/wiki/Apple_in_China), [China Books Review](https://chinabooksreview.com/2025/10/28/patrick-mcgee/), [Amazon/publisher listing](https://www.amazon.com/Apple-China-Capture-Greatest-Company/dp/1668053373))
+
+This maps precisely onto the a16z reading-list framing: Apple spent over a decade and vast resources training Chinese firms to build to stringent, high-precision requirements - and that capability didn't stay contained to Apple.
+
+## Key evidence, figures, and anecdotes
+- **~$275 billion, 2016–2021 (≈ $55B/year):** The headline money figure. Under a secret five-year agreement with Beijing, Apple committed roughly **$275 billion** to China over 2016–2021 - building factories, supply chains, and training workers. Note: the widely quoted "**~$55 billion a year**" figure is essentially this same pledge expressed annually ($275B ÷ 5 ≈ $55B), drawn from internal documents; treat them as one estimate, not two independent data points. McGee benchmarks it as Marshall-Plan-scale (and, in real terms, larger). ([Wikipedia](https://en.wikipedia.org/wiki/Apple_in_China), [China Articles/Substack summary](https://chinaarticles.substack.com/p/apples-investment-in-china-more-than), [The Strategist/ASPI](https://www.aspistrategist.org.au/bookshelf-how-china-became-apples-achilles-heel/))
+- **28 million workers trained since 2008:** A headline statistic - Apple's supply chain trained roughly **28 million workers** in China since 2008 (more than the entire workforce of California). Note the important nuance discussed under "Controversy" below. ([The Strategist/ASPI](https://www.aspistrategist.org.au/bookshelf-how-china-became-apples-achilles-heel/), [China Academy](https://thechinaacademy.org/mistakes-of-patrick-mcgee-in-the-book-apple-in-china/))
+- **Scale comparison:** McGee benchmarks the spend against the US CHIPS Act (~$53B over four years) to argue Apple's annual China investment was several times larger. ([China Articles/Substack](https://chinaarticles.substack.com/p/apples-investment-in-china-more-than))
+- **Narrative set-pieces / characters:** the "Gang of Eight" Apple executives tasked with managing Beijing relations; a former Mormon missionary who helped launch Apple's retail/operations in China; the translucent iMac as an early "unmanufacturable" design problem; deep treatment of Foxconn, Terry Gou, Tim Cook's operations genius, the Chinese Communist Party, and Taiwan Semiconductor. ([China Books Review](https://chinabooksreview.com/2025/10/28/patrick-mcgee/), search results on chapter content)
+
+## Structure and narrative arc
+Chronological and character-driven, spanning roughly **36 chapters**. It traces the arc from Apple's early outsourcing decisions and design/manufacturing struggles (e.g., a chapter "Unmanufacturable" on the iMac), through Tim Cook's transformation of Apple into an operations powerhouse built on Chinese assembly, to the present-day reckoning - late chapters (e.g., "Five Alarm Fire") cover Apple waking up to Chinese competitors having absorbed its know-how and caught up, plus the difficult, partial pivot toward India. Reviewers describe it as a "clever and chronologically organized timeline." The closing movement is the geopolitical trap: Apple too embedded to leave, China increasingly able to squeeze out multinationals in favor of domestic champions that learned from them. ([Mobile Dev Memo review](https://mobiledevmemo.com/book-review-apple-in-china-by-patrick-mcgee/), [Goodreads](https://www.goodreads.com/book/show/220161058-apple-in-china), search results)
+
+## Author background and reporting basis
+**Patrick McGee** was a *Financial Times* journalist (2013–2023) covering tech and US–China relations, serving as the FT's principal Apple reporter from 2019–2023 before taking a two-year sabbatical to write the book. He holds degrees in religious studies (University of Toronto) and global diplomacy (SOAS, University of London). The book is built on **more than 200 interviews** with former Apple executives and engineers, plus emails and internal company memos/documents. ([Wikipedia](https://en.wikipedia.org/wiki/Apple_in_China), [China Books Review](https://chinabooksreview.com/2025/10/28/patrick-mcgee/), [WWSG speaker bio](https://wwsg.com/speaker-news/patrick-mcgee-the-dark-history-of-how-china-captured-apple/))
+
+## Controversy and reception
+**Reception is strongly positive.** It was a *New York Times* bestseller and topped the China Books Review bestseller list. Goodreads: **4.48/5** across ~9,400 ratings (57% five-star). Favorable reviews ran in the *New York Times* (Hannah Beech), *Washington Post* (Jacob Silverman), *The Daily Telegraph* (4/5), and *Kirkus*. Common praise: rigorous, accessible, avoids typical tech-press boosterism. Common criticism: occasionally Western-centric (light on CCP-insider perspective), and the India material is weaker than the China chapters. ([Wikipedia](https://en.wikipedia.org/wiki/Apple_in_China), [Goodreads](https://www.goodreads.com/book/show/220161058-apple-in-china))
+
+**The disputes (verified, with care):**
+1. **Apple's denial.** In a statement to *Vanity Fair* (Issie Lapowsky, May 2025), Apple called the book "untrue" and "full of inaccuracies," and noted it did not fact-check the book. Apple declined to comment on the specific claims McGee raised. This is a blanket denial, not an itemized rebuttal. ([Techmeme summary of Vanity Fair Q&A](https://www.techmeme.com/250515/p1), corroborated across [Wikipedia](https://en.wikipedia.org/wiki/Apple_in_China) and multiple outlets)
+2. **The "28 million" figure.** The book states ~28 million workers were trained *across Apple's supply chain*. In some interviews this got compressed (by McGee or by interviewers) into "28 million Chinese workers," which McGee has acknowledged is imprecise - the figure is supply-chain-wide and not all China-specific direct Apple training. Critics seize on this; McGee's position is that the precise number is less important than the scale of expertise transferred. ([China Books Review](https://chinabooksreview.com/2025/10/28/patrick-mcgee/), search-result interview notes)
+3. **Pro-China / nationalist pushback.** Manufacturing commentator **Chen Jing** (via China Academy) argues the $55B annual figure is "greatly exaggerated" and the 28M figure misattributes to Apple investment/training that actually came from Apple's *suppliers*; he rejects the Marshall Plan analogy as crediting a US company for what was substantially China's own industrial development. This is an openly pro-China, nationalist critique. ([China Academy](https://thechinaacademy.org/mistakes-of-patrick-mcgee-in-the-book-apple-in-china/))
+
+**On the "correction controversy":** I could verify (a) Apple's public "full of inaccuracies" denial and (b) the dispute over the 28M / $55B figures and McGee's clarification that 28M is supply-chain-wide. I **could not verify** any formal published *correction* to the book itself, nor a retraction by McGee or his publisher. The "controversy" is best characterized as a contested-figures debate plus a corporate denial - not a documented factual correction. Treat any stronger claim with caution.
+
+## Length, publisher, publication date
+- **Publisher:** Scribner (Simon & Schuster)
+- **Publication date:** May 13, 2025
+- **Pages:** ~448 (first edition)
+- **ISBN:** 978-1-6680-5337-9
+([Wikipedia](https://en.wikipedia.org/wiki/Apple_in_China), [Amazon](https://www.amazon.com/Apple-China-Capture-Greatest-Company/dp/1668053373))
+
+## Why a tech / geopolitics reader might value it
+It is, by broad critical consensus, the most thorough available account of *how* China's electronics-manufacturing capability was built - and it argues the uncomfortable point that a flagship American company was a prime engine of that capability. For anyone reasoning about supply-chain decoupling, reshoring, industrial policy (CHIPS Act analogies), or the durability of Chinese hardware dominance, it supplies the mechanism, the numbers (contested but directionally striking), and the human detail. It directly answers the Boneh/a16z prompt: this is the story of Apple spending a decade-plus and enormous resources training Chinese firms to build to exacting precision - and why that knowledge can't be put back in the box.
+
+---
+
+## Open questions / uncertainties
+- **Magnitude of the figures.** The $55B/year and 28M-workers numbers are McGee's estimates/interpretations from internal documents and interviews; they are genuinely disputed (Apple; Chen Jing). Directionally compelling, precisely uncertain. Treat as "large, contested" rather than audited fact.
+- **No formal correction verified.** Despite the task's flag, I found no evidence of a published correction/retraction of the book - only Apple's denial and the figures debate. Stated as "could not verify."
+- **Some primary reviews not directly fetched.** FT, NYT, Economist, WSJ, and the NPR Planet Money piece were referenced via search/Wikipedia but several review domains (NPR, Internet Governance Project, Mobile Dev Memo, Techmeme, Kirkus, Goodreads publisher page) were partly inaccessible to direct fetch; their content here rests on search summaries and Wikipedia's citation of them. The book's bestseller status and headline figures are corroborated across multiple independent sources.
+- **Page count** is consistently reported as 448 but the publisher page could not be fetched to confirm directly (403).
+
+## Sources
+- [Apple in China - Wikipedia](https://en.wikipedia.org/wiki/Apple_in_China)
+- [Patrick McGee on Apple in China - China Books Review (interview, Oct 2025)](https://chinabooksreview.com/2025/10/28/patrick-mcgee/)
+- [Mistakes of Patrick McGee in the Book "Apple in China" - China Academy (critical/pro-China)](https://thechinaacademy.org/mistakes-of-patrick-mcgee-in-the-book-apple-in-china/)
+- [Bookshelf: How China became Apple's Achilles' heel - ASPI The Strategist](https://www.aspistrategist.org.au/bookshelf-how-china-became-apples-achilles-heel/)
+- [Apple's Investment in China… more than quadruple the Marshall Plan - China Articles (Substack)](https://chinaarticles.substack.com/p/apples-investment-in-china-more-than)
+- [Q&A with the FT's Patrick McGee; Apple says "full of inaccuracies" (Issie Lapowsky/Vanity Fair) - Techmeme](https://www.techmeme.com/250515/p1)
+- [Book review - Mobile Dev Memo (Eric Seufert)](https://mobiledevmemo.com/book-review-apple-in-china-by-patrick-mcgee/)
+- [Apple in China - Goodreads (rating/reviews)](https://www.goodreads.com/book/show/220161058-apple-in-china)
+- [Amazon listing (bibliographic details)](https://www.amazon.com/Apple-China-Capture-Greatest-Company/dp/1668053373)
+- [WWSG speaker bio - McGee background](https://wwsg.com/speaker-news/patrick-mcgee-the-dark-history-of-how-china-captured-apple/)
+- [How Apple turbocharged China's development - NPR Planet Money](https://www.npr.org/sections/planet-money/2025/06/17/g-s1-72993/how-apple-turbocharged-chinas-development) (referenced; not directly fetched)
+- [Apple in China: A Critical Review - Internet Governance Project](https://www.internetgovernance.org/2025/07/11/apple-in-china-a-critical-review/) (referenced; not directly fetched)
+</script></div>
+    <div class="panel"><script type="text/markdown"># Apple: The First 50 Years - David Pogue
+
+## Bottom line
+- **What it is:** A 600-page, lavishly illustrated full-color narrative history of Apple from 1976 to its 50th anniversary, by veteran Apple journalist David Pogue, built on 150+ new interviews (Wozniak, Sculley, Ive, current Apple staff) and ~350 photos.
+- **Who should read it:** Apple fans, tech-history readers, and anyone wanting the definitive single-volume reference on the company - equally a cover-to-cover read and a coffee-table/keep-on-the-shelf reference.
+- **Time investment:** Long (~600 pages), but reviewers note it's broken into short, digestible sections, sidebars, and profiles, so it reads more lightly than its length suggests.
+
+---
+
+## What the book covers
+Pogue tells Apple's complete life story: how it was born (1976), nearly died, was "born again" under Steve Jobs, and became the world's most valuable company under Tim Cook. Coverage spans the full sweep up to Apple's 50th anniversary in 2026. The book deliberately covers both the landmark successes (cited figures: 450M iPods, 700M iPads, 2.2B iPhones) and the instructive failures (Lisa, Apple III, MobileMe), busts long-held Apple myths, and closes by assessing the forces challenging Apple as it enters its second half-century. (Sources: Simon & Schuster; Amazon; 9to5Mac)
+
+## Format / approach (verified)
+It is a hybrid of narrative history and illustrated/coffee-table book, not a dry chronicle. The print edition is printed in full color throughout (not the usual 16-page color insert), with roughly 350–360 full-color photographs. MacRumors describes a long book broken into digestible sections, interspersed with photos, a map of key Apple-related Cupertino locations, employee profiles, and smaller stories and anecdotes. John Gruber (Daring Fireball) emphasizes the print edition specifically because it is "a gorgeous book, printed in color throughout." (Sources: MacRumors; Daring Fireball - via search snippets)
+
+## Author background
+David Pogue has written about Apple for essentially his entire career: ~13 years as a Macworld columnist (starting in the 1980s) and ~13 years as the personal-tech columnist for The New York Times. He is a CBS Sunday Morning correspondent (seven-time Emmy winner), a five-time TED speaker, host of 20 NOVA specials on PBS, and a New York Times bestselling author. This deep, decades-long proximity to Apple is the book's core credential. (Sources: Simon & Schuster; search results)
+
+## Publication date / recency
+- **Published:** March 10, 2026, by Simon & Schuster, timed to Apple's 50th anniversary.
+- **Very recent:** As of this report (June 2026) the book is roughly three months old. It was an instant New York Times bestseller.
+- The reading-list note that it "dropped weeks before Tim Cook announced his exit" is consistent with the March 2026 release; I could not independently verify the Cook-exit timing from a primary source in this research. (Sources: 9to5Mac; Amazon; Simon & Schuster)
+
+## What's distinctive vs. other Apple histories
+- **Scope:** A single-volume biography of the *company itself* across all 50 years, rather than a Steve Jobs biography (Isaacson) or a Cook-era account (Mickle's *After Steve*). The Wall Street Journal framed it as "a biography of Apple Inc. itself-one of the most distinctive characters in American business history."
+- **Access & sourcing:** 150+ fresh interviews, including current Apple designers, engineers, and executives - an unusual level of company cooperation - plus legacy figures (Wozniak, Sculley, Ive).
+- **Myth-busting + production values:** Corrects long-standing record and is presented as a full-color illustrated volume rather than a text-only history. Forbes called it "the most in-depth, well-researched, and well-written tome on Apple's history." (Sources: Simon & Schuster; search snippets of WSJ and Forbes blurbs)
+
+## Reception
+Reception is genuinely positive but, given the book is only ~3 months old, the body of criticism is still limited; treat it as early.
+- **Wall Street Journal** and **Forbes** gave strong blurbs (above).
+- **NPR** featured it as a Book of the Day (Pogue interviewed by Michel Martin, March 2026).
+- **Daring Fireball (John Gruber):** "nothing short of an instant classic - simultaneously a very enjoyable read, and a meticulously-researched reference for the decades to come."
+- **MacRumors:** "the ultimate encyclopedia for all things Apple."
+- **CBS News** ran an official book excerpt.
+- Major-outlet star ratings and aggregate reader scores (e.g., Goodreads) could not be verified in this research because several review/retail domains were not fetchable. (Sources: NPR; Daring Fireball; MacRumors; CBS News - via search)
+
+## Length / publisher
+- **Length:** ~600 pages (Amazon lists 608); ~350–360 full-color photos.
+- **Publisher:** Simon & Schuster. ISBN 9781982134594 (US hardcover). Available in hardcover, ebook, and audiobook. (Sources: Amazon; Simon & Schuster; Waterstones)
+
+## Who it's for
+Apple enthusiasts, students of tech and business history, and general readers who want one authoritative, browsable history of the company. The illustrated, full-color format also makes it a gift/coffee-table book. Less suited to readers wanting a tightly focused Jobs biography or a critical/investigative exposé - this is a comprehensive, broadly admiring (though myth-correcting) company biography.
+
+---
+
+## Open questions / uncertainties
+- **Photo count:** Sources vary between ~350 and ~360 full-color photos.
+- **Page count:** Cited as both "600 pages" and 608.
+- **"NPR Best Book of the Year":** Surfaced in one search summary but seems implausible for a book published March 2026 and reported on in June 2026; **could not verify** - likely a search-summary error, treat as unconfirmed.
+- **Tim Cook exit timing** relative to release: stated by the recommender but **not independently verified** here.
+- **Authorized vs. independent:** Apple clearly cooperated (current executives interviewed), but I found no claim that it is an official/authorized history; **could not verify** its formal status.
+- Several primary pages (Simon & Schuster, applefirst50.com, MacRumors, Daring Fireball, Goodreads, CBS, NPR) were **not directly fetchable** in this session due to network/domain restrictions; details above rely on search-engine snippets of those pages rather than full-page reads.
+
+## Sources
+- [Apple | Simon & Schuster official publisher page](https://www.simonandschuster.com/books/Apple/David-Pogue/9781982134594)
+- [Apple: The First 50 Years - Amazon (hardcover)](https://www.amazon.com/Apple-First-Years-David-Pogue/dp/1982134593)
+- [David Pogue official book site](https://www.applefirst50.com/)
+- [David Pogue releases new 'Apple: The First 50 Years' book - 9to5Mac](https://9to5mac.com/2026/03/10/david-pogue-releases-new-apple-the-first-50-years-book/)
+- [Apple: The First 50 Years Review - MacRumors](https://www.macrumors.com/review/apple-the-first-50-years-book/)
+- [David Pogue's 'Apple: The First 50 Years' - Daring Fireball (John Gruber)](https://daringfireball.net/2026/04/pogue_apple_first_50_years)
+- [In 'Apple: The First 50 Years,' David Pogue tells the story of a tech giant - NPR Book of the Day](https://www.npr.org/2026/03/26/nx-s1-5761250/nprs-book-of-the-day-david-pogue-apple)
+- [Book excerpt: "Apple: The First 50 Years" - CBS News](https://www.cbsnews.com/news/book-excerpt-apple-the-first-50-years-by-david-pogue/)
+- [Apple: The First 50 Years - Goodreads](https://www.goodreads.com/book/show/239495879-apple)
+- [Apple: The First 50 Years - Waterstones (UK)](https://www.waterstones.com/book/apple/david-pogue/9781398561960)
+</script></div>
+    <div class="panel"><script type="text/markdown"># How Music Got Free - Stephen Witt (2015)
+
+## Bottom line
+- **What it is:** A narrative-nonfiction history of how digital technology (the MP3, then file-sharing, then streaming) dismantled the recorded-music business, told through three interlocking true stories - the German engineers who invented the MP3, the CD-plant worker who became piracy's "patient zero," and the major-label CEO who fought the collapse.
+- **Who should read it:** Anyone interested in technology obliterating incumbent business models - investors, founders, product people, and music/media fans. It's a strong case study for a tech reader thinking about disruption.
+- **Time investment:** ~290–300 pages / roughly an 8–9 hour read (or ~9.5 hour audiobook). Reads fast - reviewers repeatedly compare it to Michael Lewis.
+
+---
+
+## What the book is about
+
+`How Music Got Free` braids three storylines that together explain how recorded music went from a high-margin physical product to something effectively free, then re-monetized through streaming:
+
+1. **The inventors (Fraunhofer, Germany).** A research team at the Fraunhofer Society - led by **Karlheinz Brandenburg**, with colleagues including **Bernhard Grill** and **Harald Popp** - spent years developing the audio-compression algorithm that became the MP3, shrinking CD-quality audio to roughly one-twelfth its size. The book frames the MP3 as a near-commercial failure that lost the official standards battle (to formats backed by bigger players) but won the world anyway once it leaked into the piracy underground. *(Names verified via Wikipedia and the New Yorker reporting.)*
+
+2. **The leaker (North Carolina).** **Dell Glover** - full name **Bennie Lydell Glover**, of Shelby, North Carolina - worked at the PolyGram/Universal CD-manufacturing plant in Kings Mountain, NC. From roughly 2001 until his 2007 arrest he smuggled pre-release CDs out of the factory and fed them to an online "warez" crew called **RNS (Rabid Neurosis)**, becoming the single largest source of leaked pre-release albums in the world - reportedly close to 2,000 albums over about eight years (Eminem, Kanye West, Jay-Z, Mariah Carey, and many more). He pleaded guilty to felony conspiracy to commit copyright infringement and served a short prison term. He is the book's "patient zero of piracy." *(Both names verified; "Dell Glover" is the everyday name, "Bennie Lydell Glover" the legal name.)*
+
+3. **The executive (the industry).** **Doug Morris**, the longtime major-label chief (CEO of Universal Music Group during the period covered, later Sony Music), stands in for the industry's response - denial, lawsuits, and eventually the pivot to new models. The book uses him to track the business side: the collapse of CD revenue and the slow, painful migration toward iTunes, then ad-supported and subscription streaming. *(Name verified.)*
+
+The connective tissue the a16z list highlights - MP3 → mass piracy (Napster/Kazaa/LimeWire) → iTunes → YouTube/VEVO → streaming - is exactly the arc Witt traces, with the human stories making the technology and economics concrete.
+
+## Themes a disruption-minded reader will care about
+- **Technology destroying a business model from the outside.** The people who broke the music industry weren't competitors with a better label - they were an engineer optimizing a codec and a factory temp with access and a fast internet connection. Disruption came from outside the industry's field of vision.
+- **Standards, formats, and adoption.** The MP3 "lost" the formal standards process yet became ubiquitous - a vivid lesson in how distribution and real-world adoption beat official endorsement.
+- **Incumbent response under disruption.** Litigation and DRM vs. eventually accepting new economics (downloads, then streaming) - a recurring pattern in tech-disrupted industries.
+- **The economics of "free."** What happens to an entire industry when the marginal cost of a perfect copy goes to zero, and how value re-aggregates (platforms, subscriptions) afterward.
+
+## Structure and reporting basis
+- **Form:** Braided narrative nonfiction - three parallel character-driven threads, intercut and advancing chronologically from the early-1990s invention of the MP3 through the rise of streaming.
+- **Reporting:** Built on original investigative reporting, including direct access to and interviews with Dell Glover and figures from the piracy scene, plus the technologists and industry executives. The book grew out of Witt's New Yorker feature **"The Man Who Broke the Music Business"** (April 2015), which centered on Glover. Reviewers singled out the freshness of the on-the-ground reporting (the leaker's story had not been told in this depth before).
+
+## Author background - Stephen Witt
+- **Stephen Richard Witt**, American journalist/nonfiction author, born 1979 (New Hampshire; raised in Minnesota).
+- Degrees from the **University of Chicago** (2001) and the **Columbia University Graduate School of Journalism** (2011). Before journalism he worked ~six years in finance (stock trading / hedge funds) and did a stint in economic development in East Africa.
+- Contributor to **The New Yorker** and other outlets. `How Music Got Free` was his debut book.
+- Later wrote **`The Thinking Machine`** (2025), a history of Nvidia and Jensen Huang, which won the 2025 Financial Times Business Book of the Year Award.
+
+## Reception and recognition
+- **Critical reception:** Strongly positive. The New York Times' Dwight Garner praised its "clear writing and brisk reportorial acumen of a Michael Lewis book" and the paper called it "the richest explanation to date about how the arrival of the MP3 upended almost everything about how music is distributed, consumed and stored." The Washington Post called it "whip-smart, superbly reported and indispensable"; Time called it "lucid, mordantly funny."
+- **Awards / lists (shortlists, not wins):**
+  - Shortlisted, **2015 Financial Times and McKinsey Business Book of the Year Award** (also on that year's longlist).
+  - Shortlisted, **2016 J. Anthony Lukas Book Prize**.
+  - Finalist/shortlist, **2015 Los Angeles Times Book Prize** (Current Interest category).
+  - Widely named to "best books of 2015" lists.
+- **Adaptation:** A two-part documentary directed by Alex Stapleton (2024) draws on the book, with interviews including Eminem, Timbaland, and Jimmy Iovine.
+
+## Publication facts
+- **Full title (US hardcover):** `How Music Got Free: The End of an Industry, the Turn of the Century, and the Patient Zero of Piracy`
+- **Publisher:** Viking (Penguin Random House)
+- **Publication date:** June 16, 2015
+- **Length:** ~296 pages (some retailers list 304); ISBN-13 978-0-525-42661-5.
+- Paperback editions carry alternate subtitles, e.g. `A Story of Obsession and Invention` (US paperback) and `What Happens When an Entire Generation Commits the Same Crime?` (UK edition).
+
+## Open questions / uncertainties
+- **Page count:** Wikipedia lists 296 pages; Amazon/Penguin list 304. The difference is edition/front-matter counting, not a substantive discrepancy.
+- **Doug Morris's exact title during the events:** He led Universal Music Group during the period the book covers and later became CEO of Sony Music; sources here describe him as the major-label/Universal chief. Precise title-by-year was not independently nailed down beyond "CEO of Universal Music Group."
+- **Awards are shortlists/finalist nods, not wins** for this title. (Witt's *later* book won the FT Business Book of the Year; this one did not.) A National Book Critics Circle honor for this book could not be verified and is not claimed here.
+- **Exact leak count** ("nearly 2,000" albums) and reading-time estimates are journalistic/approximate figures, not precise audited numbers.
+
+## Sources
+- [How Music Got Free - Wikipedia](https://en.wikipedia.org/wiki/How_Music_Got_Free)
+- [Stephen Witt - Wikipedia](https://en.wikipedia.org/wiki/Stephen_Witt)
+- [Stephen Witt - official site / Bio](http://stephenwitt.info/bio)
+- [How Music Got Free - Penguin Random House (publisher page)](https://www.penguinrandomhouse.com/books/315900/how-music-got-free-by-stephen-witt/)
+- [How Music Got Free - Amazon (hardcover, ISBN 9780525426615)](https://www.amazon.com/How-Music-Got-Free-Industry/dp/0525426612)
+- [How Music Got Free - Goodreads](https://www.goodreads.com/book/show/23398715-how-music-got-free)
+- [Open Library record (publication details)](https://openlibrary.org/books/OL25691862M/How_Music_Got_Free)
+- ["The Man Who Broke the Music Business" - Stephen Witt, The New Yorker (the article the book grew from; reporting on Bennie Lydell Glover)](https://www.newyorker.com/magazine/2015/04/27/the-man-who-broke-the-music-business)
+- [HuffPost interview with Stephen Witt (Glover background)](https://www.huffpost.com/entry/how-music-got-free-piracy-interview_n_666741f9e4b04a7f054ad939)
+- [Financial Times and McKinsey Business Book of the Year Award - Wikipedia (longlist/shortlist)](https://en.wikipedia.org/wiki/Financial_Times_Business_Book_of_the_Year_Award)
+- [SuperSummary - plot/structure overview](https://www.supersummary.com/how-music-got-free/summary/)
+</script></div>
+    <div class="panel"><script type="text/markdown"># Moral Economics - Alvin E. Roth
+
+## Bottom line
+- **What it is:** A 2026 popular-economics book by Nobel laureate Alvin E. Roth applying market-design thinking to "repugnant" / morally contested transactions - sex work, surrogacy, organ and kidney exchange, drugs, blood plasma, assisted dying, and more.
+- **Who should read it:** Anyone interested in market design, mechanism design, law-and-economics, or the ethics of markets - and crypto/mechanism-design readers thinking about where markets are permitted to exist and how norms form and collapse.
+- **Time investment:** ~352–368 pp. hardcover; a trade book aimed at general readers, so a moderate weekend-length read, not a technical slog.
+
+> **Verification status: CONFIRMED REAL.** The book exists with the exact title/subtitle given, is published by Basic Books (Basic Venture / Hachette Book Group), ISBN 978-1-5417-0201-1, **published May 12, 2026**. This is a *distinct, later* book from Roth's 2015 popular book *Who Gets What - and Why*; they are not conflated here. Most claims about content trace to the publisher copy, the Stanford/SIEPR write-ups, Roth's own Market Design blog, and a Publishers Weekly pre-pub review. See "Open questions" for the few unverified specifics.
+
+---
+
+## 1. Confirmed bibliographic facts
+
+| Field | Value |
+|---|---|
+| **Title** | *Moral Economics* |
+| **Subtitle** | *From Prostitution to Organ Sales, What Controversial Transactions Reveal About How Markets Work* |
+| **Author** | Alvin E. Roth (Stanford economist; 2012 Nobel Prize in Economic Sciences, shared with Lloyd Shapley) |
+| **Publisher** | Basic Books - imprint shown as "Basic Venture," Hachette Book Group |
+| **Publication date** | May 12, 2026 |
+| **ISBN-13 (hardcover)** | 978-1-5417-0201-1 |
+| **ISBN-13 (ebook)** | 978-1-5417-0203-5 |
+| **Length** | ~352–368 pages (listings vary) |
+| **Formats** | Hardcover, Kindle/ebook |
+
+Note: at least one retail listing (Walmart) carried an alternate/earlier marketing subtitle, *"What to Do When We Can't Agree on Right and Wrong."* The official Hachette/Basic Books subtitle is the "From Prostitution to Organ Sales…" form above. (Flagged as a minor data discrepancy, not a different book.)
+
+**Not to be confused with:** *Who Gets What - and Why: The New Economics of Matchmaking and Market Design* (2015), Roth's earlier popular book on matching markets (school choice, residency matching, kidney exchange). *Moral Economics* is the newer, narrower, and more normatively pointed book focused on contested/repugnant markets specifically.
+
+---
+
+## 2. Core thesis
+
+Roth's organizing concept is **repugnance** - his long-running research idea that some voluntary transactions between consenting parties are blocked not because they cause measurable harm to others, but because third parties find them morally or religiously objectionable. These are "repugnant transactions" or "contested markets."
+
+The book's central, repeated argument (per publisher copy and the Stanford write-ups):
+
+- **Contested markets cannot really be abolished - only relocated.** Banning a transaction tends to drive it underground, push it across borders (e.g., transplant tourism, surrogacy tourism), or leave it operating informally and dangerously, rather than making it disappear.
+- **Therefore markets are better designed honestly than denied.** "Prudent market design" can find a balance between preserving people's right to pursue their own interests and protecting the most vulnerable from harm. Markets "don't have to allow everything or ban everything."
+- **Move the debate from denunciation to evidence.** Roth advocates an empiricist, benefits-and-costs, trade-off approach - evaluating alternative legal regimes with experiments and cross-country comparisons rather than purely moral absolutes. As one summary put it: keep asking, *with evidence rather than absolutes*, how the tools (markets) should be built.
+
+This is the through-line to his prizewinning work: a market is "a tool to help decide who gets what," and the job of *moral* economics is to design those tools well even - especially - where society is morally divided.
+
+---
+
+## 3. Themes and examples it covers
+
+Reported subject matter spans (from publisher copy, Stanford/SIEPR, and the PW review):
+
+- Sex work / prostitution
+- Surrogacy and adoption
+- Organ sales and **kidney exchange / paired donation and donor chains** (Roth's signature applied work)
+- Blood and blood-plasma markets
+- Alcohol, **marijuana / drugs**
+- **Vaccine challenge trials**
+- **Medical aid in dying / assisted suicide**
+- Abortion
+- (Roth's broader corpus also touches same-sex marriage and other shifting-repugnance cases as norms change over time)
+
+A recurring analytical motif is that **repugnance is not fixed** - markets that were once banned become accepted (and vice versa), so the interesting questions are about *how non-market norms form, hold, and sometimes collapse*, and how to design the legal/market regime around them.
+
+---
+
+## 4. Relation to Roth's Nobel-winning market-design work
+
+Roth won the 2012 Nobel for the theory and practice of **market design / matching markets** (deferred-acceptance matching, with Shapley's theory). His applied landmarks include the National Resident Matching Program redesign, school-choice systems (Boston, NYC), and especially **kidney exchange** - algorithms enabling paired donations and donor chains, reported in the *New England Journal of Medicine* (2009), credited with 10,000+ kidney-exchange transplants worldwide.
+
+*Moral Economics* is the explicitly normative extension of that program: kidney exchange exists precisely **because** buying and selling kidneys is repugnant/illegal in most places, so market designers had to engineer a non-monetary matching market instead. The book generalizes that lesson - when a straightforward market is morally blocked, good design finds a workable, ethically defensible alternative rather than pretending the demand goes away.
+
+---
+
+## 5. Reception (early / pre-publication)
+
+- **Publishers Weekly (pre-pub review, ~March 2026):** Positive - calls it a "stimulating study of morally contested products and services," and concludes: *"Bringing balanced, evidence-based analyses to emotionally fraught debates, Roth reveals the power of markets to inspire solutions. This is trailblazing."*
+- **David Thesmar (economist, MIT Sloan)** publicly reviewed it, calling it "truly entertaining and thought-provoking… in the line of his reflections on repugnant markets. Highly recommend!" while noting "a few disagreements."
+- Coverage/interviews around launch: Stanford Report and SIEPR (the "Econ To Go" podcast, "Morality, money and markets"), Next Big Idea Club ("A Nobel Economist Explains Why Some Markets Make Us Uneasy"), Thought Economics interview, and The Ignited Life ("Why We Ban What We Fear").
+- A critical/contrasting essay ("Moral Economics vs. Economic Morality," Medium/Gödelian Letters, May 2026) pushes back on the framing - useful as a counterpoint.
+
+No major long-form newspaper book reviews were confirmed at the time of this report (book is very new).
+
+---
+
+## 6. Who it's for
+
+- General readers interested in the ethics of markets and "things money shouldn't buy" debates (a natural companion/counterpoint to Michael Sandel's *What Money Can't Buy*).
+- Economists, market/mechanism designers, and law-and-economics readers.
+- Policy people working on transplantation, drug policy, sex-work law, surrogacy, end-of-life care.
+- The a16z-crypto-adjacent audience (it was recommended by **Scott Duke Kominers**, Roth's former doctoral student) thinking about **when markets are allowed to exist, how to design them under contested norms, and how social norms emerge and collapse** - directly relevant to token markets, prediction markets, and other "is this even allowed to be a market?" questions.
+
+---
+
+## 7. Why a markets / mechanism-design reader might value it
+
+- It treats **repugnance as a design constraint**, not just a moral footnote - a concrete framework for "this transaction is blocked; what mechanism still clears the need?"
+- The kidney-exchange story is the canonical worked example of routing around a forbidden price mechanism with a matching mechanism - a transferable pattern.
+- Its "you can't ban a market, only relocate it" thesis is a sharp heuristic for anyone designing or regulating markets (including crypto/permissionless ones): prohibition reshapes, rather than eliminates, the market.
+- It pairs an empirical, comparative-policy method with mechanism design - bridging "what works" with "what's permitted."
+
+---
+
+## Open questions / uncertainties
+
+- **Exact page count** varies across listings (352 vs 368) - minor.
+- **Imprint name** appears as both "Basic Books" and "Basic Venture" (Hachette). Basic Venture appears to be the operative imprint; both trace to Hachette Book Group. Not a discrepancy in the book's identity.
+- **Subtitle variant:** one retailer used "What to Do When We Can't Agree on Right and Wrong." Treated as an earlier/alt marketing subtitle; the official subtitle is the "From Prostitution to Organ Sales…" form.
+- **Chapter-level structure and specific arguments per topic** were synthesized from publisher/marketing copy, interviews, and the PW review - I did **not** read the book's full text, so granular claims (exact case studies, data, country comparisons used) are described at the level of marketing/interview summaries, not verified against the text.
+- **Direct fetch of source pages was blocked** in this environment (network/domain restrictions on WebFetch); details below come from web-search result snippets of those same pages, which are consistent across multiple independent listings/outlets.
+- **a16z / Kominers recommendation context** was supplied in the task prompt; I did not independently re-verify the reading-list entry, though it is consistent with Kominers being Roth's former student and a market-design researcher.
+
+---
+
+## Sources
+
+- [Hachette Book Group - *Moral Economics* (publisher page)](https://www.hachettebookgroup.com/titles/alvin-e-roth/moral-economics/9781541702011/)
+- [Basic Venture (Hachette imprint) - *Moral Economics*](https://basic-venture.com/titles/alvin-e-roth/moral-economics/9781541702011/)
+- [Amazon - *Moral Economics* (hardcover, 9781541702011)](https://www.amazon.com/Moral-Economics-Prostitution-Controversial-Transactions/dp/1541702018)
+- [Amazon Kindle - *Moral Economics* (ebook)](https://www.amazon.com/Moral-Economics-Prostitution-Controversial-Transactions-ebook/dp/B0FPCB9Y2W)
+- [Google Books - *Moral Economics*](https://books.google.com/books/about/Moral_Economics.html?id=rb2CEQAAQBAJ)
+- [Publishers Weekly - listing/review (9781541702011)](https://www.publishersweekly.com/9781541702011)
+- [Market Design blog (Roth) - Pre-publication review of *Moral Economics* from Publishers Weekly](http://marketdesigner.blogspot.com/2026/03/pre-publication-review-of-moral.html)
+- [Stanford Report - "What happens when markets collide with morality?"](https://news.stanford.edu/stories/2026/05/al-roth-moral-economics)
+- [SIEPR - "Sex, drugs & surrogacy: When morality and markets clash"](https://siepr.stanford.edu/news/moral-economics-stanford-nobel-alvin-roth)
+- [SIEPR - "Econ To Go" podcast: Morality, money and markets](https://siepr.stanford.edu/av/Econ-To-Go-podcast-morality-money-markets-stanford-Nobel-Alvin-Roth)
+- [Thought Economics - Alvin Roth interview: Moral Economics, Repugnant Markets and the Road Ahead](https://thoughteconomics.com/alvin-roth/)
+- [Next Big Idea Club - "A Nobel Economist Explains Why Some Markets Make Us Uneasy"](https://nextbigideaclub.com/magazine/nobel-economist-explains-markets-make-us-uneasy-bookbite/60164/)
+- [The Ignited Life - "Why We Ban What We Fear: Alvin Roth on Moral Economics"](https://www.theignitedlife.net/p/alvin-roth-moral-economics-market-design)
+- [David Thesmar (X) - review of *Moral Economics*](https://x.com/dthesmar/status/2055004764195209619)
+- [Medium / Gödelian Letters - "Moral Economics vs. Economic Morality" (counterpoint)](https://medium.com/godelian-letters/moral-economics-vs-economic-morality-aa1fe7038af6)
+- [CEPR/VoxEU - "Understanding moral repugnance: the case of the US market for kidney transplantation" (background on Roth's repugnance work)](https://cepr.org/voxeu/columns/understanding-moral-repugnance-case-us-market-kidney-transplantation)
+- [Stanford Profiles - Alvin Roth](https://profiles.stanford.edu/alvin-roth)
+
+*Report compiled 2026-06-27. Book newly published (May 12, 2026); reception is still early.*
+</script></div>
+    <div class="panel"><script type="text/markdown"># Why Nations Fail: The Origins of Power, Prosperity, and Poverty
+
+**Authors:** Daron Acemoglu & James A. Robinson · **Publisher:** Crown Business (New York) · **Published:** March 20, 2012 · **Length:** ~529 pages, 15 chapters
+
+---
+
+## Bottom line
+
+- **What it is:** A sweeping, story-driven argument from two economists (2024 Nobel laureates) that *institutions* - inclusive vs. extractive - are the root cause of why some nations are rich and others poor, told through ~500 pages of historical case studies rather than equations.
+- **Who should read it:** Anyone thinking about governance design, incentives, and long-run power distribution - including crypto/protocol designers mapping "inclusive vs. extractive" onto decentralization. Read it for the *framework and examples*, not for rigorous proof.
+- **Time investment:** Substantial. ~500 accessible pages; budget 12–18 hours for a full read, or 1–2 hours for the first two chapters (Nogales + Korea) plus the closing chapter, which carry most of the thesis.
+
+---
+
+## Central thesis
+
+The book's core claim is that the prosperity or poverty of a nation is determined primarily by its **political and economic institutions**, not by geography, culture, or the ignorance of leaders. ([Wikipedia](https://en.wikipedia.org/wiki/Why_Nations_Fail), [LSE lecture slides](https://www.lse.ac.uk/assets/richmedia/channels/publicLecturesAndEvents/slides/20110608_1830_whyNationsFail_sl.pdf))
+
+Two institutional types anchor the argument:
+
+- **Inclusive institutions** distribute political power broadly and pluralistically, enforce the rule of law and secure property rights, and let talent and new ideas be rewarded. They sustain growth because they permit **creative destruction** - innovation that displaces incumbents. ([Wikipedia](https://en.wikipedia.org/wiki/Why_Nations_Fail))
+- **Extractive institutions** concentrate power in a narrow elite that extracts wealth from the rest of society. They can generate bursts of growth (by reallocating resources) but not sustained growth, because elites fear that creative destruction would erode their power. ([Wikipedia](https://en.wikipedia.org/wiki/Why_Nations_Fail))
+
+Inclusive economic and political institutions reinforce one another in a **virtuous circle**; extractive ones reinforce each other in a **vicious circle**. Institutions change at **critical junctures** (major disruptions such as the Black Death, the opening of Atlantic trade, or the Industrial Revolution), where small initial differences ("institutional drift") get amplified into divergent paths. ([LitCharts: Critical Juncture](https://www.litcharts.com/lit/why-nations-fail/terms/critical-juncture), [LitCharts: Virtuous/Vicious Circle](https://www.litcharts.com/lit/why-nations-fail/terms/vicious-circle))
+
+A recurring sub-claim: a degree of **political centralization** (a functioning state) is a precondition - without it you get disorder, not inclusion. ([Guardian review summarized via search](https://www.theguardian.com), [Wikipedia](https://en.wikipedia.org/wiki/Why_Nations_Fail))
+
+## Key case studies / examples
+
+- **Nogales, Arizona vs. Nogales, Sonora (Mexico):** The opening hook. One city, split by a border fence, same geography, climate, and ethnic makeup - but sharply different prosperity, which the authors attribute to the differing U.S. vs. Mexican institutions on each side. ([Wikipedia](https://en.wikipedia.org/wiki/Why_Nations_Fail))
+- **North vs. South Korea:** A natural experiment - one people partitioned in the early 1950s diverging into one of the world's richest and one of its poorest economies, isolating institutions from culture/geography. ([Wikipedia](https://en.wikipedia.org/wiki/Why_Nations_Fail))
+- **Colonial institutions / "reversal of fortune":** Places that were relatively rich in 1500 (dense populations to exploit) often had extractive colonial institutions imposed and are now relatively poor, and vice versa - drawn from the authors' academic work. ([Reversal of Fortune, MIT PDF](https://economics.mit.edu/sites/default/files/publications/reversal-of-fortune.pdf))
+- **The Glorious Revolution (1688) and the Industrial Revolution in Britain:** Treated as the pivotal move toward pluralism that enabled sustained innovation-led growth. ([Wikipedia](https://en.wikipedia.org/wiki/Why_Nations_Fail))
+- **Other illustrations:** Venice's decline (closing of elite economic access), the Roman Empire, Qing-dynasty China's isolationism, the Maya, the Congo, modern Botswana (a post-colonial success story), and the U.S. South before the Civil War. ([Univ. College Oxford](https://www.univ.ox.ac.uk/book/why-nations-fail/), [SuperSummary](https://www.supersummary.com/why-nations-fail/summary/))
+- **China:** Framed as **growth under extractive political institutions** - impressive, but (the authors argue) based on adopting existing technology and rapid investment rather than creative destruction, and therefore predicted to be unsustainable without political opening. ([LitCharts plot summary](https://www.litcharts.com/lit/why-nations-fail/summary))
+
+## Structure and argument
+
+15 chapters. The book opens with vivid paired comparisons (Nogales, Korea) to dismiss rival explanations, then builds the inclusive/extractive framework, traces it through world history at successive critical junctures, develops the virtuous/vicious circle dynamics, applies it to contemporary cases (China, the Arab world, Africa), and closes (Ch. 15) with implications for breaking out of poverty and skepticism about top-down foreign aid as a fix. It is written for a general audience - narrative history, not formal econometrics. ([LitCharts Chapter 15](https://www.litcharts.com/lit/why-nations-fail/chapter-15-understanding-prosperity-and-poverty), [Wikipedia](https://en.wikipedia.org/wiki/Why_Nations_Fail))
+
+## Authors' background and the 2024 Nobel (verified)
+
+- **Daron Acemoglu** - Turkish-American economist, MIT. **James A. Robinson** - British-American political scientist/economist, University of Chicago (Harris School). ([CEPR](https://cepr.org/voxeu/columns/institutions-and-prosperity-2024-nobel-laureates), [Robinson CV, UChicago](https://harris.uchicago.edu/files/2018-12/james_a._robinson_cv.pdf))
+- The book grows out of their influential academic papers with **Simon Johnson**, especially *"The Colonial Origins of Comparative Development"* (2001) and *"Reversal of Fortune"* (2002). ([SSRN: Colonial Origins](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=859644), [MIT PDF: Reversal of Fortune](https://economics.mit.edu/sites/default/files/publications/reversal-of-fortune.pdf))
+- **2024 Nobel - VERIFIED:** On **October 14, 2024**, the Royal Swedish Academy of Sciences awarded the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel to **Daron Acemoglu, Simon Johnson, and James A. Robinson** "**for studies of how institutions are formed and affect prosperity**." Acemoglu and Johnson are at MIT; Robinson is at the University of Chicago. ([Nobel Prize press release](https://www.nobelprize.org/prizes/economic-sciences/2024/press-release/), [MIT News](https://news.mit.edu/2024/mit-economists-daron-acemoglu-simon-johnson-nobel-prize-economics-1014), [CEPR](https://cepr.org/about/news/2024-nobel-prize-economics)) Note: the Nobel recognized their broader institutional research program, not this book specifically - but *Why Nations Fail* is its most popular distillation.
+
+## Major criticisms
+
+- **Jared Diamond (geography vs. institutions):** In *The New York Review of Books*, Diamond - author of *Guns, Germs, and Steel* - argued the authors overstate institutions and underweight geography (tropical disease, agricultural productivity, resource endowments). His bottom line: inclusive institutions are "an important factor," but "perhaps they provide 50 percent of the explanation for national differences in prosperity," not the whole story. He also faults them for not explaining the resource curse (why diamonds but not iron). ([NYRB: "What Makes Countries Rich or Poor?"](https://www.nybooks.com/articles/2012/06/07/what-makes-countries-rich-or-poor/); authors' reply and Diamond's rejoinder: [NYRB exchange](https://www.nybooks.com/articles/2012/08/16/why-nations-fail/))
+- **Bill Gates:** Called the book "a major disappointment," finding the analysis "vague and simplistic" - praising the readable historical stories but arguing the inclusive/extractive binary is too blunt to explain real cases (and objecting to its skepticism of foreign aid). The authors rebutted him in *Foreign Policy*. ([Gates Notes review](https://www.gatesnotes.com/Why-Nations-Fail), [Foreign Policy: "What Bill Gates Got Wrong"](https://foreignpolicy.com/2013/03/12/what-bill-gates-got-wrong-about-why-nations-fail/))
+- **Tautology / hindsight critique:** Reviewers argue the theory mainly "works in the rear-view mirror" - it explains outcomes after the fact (which critical junctures mattered, which institutions were inclusive) but predicts little in advance, risking circularity. ([Oxfam From Poverty to Power](https://frompoverty.oxfam.org.uk/why-why-nations-fail-fails-mostly-review-of-acemoglu-and-robinsons-big-new-book/), [Astral Codex Ten review](https://www.astralcodexten.com/p/your-book-review-why-nations-fail))
+- **Methodological critiques of the underlying papers:** Economists (e.g., Albouy; McArthur & Sachs; Easterly & Levine; Glaeser et al.) have challenged the settler-mortality instrument used in the colonial-origins work - arguing mortality data are unreliable and that the instrument may violate the exclusion restriction (disease affects income directly, not just via institutions). ([Reversal of Fortune NBER PDF](https://users.nber.org/~confer/2001/si2001/acemoglu.pdf), [academic critique survey](https://onlinelibrary.wiley.com/doi/full/10.1111/sjoe.12599))
+- **Policy vs. institutions / culture:** Critics contend good *policies* (not just institutions) can drive development, that some autocracies grow well, and that the book dismisses culture too quickly. ([Econlib contrarian take](https://www.econlib.org/archives/2013/11/why_nations_fai.html), ["Institutions Without Culture" critique](https://ideas.repec.org/p/ann/wpaper/9-2016.html))
+
+**Reception was nonetheless strongly positive overall.** Endorsed by Francis Fukuyama and Niall Ferguson; the *Financial Times* called it "intellectually rich... It should be widely read" (and it was an FT/Goldman Sachs Business Book of the Year finalist); *The Economist* named it a book of the year; Goodreads shows ~4.09/5 across ~65,000 ratings. ([Five Books](https://fivebooks.com/book/why-nations-fail-by-daron-acemoglu-and-james-robinson/), [Goodreads](https://www.goodreads.com/book/show/12158480-why-nations-fail))
+
+## Why a governance / crypto reader might value it
+
+The book gives a rigorous-sounding vocabulary for an idea crypto cares about deeply: that **how power and economic access are distributed** - not technology or resources - determines whether a system sustains innovation. Specific hooks for the a16z/Kira Song framing:
+
+- **Inclusive vs. extractive as a design lens:** Decentralized protocols can be read as an attempt to *hard-code inclusive institutions* - open access, credibly neutral rules, property rights (keys/ownership) enforced without a discretionary elite. The book's argument that inclusive institutions sustain "creative destruction" maps onto permissionless innovation and forkability.
+- **Centralization as a precondition, not the enemy:** The authors stress that *some* centralization (rule of law, a functioning state) is needed before inclusion produces growth - a useful tension for protocol governance debates (minimal viable coordination vs. capture).
+- **Vicious/virtuous circles and capture:** The "iron law of oligarchy" and extractive-elite dynamics speak directly to token-governance plutocracy, validator/miner concentration, and how nominally open systems can be captured.
+- **Caveat for this reader:** The book is descriptive history, not a governance how-to, and its critics (above) warn against treating "inclusive = good, extractive = bad" as a precise, predictive rule. Use it for framing and intuition, not as an engineering spec.
+
+---
+
+## Open questions / uncertainties
+
+- **Page count varies by edition.** Multiple academic citations list the Crown Business 2012 edition at **529 pages**; other editions/formats differ. Treat ~500 as the working figure. ([academic citation](https://www.academia.edu/50508018/), [Cambridge Core review](https://www.cambridge.org/core/journals/the-economic-and-labour-relations-review/article/abs/daron-acemoglu-james-a-robinson-why-nations-fail-the-origins-of-power-prosperity-and-poverty-crown-publishers-new-york-2012529-pp-9780307719218))
+- **Publisher imprint naming:** Sources variously say "Crown Business" and "Crown Publishers" (both Crown/Penguin Random House imprints); U.S. hardcover ISBN 978-0-307-71921-8. The exact imprint label could not be fully reconciled across sources.
+- **Diamond's "50 percent" figure** is his own rhetorical estimate of how much institutions explain, not a precise empirical result - quoted as characterization, not measurement.
+- **Verification limits:** WebFetch was blocked for several primary domains (Wikipedia, nobelprize.org, gatesnotes.com, nybooks.com, mit.edu), so the Nobel citation wording, Gates quotes, and Diamond quotes here are drawn from search-result excerpts of those same primary pages. The wording is consistent across multiple independent sources, but exact punctuation of direct quotes could not be confirmed against the rendered original pages in this session.
+
+---
+
+## Sources
+
+- [Why Nations Fail - Wikipedia](https://en.wikipedia.org/wiki/Why_Nations_Fail)
+- [Nobel Prize in Economic Sciences 2024 - Press release (nobelprize.org)](https://www.nobelprize.org/prizes/economic-sciences/2024/press-release/)
+- [MIT News - Acemoglu & Johnson share 2024 Nobel](https://news.mit.edu/2024/mit-economists-daron-acemoglu-simon-johnson-nobel-prize-economics-1014)
+- [CEPR - 2024 Nobel announcement](https://cepr.org/about/news/2024-nobel-prize-economics) · [CEPR VoxEU - Institutions and prosperity](https://cepr.org/voxeu/columns/institutions-and-prosperity-2024-nobel-laureates)
+- [Jared Diamond, "What Makes Countries Rich or Poor?" - NYRB](https://www.nybooks.com/articles/2012/06/07/what-makes-countries-rich-or-poor/) · [Acemoglu/Robinson–Diamond exchange - NYRB](https://www.nybooks.com/articles/2012/08/16/why-nations-fail/)
+- [Bill Gates, "Good ideas, but missing analysis" - Gates Notes](https://www.gatesnotes.com/Why-Nations-Fail) · [Foreign Policy - "What Bill Gates Got Wrong"](https://foreignpolicy.com/2013/03/12/what-bill-gates-got-wrong-about-why-nations-fail/)
+- [Acemoglu, Johnson & Robinson, "The Colonial Origins of Comparative Development" (2001) - SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=859644) · ["Reversal of Fortune" (2002) - MIT PDF](https://economics.mit.edu/sites/default/files/publications/reversal-of-fortune.pdf)
+- [James A. Robinson CV - University of Chicago](https://harris.uchicago.edu/files/2018-12/james_a._robinson_cv.pdf)
+- [LitCharts - Critical Juncture](https://www.litcharts.com/lit/why-nations-fail/terms/critical-juncture), [Virtuous/Vicious Circle](https://www.litcharts.com/lit/why-nations-fail/terms/vicious-circle), [Chapter 15](https://www.litcharts.com/lit/why-nations-fail/chapter-15-understanding-prosperity-and-poverty), [Plot summary](https://www.litcharts.com/lit/why-nations-fail/summary)
+- [SuperSummary - Why Nations Fail summary](https://www.supersummary.com/why-nations-fail/summary/) · [University College Oxford](https://www.univ.ox.ac.uk/book/why-nations-fail/)
+- [Oxfam From Poverty to Power - critical review](https://frompoverty.oxfam.org.uk/why-why-nations-fail-fails-mostly-review-of-acemoglu-and-robinsons-big-new-book/) · [Astral Codex Ten - book review](https://www.astralcodexten.com/p/your-book-review-why-nations-fail) · [Econlib - A Contrarian Take](https://www.econlib.org/archives/2013/11/why_nations_fai.html)
+- [Scandinavian Journal of Economics - survey of AJR contributions/critiques](https://onlinelibrary.wiley.com/doi/full/10.1111/sjoe.12599) · ["Institutions Without Culture" critique](https://ideas.repec.org/p/ann/wpaper/9-2016.html)
+- [Five Books - endorsements & reception](https://fivebooks.com/book/why-nations-fail-by-daron-acemoglu-and-james-robinson/) · [Goodreads - ratings](https://www.goodreads.com/book/show/12158480-why-nations-fail)
+- [Academic citation confirming Crown Business, 2012, 529 pp.](https://www.academia.edu/50508018/) · [Cambridge Core review (ISBN/page count)](https://www.cambridge.org/core/journals/the-economic-and-labour-relations-review/article/abs/daron-acemoglu-james-a-robinson-why-nations-fail-the-origins-of-power-prosperity-and-poverty-crown-publishers-new-york-2012529-pp-9780307719218)
+</script></div>
+    <div class="panel"><script type="text/markdown"># An Engine, Not a Camera: How Financial Models Shape Markets - Donald MacKenzie (2006)
+
+## Bottom line
+- **What it is:** A rigorously documented work of economic sociology / science-and-technology studies arguing that finance theory (Black-Scholes, CAPM, efficient markets) did not merely *describe* markets - it *performed* them, becoming embedded in the plumbing, language, and legitimacy of modern finance.
+- **Who should read it:** Markets/TradFi/crypto people who want the deep intellectual case for "models reshape the thing they model," and who can tolerate a scholarly (not pop-business) treatment. Not a quick airport read.
+- **Time investment:** High. ~370–410 pages of dense but well-written academic prose; budget real reading time. Skimmable by chapter if you only want the performativity argument and the 1987/LTCM cases.
+
+---
+
+## Core concept: performativity ("an engine, not a camera")
+
+MacKenzie's central claim is that economic models are, in Milton Friedman's phrase that gives the book its title, **"an engine of inquiry, not a camera to reproduce empirical facts."** Models don't passively photograph a pre-existing market; they are an active engine that helps *bring markets into being* and changes how they behave. ([MIT Press blurb via search](https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/); [Google Books](https://books.google.com/books/about/An_Engine_Not_a_Camera.html?id=M3x5tvAwzrQC))
+
+He argues finance theory became incorporated into market infrastructure in **three ways** ([EJPE review](https://ejpe.org/journal/article/view/11/8); [Kieran Healy, "The Scottish Verdict"](https://kieranhealy.org/publications/rev-mackenzie/)):
+1. **Technically** - models embedded in trading/pricing software, risk management, market organization, and regulation.
+2. **Linguistically** - originally theoretical terms ("beta," "volatility," "implied volatility") became the everyday jargon of practitioners.
+3. **Legitimizing** - financial economists helped make options and derivatives trading respectable at a time when it was viewed as little better than gambling.
+
+### Degrees of performativity (the theoretical machinery)
+MacKenzie distinguishes several grades of performativity. The strongest and most contested is **"Barnesian" performativity** (named for sociologist Barry Barnes, of the Edinburgh "strong programme" in sociology of scientific knowledge): the use of a model actively alters economic processes *in the direction of greater conformity to the model* - i.e., the theory helps make itself true. He also names the inverse, **"counterperformativity"**: use of a model that undermines its own assumptions and helps make itself *less* true. ([Healy review](https://kieranhealy.org/publications/rev-mackenzie/); [orgtheory discussion](https://orgtheory.wordpress.com/2007/01/08/mackenzie-redux/))
+
+MacKenzie is careful to bound the claim: performativity does *not* mean any arbitrary formula can will itself true. Formulas that lead users to lose money or that open arbitrage opportunities tend to stop holding sway - there is a reality check. ([Search synthesis of reviews](https://www.researchgate.net/publication/237519544_Review_of_Donald_MacKenzie's_An_engine_not_a_camera_how_financial_models_shape_the_markets))
+
+---
+
+## Key cases
+
+- **Black-Scholes-Merton option pricing** - the book's strongest evidence. MacKenzie (building on his 2003 paper with Yuval Millo) traces how the formula began as a *description* of option prices and, as it was inscribed into traders' sheets, routines, and software, increasingly *enacted* the very price patterns it predicted - until the 1987 crash. ([Search synthesis](https://www.amazon.com/Engine-Not-Camera-Financial-Technology/dp/0262633671); [EJPE review](https://ejpe.org/journal/article/view/11/8))
+- **The 1987 crash ("Black Monday")** and the **1998 collapse of Long-Term Capital Management (LTCM)** - MacKenzie reads both as cases of **counterperformativity**, where widespread reliance on similar models and strategies (e.g., portfolio insurance; convergence arbitrage) contributed to the very dislocations the models assumed away. On LTCM he rejects several popular explanations; reviewers single out his "superportfolio" account of imitative crowding as among his more debatable suggestions. ([magic-maths-money review](http://magic-maths-money.blogspot.com/2011/08/engine-not-camera-how-financial-models.html); [search synthesis](https://www.researchgate.net/publication/237519544_Review_of_Donald_MacKenzie's_An_engine_not_a_camera_how_financial_models_shape_the_markets))
+- **History of financial derivatives and finance theory** - the rise of the Chicago options exchanges, the Capital Asset Pricing Model, efficient-market theory, and the Nobel-winning theorists (Black, Scholes, Merton, and others), told as intertwined intellectual and institutional history. ([Google Books](https://books.google.com/books/about/An_Engine_Not_a_Camera.html?id=M3x5tvAwzrQC))
+
+---
+
+## Structure and argument
+
+The book is a roughly chronological history-of-ideas plus sociological analysis: it builds the empirical history of postwar financial economics (CAPM, efficient markets, Black-Scholes-Merton, derivatives exchanges), then uses it to develop and test the performativity thesis, culminating in the 1987 crash and LTCM as stress tests (counterperformativity). It draws heavily on archival work and on MacKenzie's own oral-history interviews with the economists and practitioners involved. Specific chapter titles/order could not be fully verified from the sources consulted (the full table of contents was not directly retrieved). ([EJPE review](https://ejpe.org/journal/article/view/11/8); [uberty full-text PDF](https://uberty.org/wp-content/uploads/2015/02/MacKenzie-An-Engine-Not-a-Camera.pdf))
+
+---
+
+## Author background
+
+**Donald Angus MacKenzie** (b. 3 May 1950) is Professor of Sociology at the **University of Edinburgh**, where he has taught since 1975 (Professor since 1992; BSc 1972 and PhD 1978, both Edinburgh). He is a leading figure in the **sociology of science and technology (STS)**. Earlier books include *Inventing Accuracy* (1990, on nuclear-missile guidance), *Knowing Machines* (1996), and *Mechanizing Proof* (2001), all MIT Press. Honors: Fellow of the Royal Society of Edinburgh (2001), Fellow of the British Academy (2004), and the Society for Social Studies of Science's **Bernal Prize** (2005). ([Wikipedia](https://en.wikipedia.org/wiki/Donald_MacKenzie_(sociologist)); [Edinburgh SPS staff page](https://www.sps.ed.ac.uk/staff/donald-mackenzie))
+
+---
+
+## Difficulty level (honest take)
+
+This is a **scholarly book**, not popular finance writing. It originates in science-and-technology studies and economic sociology, and engages explicitly with the "strong programme" in the sociology of scientific knowledge. Reviewers consistently call it "incisive, well-written, and accessible" *for what it is*, and praise MacKenzie's genuine command of the technical finance - but also warn that a reader unfamiliar with the intellectual history of the "strong programme" may pass over the core concept of **Barnesian performativity** without grasping it. Expect some equations and a lot of intellectual history. Accessible to a motivated general reader; demanding for a casual one. ([Healy review](https://kieranhealy.org/publications/rev-mackenzie/); [orgtheory](https://orgtheory.wordpress.com/2007/01/08/mackenzie-redux/))
+
+---
+
+## Length, publisher, publication
+
+- **Publisher:** The MIT Press, in the *Inside Technology* series. ([Amazon listing](https://www.amazon.com/Engine-Not-Camera-Financial-Technology/dp/0262633671))
+- **Publication date:** First published **April 14, 2006**. ([Goodreads](https://www.goodreads.com/book/show/134474.An_Engine_Not_a_Camera))
+- **Length:** **377 pp.** per the EJPE review header and Goodreads (some listings, e.g., the AJS review, cite 408 pp. including front/back matter). ([EJPE](https://ejpe.org/journal/article/view/11/8); [Goodreads](https://www.goodreads.com/book/show/134474.An_Engine_Not_a_Camera); [AJS review listing](https://www.journals.uchicago.edu/doi/10.1086/518053))
+- **Paperback ISBN:** 9780262633673 / 0262633671. ([Amazon](https://www.amazon.com/Engine-Not-Camera-Financial-Technology/dp/0262633671))
+
+---
+
+## Reception in economic sociology
+
+Widely regarded as a landmark and a foundational text of the **"performativity" turn** in economic sociology and the social studies of finance; it is among MacKenzie's most-cited works and helped define the field. Portions of the work won the **Viviana A. Zelizer Prize** in economic sociology from the American Sociological Association. It was reviewed in major outlets including the *American Journal of Sociology*, the *European Journal for the Philosophy of Economics*, and *Socio-Economic Review*. ([search synthesis](https://www.amazon.com/Engine-Not-Camera-Financial-Technology/dp/0262633671); [AJS](https://www.journals.uchicago.edu/doi/10.1086/518053); [Socio-Economic Review](https://academic.oup.com/ser/article/8/2/399/1631320)) On Goodreads it holds **4.30/5 across 171 ratings** (15 written reviews) - a small but very positive lay sample. ([Goodreads](https://www.goodreads.com/book/show/134474.An_Engine_Not_a_Camera))
+
+**Critiques.** The most common pushback is that the *strong* (Barnesian) version of performativity - that economics "creates the phenomena it describes" - is asserted more than fully proven, and that some readers will miss the concept entirely. Kieran Healy's review essay "The Scottish Verdict" is notably *ambivalent*: he judges the evidence for performativity to be about as good as the case for orthodox financial economics, without claiming it is overwhelming. The LTCM "superportfolio" mechanism is flagged as one of the weaker arguments. ([Healy](https://kieranhealy.org/publications/rev-mackenzie/); [orgtheory](https://orgtheory.wordpress.com/2007/01/08/mackenzie-redux/); [search synthesis](https://www.researchgate.net/publication/237519544_Review_of_Donald_MacKenzie's_An_engine_not_a_camera_how_financial_models_shape_the_markets))
+
+---
+
+## Why a markets / crypto / TradFi reader might value it
+
+- It is the canonical, evidence-based statement of a phenomenon crypto and quant readers feel intuitively: **when a model is adopted widely enough, it reshapes the market and can become self-fulfilling - or self-defeating.** That is directly relevant to algorithmic/automated trading, oracle-fed pricing, stablecoin pegs, AMM curves, and "reflexive" feedback in DeFi.
+- **Counterperformativity** (1987, LTCM) is a clean historical template for model-driven crowding and cascade risk - useful for thinking about correlated liquidations, basis-trade unwinds, and homogeneous strategies.
+- It supplies the intellectual lineage behind the a16z framing ("what happens when theories stop describing the world and start changing it"), and shows the same dynamic playing out across a prior wave of financial innovation (derivatives) - a useful analogy for crypto-as-new-asset-class and its legitimation struggle.
+- Caveat: it is history-and-theory, not a how-to; readers wanting trading tactics or crypto-specific analysis will not find them here.
+
+---
+
+## Open questions / uncertainties
+- **Exact page count and chapter titles:** Listings differ (377 pp. vs. 408 pp., the latter likely counting all front/back matter). The detailed table of contents could not be directly verified - `mitpress.mit.edu` and the review PDFs were not fully retrievable in this session (access-blocked); page/structure claims rest on the EJPE header, Goodreads, and the AJS listing.
+- **Zelizer Prize:** Reported via aggregated search of the publisher blurb as awarded for "portions of" the book; the specific year was not independently confirmed here.
+- **MIT Press description wording:** The publisher page (mitpress.mit.edu) returned "Access Denied" to direct fetching; its blurb is quoted via search-engine snippets and the mirrored Google Books / Penguin Random House Canada listings, not the live page.
+
+---
+
+## Sources
+- MIT Press - *An Engine, Not a Camera* (publisher page; accessed via search snippets): https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/
+- MIT Press / Books Gateway (direct.mit.edu): https://direct.mit.edu/books/monograph/2002/An-Engine-Not-a-CameraHow-Financial-Models-Shape
+- Google Books listing: https://books.google.com/books/about/An_Engine_Not_a_Camera.html?id=M3x5tvAwzrQC
+- Amazon (Inside Technology series, ISBN): https://www.amazon.com/Engine-Not-Camera-Financial-Technology/dp/0262633671
+- Goodreads (rating 4.30/171, 377 pp., first published April 14, 2006): https://www.goodreads.com/book/show/134474.An_Engine_Not_a_Camera
+- EJPE review (377 pp.; three modes of incorporation): https://ejpe.org/journal/article/view/11/8
+- Kieran Healy, "The Scottish Verdict" (review essay): https://kieranhealy.org/publications/rev-mackenzie/ and PDF https://kieranhealy.org/files/papers/scottishverdict.pdf
+- orgtheory.net discussion ("mackenzie redux"): https://orgtheory.wordpress.com/2007/01/08/mackenzie-redux/
+- *American Journal of Sociology* review (vol. 112, no. 5; lists 408 pp.): https://www.journals.uchicago.edu/doi/10.1086/518053
+- *Socio-Economic Review* review: https://academic.oup.com/ser/article/8/2/399/1631320
+- ResearchGate review record: https://www.researchgate.net/publication/237519544_Review_of_Donald_MacKenzie's_An_engine_not_a_camera_how_financial_models_shape_the_markets
+- Magic, Maths and Money review (LTCM/counterperformativity): http://magic-maths-money.blogspot.com/2011/08/engine-not-camera-how-financial-models.html
+- Donald MacKenzie - Wikipedia (biography): https://en.wikipedia.org/wiki/Donald_MacKenzie_(sociologist)
+- University of Edinburgh, School of Social and Political Science staff page: https://www.sps.ed.ac.uk/staff/donald-mackenzie
+- Full text PDF (uberty mirror): https://uberty.org/wp-content/uploads/2015/02/MacKenzie-An-Engine-Not-a-Camera.pdf
+</script></div>
+    <div class="panel"><script type="text/markdown"># A Man for All Markets - Edward O. Thorp (2017)
+
+## Bottom line
+- **What it is:** A first-person memoir by the mathematician who proved you can beat blackjack with card counting (*Beat the Dealer*), built the first wearable computer with Claude Shannon to beat roulette, then became one of the founding figures of quantitative investing - running a hedge fund (Princeton/Newport Partners) that reportedly never had a losing year over its ~19–22 year life.
+- **Who should read it:** Quants, traders, crypto/DeFi builders, and anyone drawn to applying math, probability, and edge-finding to "beatable" systems - plus risk-management discipline (Kelly criterion, avoiding ruin).
+- **Time investment:** ~416 pages / a moderate weekend read; engaging memoir prose, light on equations. Skim-friendly if you only want the Vegas, Shannon, Buffett, and Madoff set pieces.
+
+---
+
+## Life arc (verified)
+- **Born** Chicago, 1932; raised in southern California. **UCLA:** BA physics (1953), MA (1955), **PhD in mathematics (1958)**. [Wikipedia; Society for Science]
+- **Academia:** MIT (1959–1961), New Mexico State (1961–1965), then **UC Irvine** professor of mathematics (1965–1977). [Wikipedia]
+- **Blackjack / card counting:** Authored ***Beat the Dealer*** (1962), the book that mathematically proved the house edge in blackjack could be overcome by counting cards - it launched a gambling renaissance and forced casinos to change rules. [Wikipedia; publisher description via search]
+- **Roulette / wearable computer with Claude Shannon:** Thorp conceived a roulette-prediction device and built it jointly with information-theory founder **Claude Shannon** in 1960–61 at Shannon's home workshop in Winchester, MA. The cigarette-pack-sized device (~12 transistors, toe-operated micro-switches) was tested in **Las Vegas in August 1961** and gave a ~44% edge; they abandoned live use for fear of being caught. It is widely credited as the first wearable computer. [MIT Museum; Thorp's own paper "The Invention of the First Wearable Computer"; Engadget; Winton]
+- **Wall Street / quant investing:** Co-wrote ***Beat the Market*** (1967), then turned mathematical/statistical methods on markets. Co-founded the hedge fund that became **Princeton/Newport Partners** (1969, with stockbroker Jay Regan), pioneering convertible-bond and market-neutral/statistical arbitrage. He is routinely called the **"father of quantitative investing."** [Wikipedia; Princeton Newport Partners (Wikipedia)]
+- **Track record:** Princeton/Newport reportedly returned roughly **15–20% annually** for ~two decades **with no losing year** (sources cite ~15.1% net / 19.1% gross over 19 years; "227 winning months, 3 losing months none worse than 1%"). The fund wound down in **1988**. He later ran Ridgeline Partners. [ValueWalk; OpenBB; mastersinvest]
+
+## Themes
+- **Applying math/probability/logic to beat "rigged" or inefficient systems** - the throughline from casino to Wall Street: find a quantifiable edge, then exploit it systematically.
+- **Risk management and survival:** heavy emphasis on the **Kelly criterion** for bet/position sizing - bigger edge → bigger bet, smaller risk → bigger bet, but always avoid total loss. Taleb's foreword crystallizes this: "in order to succeed you must first survive… avoid ruin at all costs." [Taleb foreword; 25iq; Macro Ops]
+- **Ethics and independent thinking:** skepticism of authority and "experts," doing your own homework, and exposing fraud/inefficiency rather than going along with the crowd.
+
+## Notable stories and figures (all verified)
+- **Claude Shannon (roulette computer):** Verified - see Life arc above. Their wives (Vivian Thorp, Betty Shannon) accompanied the Vegas test. [MIT Museum; Engadget]
+- **Warren Buffett (1968 bridge meeting):** Verified. UC Irvine graduate dean **Ralph Gerard**, an early Buffett Partnership investor, was winding down with Buffett and needed a new manager; he had Buffett vet Thorp over an afternoon of **bridge** in 1968. Thorp came away predicting Buffett would become **the richest man in America**. [Scribd "Bridge with Buffett"; valueandopportunity review; Quantitative Value excerpt]
+- **Bernie Madoff (early fraud detection):** Verified. Hired ~**1991** to do due diligence on a client's hedge-fund holdings, Thorp concluded **Madoff was a fraud ~17 years before the 2008 collapse**. Red flags: implausibly smooth/consistent returns with virtually no losing months, and trades that his market contacts confirmed never actually occurred (reported volume exceeded the entire market's). He was barred from visiting Madoff's operation by Peter Madoff. [Thorp book excerpt via trendfollowing.com; Acquirer's Multiple; csinvesting]
+
+## Author background
+Edward O. Thorp (b. 1932): mathematician, blackjack theorist, hedge-fund manager, and author. Known as the "father of card counting" and a founding figure of quantitative finance. His net worth/earnings from markets are often cited in the hundreds of millions. [Wikipedia; Society for Science]
+
+## Tone & readability
+A genuine **memoir** told in the first person (Thorp also narrates the audiobook). Reviewers describe it as fast-moving and accessible - Taleb's foreword says it "at times reads more like a James Bond thriller than the memoir of a mathematician." Math is present as ideas/intuition rather than dense formulas, so it's approachable for general readers while still substantive for quants. [Taleb foreword; Kirkus; AudioFile]
+
+## Publication facts
+- **Publisher:** Random House (US hardcover, 2017); paperback via Random House Trade Paperbacks; UK edition by Oneworld. [Amazon; Penguin Random House listing via search]
+- **Publication date:** **January 24, 2017** (US hardcover). [Amazon/retailer listings]
+- **Length:** ~416 pages. [retailer listings]
+- **ISBNs:** 9781400067961 (hardcover), 9780812979909 (paperback).
+
+## Reception
+- **Foreword by Nassim Nicholas Taleb** - verified. Taleb calls Thorp "the first modern mathematician who successfully used quantitative methods for risk taking" and the **"dean"** of the quant cohort that followed; he frames the book around survival/avoiding ruin as the core of real-world rationality. [Taleb, "Foreword to Ed Thorp's Memoirs," nassimtaleb.org / Medium]
+- **Wall Street Journal:** praised it - Thorp "delightfully recounts his progress from college teacher to gambler to hedge-fund manager," teaching "important lessons about the functioning of markets and the logic of investment." [quoted across retailer/publisher copy]
+- **Kirkus:** called Thorp's "in-the-trenches account of gaming the system(s) a pleasure - and instructive, too." [Kirkus]
+- **Library Journal:** "Illuminating for the mathematically inclined, and cautionary for would-be gamblers and day traders."
+- **Financial Analysts Journal / CFA Institute:** a substantive professional review praising his problem-solving and risk analysis. [rpc.cfainstitute.org]
+- **Reader reception:** Strongly positive on Goodreads (Thorp's works average ~4.2; hundreds of reviews for this title). Exact per-title average not confirmed from search snippet. [Goodreads]
+
+## Why a quant / crypto / builder reader might value it
+- It is a **case study in finding and sizing an edge** in adversarial, "beatable" systems - directly analogous to market-making, arbitrage, and MEV/DeFi mindsets.
+- **Risk-of-ruin discipline (Kelly):** position sizing to survive volatility and never blow up - a lesson crypto traders relearn the hard way.
+- **First-principles, build-your-own-tools ethos:** Thorp built hardware (wearable computer) and quantitative models himself rather than trusting received wisdom - a builder's biography.
+- **Fraud detection / skepticism:** the Madoff episode is a masterclass in due diligence and recognizing "too smooth to be true" returns.
+
+---
+
+## Open questions / uncertainties
+- **Exact Goodreads average rating for this specific title** could not be confirmed from search results (the 4.23 figure is Thorp's collective author average across all books). The book is clearly well-rated, but treat the precise number as unverified.
+- **Page count (416)** and **publisher imprint details** come from retailer/aggregator listings; the publisher's own page (penguinrandomhouse.com) and the author's site were not directly reachable in this environment (WebFetch blocked), so these rest on secondary listings rather than the primary publisher page.
+- **A formal New York Times Book Review** of this title was not located; the WSJ review is well-attested, but I could not verify a dedicated NYT review (could not verify).
+- **Princeton/Newport return figures** vary by source (≈15% net vs ≈20% headline); the "no losing year" claim is consistently reported but exact span (19 vs 22 years) differs between accounts.
+- The Madoff due-diligence **year (~1991)** and the "17 years early" framing come from Thorp's own account and secondary write-ups; consistent across sources but ultimately self-reported.
+
+## Sources
+- [Edward O. Thorp - Wikipedia](https://en.wikipedia.org/wiki/Edward_O._Thorp)
+- [Princeton Newport Partners - Wikipedia](https://en.wikipedia.org/wiki/Princeton_Newport_Partners)
+- [A Man for All Markets - Amazon (hardcover, 9781400067961)](https://www.amazon.com/Man-All-Markets-Street-Dealer/dp/1400067960)
+- [A Man for All Markets - Penguin Random House](https://www.penguinrandomhouse.com/books/178551/a-man-for-all-markets-by-edward-o-thorp/)
+- [A Man for All Markets - author's site, edwardothorp.com](https://www.edwardothorp.com/books/a-man-for-all-markets/)
+- [Nassim Taleb, "Foreword to Ed Thorp's Memoirs (A Man for All Markets)" - Medium](https://nntaleb.medium.com/foreword-to-ed-thorps-memoirs-a-man-for-all-markets-6beba78cd2b) / [mirror on nassimtaleb.org](https://nassimtaleb.org/2016/10/foreword-ed-thorps-memoirs-man-markets/)
+- [Wearable roulette computer - MIT Museum](https://mitmuseum.mit.edu/collections/object/2007.030.014)
+- [Edward O. Thorp, "The Invention of the First Wearable Computer" (PDF)](https://www.cs.virginia.edu/~evans/thorp.pdf)
+- [Engadget - Edward Thorp and the wearable computer that beat Vegas](https://www.engadget.com/2013-09-18-edward-thorp-father-of-wearable-computing.html)
+- [Winton - Ed Thorp, Claude Shannon and the world's first wearable computer](https://www.winton.com/news/ed-thorp-claude-shannon-and-the-worlds-first-wearable-computer)
+- ["Bridge with Buffett: A Mathematician on Wall Street" (Scribd)](https://www.scribd.com/doc/121409477/121343184-Bridge-With-Buffett-a-Mathematician-on-Wall-Street)
+- [value and opportunity - Book review: "A Man for all Markets"](https://valueandopportunity.com/2017/02/16/book-review-a-man-for-all-markets-edward-o-thorp/)
+- [Thorp book excerpt on the Madoff scheme - Trend Following](https://www.trendfollowing.com/2016/08/08/encounters-madoffs-scheme-swindles/)
+- [The Acquirer's Multiple - Ed Thorp Uncovered Madoff's Fraud](https://acquirersmultiple.com/2022/07/ed-thorp-uncovered-madoffs-fraud/)
+- [ValueWalk - Dr. Thorp Delivered 20% Returns for Over 30 Years](https://www.valuewalk.com/2017/08/dr-thorp/)
+- [Investment Masters Class - Learning from Ed Thorp](http://mastersinvest.com/newblog/2017/7/21/learning-from-ed-thorp)
+- [25iq - A Dozen Lessons on Investing from Ed Thorp](https://25iq.com/2017/07/22/a-dozen-lessons-on-investing-from-ed-thorp/)
+- [Financial Analysts Journal / CFA Institute review](https://rpc.cfainstitute.org/research/financial-analysts-journal/2017/a-man-for-all-markets)
+- [Kirkus Reviews - A Man for All Markets](https://www.kirkusreviews.com/book-reviews/edward-o-thorp/a-man-for-all-markets/)
+- [Tim Ferriss Show #596 - Ed Thorp interview](https://tim.blog/2022/05/24/ed-thorp/)
+- [Goodreads - A Man for All Markets](https://www.goodreads.com/book/show/25733505-a-man-for-all-markets)
+</script></div>
+    <div class="panel"><script type="text/markdown"># The Super Gap (초격차, Cho-gyeok-cha) - Kwon Oh-hyun
+
+## Bottom line
+- **What it is:** A management/leadership book by Kwon Oh-hyun (권오현), the former Vice Chairman and CEO of Samsung Electronics who ran its semiconductor business - distilling 33 years at Samsung into four pillars: **leader, organization, strategy, talent**. The title concept "초격차 / super gap" means building a lead so wide that rivals can't even conceive of competing.
+- **Who should read it:** Operators, managers, and executives interested in how Samsung's semiconductor dominance was actually run - especially leaders thinking about org design, talent, and "innovation vs. improvement." Less useful as a startup go-to-market manual; it's large-company operating wisdom.
+- **Time / access:** ~300+ pages, written to read easily. **CRITICAL CAVEAT: there is no verified official English translation.** The book is Korean-only (the Amazon listing is the Korean-language edition). English speakers face a hard reading barrier unless they read Korean or use machine translation.
+
+---
+
+## Author - confirmed
+**Kwon Oh-hyun (권오현; English-romanized "Oh-Hyun Kwon"), former Vice Chairman & CEO of Samsung Electronics.** Verified details:
+- Joined Samsung's semiconductor business in **1985** (US Samsung semiconductor research lab). Led development of the industry's first **64Mb DRAM in 1992**. ([web search of Wikipedia/Samsung Newsroom](https://en.wikipedia.org/wiki/Kwon_Oh-hyun))
+- Promoted to **Vice Chairman of Samsung Electronics in December 2011**; announced in **October 2017** he would step down as CEO (effective March 2018), citing an "unprecedented crisis." ([Samsung Global Newsroom](https://news.samsung.com/global/vice-chairman-oh-hyun-kwon-to-resign-as-ceo-of-samsung-electronics))
+- Named to **TIME 100** (2013) and ranked highly on Harvard Business Review's best-performing-CEOs list. Under his leadership Samsung's semiconductor division reached record results; a Korean source states Samsung **overtook Intel to become the world's #1 semiconductor company in 2017**. ([Aladin / Korean retailer summaries](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=166283261))
+- The book was **organized/co-written with Kim Sang-geun (김상근)**, who structured Kwon's recollections into the text. (listed as co-author on retailer pages, e.g. [Amazon Korean-edition listing](https://www.amazon.com/dp/8965706904))
+
+## The "super gap" (초격차) concept
+초격차 ("cho-gyeok-cha," literally "ultra-gap") is described as **refusing to be compared to any competitor** - raising the "격 (gyeok / level, class)" so high across *every* dimension that no one can challenge you. Crucially it is framed as more than a technology lead: it spans **technology, organization, systems, processes, talent placement, and culture.** It originated as a real Samsung strategy Kwon implemented to break out of a loss-making period in the semiconductor business. ([Korean retailer/press summaries](https://www.smedaily.co.kr/news/articleView.html?idxno=242005); [SME Daily](https://www.smedaily.co.kr/news/articleView.html?idxno=242005))
+
+## Structure & the four pillars
+The book is built around **four chapters** matching four keywords (sources consistently confirm this structure): ([Korean retailer/press summaries](https://www.smedaily.co.kr/news/articleView.html?idxno=242005))
+
+1. **Leader (리더):** Argues that the ideal leader is the **"smart but lazy" type** - one who delegates and prioritizes rather than micromanaging. (Notably, press bios say Kwon himself started as a detail-obsessed micromanager and learned to grant autonomy as he rose.)
+2. **Organization (조직):** Highly practical - redrawing the org chart from scratch, the craft of naming departments/teams, talent placement, and building performance-and-reward systems.
+3. **Strategy (전략):** The substance of the "super gap" strategy - improvement vs. innovation, selection and concentration, and strategy for new businesses or turning around loss-making situations.
+4. **Talent (인재):** Finding and cultivating talent who will drive future growth, and helping people grow themselves.
+
+Length: **300+ pages**, described by Korean reviewers as easy to read with realistic, applicable advice. ([Korean retailer summaries](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=166283261))
+
+## Publication
+- **Publisher:** Sam & Parkers (쌤앤파커스).
+- **Publication date:** **September 10, 2018.**
+- **ISBN:** 9788965706908 (Korean edition). Full Korean title: *초격차 - 넘볼 수 없는 차이를 만드는 격* ("The Super Gap - the class/level that makes an unassailable difference").
+- ([publisher/date from Korean search of Kyobo/Aladin listings](https://product.kyobobook.co.kr/detail/S000001024738); [ISBN from Amazon Korean-edition listing](https://www.amazon.com/dp/8965706904))
+
+### English availability - the key question
+**No verified official English translation exists.** Searches of English book channels, Korean-literature-in-translation databases (LTI Korea, etc.), and the author/book name returned no English edition. The "Amazon.com" listing is the **Korean-language original** being sold internationally, not a translation; its title and metadata are Korean. **"The Super Gap" is a descriptive English rendering of the title, not the name of a published English book.** Bottom line: an English-only reader cannot read this book without translating it.
+
+## Reception in Korea
+- A major bestseller: reported at **200,000+ copies sold** in Korea. ([Korean search results citing "20만 베스트셀러"](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=166283261))
+- Publicly recommended by Korean business figures (e.g., Shinsegae vice-chairman Chung Yong-jin reportedly chose it as holiday reading). ([Business Plus](https://www.businessplus.kr/news/articleView.html?idxno=31116))
+- Strong enough to spawn a series: a follow-up **《초격차: 리더의 질문》 (2020, "The Super Gap: A Leader's Questions")** and a later **《다시, 초격차》 ("Again, The Super Gap")**. ([Kyobo listing for 다시, 초격차](https://product.kyobobook.co.kr/detail/S000219302492))
+
+## Who it's for
+Managers, executives, and leaders - especially those interested in **org design, talent systems, and strategy at scale**, and anyone wanting a first-hand account of how Samsung's semiconductor rise was operationally led. It's large-company operating wisdom from a chairman's seat rather than a startup/GTM playbook, so a go-to-market reader should expect leadership/organizational principles rather than tactical sales mechanics.
+
+---
+
+## Open questions / uncertainties
+- **English translation:** I found no English edition, but absence of evidence is not absolute proof. Could not verify with 100% certainty that no licensed translation exists anywhere; my confidence it is Korean-only is high but not absolute.
+- **"Overtook Intel in 2017" / "#1 semiconductor":** Sourced from Korean retailer/marketing summaries, not a primary financial source in this research. Widely reported elsewhere but treat the specific framing as retailer copy.
+- **Exact page count:** Sources say "300+ pages"; an exact figure was not pinned down.
+- **Co-author identity & role:** Kim Sang-geun (김상근) is credited as organizing/co-writing, but I could not verify who he is (it is a common Korean name) or the precise division of authorship (ghostwriting vs. editing Kwon's words). Do not assume he is the well-known Yonsei University scholar of the same name.
+- **TIME 100 / HBR ranking specifics:** Reported via search summaries of Wikipedia/press; the exact HBR rank ("#3 in 2013") came from a secondary summary and was not independently confirmed against HBR.
+- **Direct page-by-page content / quotes:** Detailed chapter content here is synthesized from Korean retailer descriptions and reviews, not from reading the full text. The Aladin/Kyobo/Amazon pages themselves could not be fetched directly (domain fetch blocked); details rely on search-engine extractions of those pages.
+
+## Sources
+- [초격차 - Aladin (Korean retailer) listing](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=166283261)
+- [초격차 - Kyobo Book listing](https://product.kyobobook.co.kr/detail/S000001024738)
+- [초격차 (Korean-language edition) - Amazon, ISBN 9788965706908](https://www.amazon.com/dp/8965706904)
+- ["'초격차' 꿈꾸는 경영인이라면 리더·조직·전략·인재 집중해야" - SME Daily](https://www.smedaily.co.kr/news/articleView.html?idxno=242005)
+- [Vice Chairman Oh-Hyun Kwon to Resign as CEO of Samsung Electronics - Samsung Global Newsroom](https://news.samsung.com/global/vice-chairman-oh-hyun-kwon-to-resign-as-ceo-of-samsung-electronics)
+- [Kwon Oh-hyun - Wikipedia](https://en.wikipedia.org/wiki/Kwon_Oh-hyun)
+- [Oh-hyun Kwon - Samsung Global Newsroom tag](https://news.samsung.com/global/tag/oh-hyun-kwon)
+- [다시, 초격차 - Kyobo Book listing (sequel)](https://product.kyobobook.co.kr/detail/S000219302492)
+- [정용진 신세계 부회장 추석 독서 '초격차' - Business Plus](https://www.businessplus.kr/news/articleView.html?idxno=31116)
+</script></div>
+    <div class="panel"><script type="text/markdown"># Scaling People: Tactics for Management and Company Building - Claire Hughes Johnson
+
+## Bottom line
+- **What it is:** A practical, reference-style operating manual for managing people and building companies, distilled from the author's time scaling Google teams and serving as Stripe's COO during hypergrowth. It comes with 100+ pages of reusable worksheets, templates, and example documents.
+- **Who should read it:** Founders, executives, and managers (especially at high-growth tech companies of ~30+ people) who want concrete systems and templates, not inspiration. Less useful as cover-to-cover leisure reading.
+- **Time investment:** Substantial - ~480 pages, dense and textbook-like. Best used as a reference you dip into by chapter/process rather than a single linear read.
+
+---
+
+## What the book is
+
+*Scaling People* is "a practical and empathetic guide to company building" centered on the idea that a company's most important resource is its people. Hughes Johnson offers tactical guidance on crafting foundational documents, strategic and financial planning, hiring, team development, and feedback/performance mechanisms - explicitly framed as applicable to companies "of any size, in any industry." It is positioned as an operating manual / reference book rather than a narrative business memoir. ([Stripe Press](https://press.stripe.com/scaling-people), [McKinsey Author Talks](https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-scale-your-people-not-just-your-company))
+
+The book leans hard on artifacts: it bundles **over 100 pages of worksheets, templates, exercises, and example documents** (e.g., from Stripe's growth) so readers can build scalable operating systems and lightweight processes. ([Stripe Press](https://press.stripe.com/scaling-people)) Note: these are printed in the book and reproduced as example documents; I could not independently verify a separate "downloadable" template pack beyond what Stripe Press describes, so treat "downloadable" as **could not verify** specifically.
+
+## Structure and contents
+
+Reviews and summaries consistently describe a structure built around **four core "processes"** following an opening section on management/self-awareness foundations:
+
+1. **Process 1 - Define your guiding principles and operating system:** establish foundational documents (mission, values, guiding principles) and the processes that let you lead with objectivity and consistency.
+2. **Process 2 - Build a hiring pipeline:** structured recruiting to hire strong candidates.
+3. **Process 3 - Turn new hires into thriving teams:** onboarding and team development.
+4. **Process 4 - Coach continuously:** informal feedback plus formal performance reviews.
+
+([Goodreads/summary syntheses via search](https://www.goodreads.com/en/book/show/63063173-scaling-people); framework labels corroborated across Stripe Press, Bookey, and Blinkist summaries)
+
+## Key frameworks
+
+- **Self-awareness as the starting point of leadership:** know your values and work style and how they shape your interactions. ([search synthesis](https://www.goodreads.com/book/show/63063173-scaling-people))
+- **Working styles (four types):** *Analyzer* (introverted, detail-oriented), *Director* (extroverted, task-oriented), *Promoter* (extroverted, connection/enthusiasm-driven), *Collaborator* (introverted, people-oriented). Used to understand yourself and adapt to teammates. ([search synthesis](https://www.scribd.com/document/833619659/Scaling-People-Tactics-for-Management-and-Company-Building-Claire-Hughes-Johnson-Z-Library))
+- **The company "operating system":** the documents and processes (foundational/founding documents, operating principles, planning cadences) that let an organization scale with consistency and objectivity. ([search synthesis](https://press.stripe.com/scaling-people))
+- **Foundational documents:** mission statement, company values, and guiding principles as the bedrock for decision-making.
+- **Distinction between leadership and management**, and **feedback/performance systems** (informal coaching + formal reviews) are highlighted by readers as standout sections. ([Goodreads reception](https://www.goodreads.com/en/book/show/63063173-scaling-people))
+- A memorable (and polarizing) aphorism quoted by reviewers: *"leadership is disappointing people at a rate they can absorb."* ([The Psmiths review](https://www.thepsmiths.com/p/review-scaling-people-by-claire-hughes))
+
+## Author background
+
+**Claire Hughes Johnson** was **COO of Stripe from October 2014 to 2021**, joining when the company had roughly 160 employees and helping it scale to **6,000–7,000+** (sources vary on the exact end figure). She built out customer-facing functions, sales, recruiting, and management practices. Before Stripe she spent **~10 years at Google**, leading business teams across Gmail, Google Apps, and consumer operations, and serving as a VP for AdWords online sales/operations, Google Offers, and the self-driving car project. She holds a BA in English/American literature from Brown and an MBA from Yale School of Management; she began her career in Massachusetts state politics. She has served on boards including Aurora Innovation, HubSpot, The Atlantic, and Ameresco. ([Stripe Press](https://press.stripe.com/scaling-people), [Yale SOM](https://som.yale.edu/profile/alumni/claire-hughes-johnson-01))
+
+## Publisher, date, length, format
+
+- **Publisher:** Stripe Press
+- **Publication date:** March 7, 2023 ([Goodreads](https://www.goodreads.com/en/book/show/63063173-scaling-people))
+- **Length:** ~480 pages (hardcover), including 100+ pages of worksheets/templates ([Goodreads](https://www.goodreads.com/en/book/show/63063173-scaling-people), [Stripe Press](https://press.stripe.com/scaling-people))
+- **Price / ISBN:** $35 list; ISBN 9781953953216 ([Stripe Press](https://press.stripe.com/scaling-people), [Amazon](https://www.amazon.com/Scaling-People-Tactics-Management-Building/dp/1953953212))
+- Also available as ebook and audiobook (narrated by the author).
+
+## Reception
+
+- **Awards:** Named one of the **Best Books of 2023 by Bloomberg and The Economist.** ([McKinsey](https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-scale-your-people-not-just-your-company))
+- **Endorsements:** Praised by Kim Scott (*Radical Candor*), Reid Hoffman (LinkedIn co-founder), and Frances Frei (Harvard Business School). ([Stripe Press](https://press.stripe.com/scaling-people))
+- **Reader ratings:** Goodreads ~**4.25/5** across ~1,705 ratings / ~146 reviews (as of retrieval). ([Goodreads](https://www.goodreads.com/en/book/show/63063173-scaling-people))
+- **Common praise:** tactical and practical; useful as a reference/roadmap for managers in high-growth environments; templates and the leadership-vs-management and self-awareness material singled out.
+- **Common criticism:** some find it dense and textbook-like (better as reference than a read-through); a few feel the ideas are not novel or that tech-specific advice may not generalize. The most pointed published critique ([The Psmiths](https://www.thepsmiths.com/p/review-scaling-people-by-claire-hughes)) rejects the book's premise that management technique is broadly transferable across domains.
+
+## Who it's for
+
+Founders, operators, and managers building or scaling organizations - most directly useful at high-growth companies (~30+ employees) and for director-level-and-above leaders who need concrete systems, documents, and processes rather than motivational reading. This matches the a16z crypto reading-list framing (Scott Duke Kominers) of it as a top practical book on managing people and managing how people interact with you.
+
+---
+
+## Open questions / uncertainties
+- **Exact chapter table of contents:** The "four processes" structure is consistently reported across summaries, but I relied on secondary summaries/search synthesis rather than a verbatim table of contents from the book itself; precise chapter titles/ordering could differ slightly.
+- **"Downloadable" templates:** Stripe Press confirms 100+ pages of worksheets/templates and example documents *in the book*. I could not verify a separate downloadable/online template pack - **could not verify**.
+- **Final Stripe headcount:** Sources cite "more than 6,000" and "more than 7,000"; the precise end-of-tenure figure varies by source.
+- **Working-styles labels:** The four-type model (Analyzer/Director/Promoter/Collaborator) comes from book-summary sources (Scribd excerpt, summary sites), not a primary publisher page; wording of the model in the book may differ.
+
+## Sources
+- [Stripe Press - Scaling People (publisher page)](https://press.stripe.com/scaling-people)
+- [Goodreads - Scaling People](https://www.goodreads.com/en/book/show/63063173-scaling-people)
+- [McKinsey, Author Talks: "Scale your people, not just your company"](https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-scale-your-people-not-just-your-company)
+- [Amazon - Scaling People (print)](https://www.amazon.com/Scaling-People-Tactics-Management-Building/dp/1953953212)
+- [The Psmiths - Review: Scaling People (critical review)](https://www.thepsmiths.com/p/review-scaling-people-by-claire-hughes)
+- [Yale School of Management - Claire Hughes Johnson '01 profile](https://som.yale.edu/profile/alumni/claire-hughes-johnson-01)
+- [Scribd excerpt / summary (working-styles detail)](https://www.scribd.com/document/833619659/Scaling-People-Tactics-for-Management-and-Company-Building-Claire-Hughes-Johnson-Z-Library)
+- [Apple Books - Scaling People](https://books.apple.com/us/book/scaling-people/id6445743934)
+</script></div>
+</div>
+</div>
+<script>
+/**
+ * marked v12.0.2 - a markdown parser
+ * Copyright (c) 2011-2024, Christopher Jeffrey. (MIT Licensed)
+ * https://github.com/markedjs/marked
+ */
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e="undefined"!=typeof globalThis?globalThis:e||self).marked={})}(this,(function(e){"use strict";function t(){return{async:!1,breaks:!1,extensions:null,gfm:!0,hooks:null,pedantic:!1,renderer:null,silent:!1,tokenizer:null,walkTokens:null}}function n(t){e.defaults=t}e.defaults={async:!1,breaks:!1,extensions:null,gfm:!0,hooks:null,pedantic:!1,renderer:null,silent:!1,tokenizer:null,walkTokens:null};const s=/[&<>"']/,r=new RegExp(s.source,"g"),i=/[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/,l=new RegExp(i.source,"g"),o={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"},a=e=>o[e];function c(e,t){if(t){if(s.test(e))return e.replace(r,a)}else if(i.test(e))return e.replace(l,a);return e}const h=/&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/gi;function p(e){return e.replace(h,((e,t)=>"colon"===(t=t.toLowerCase())?":":"#"===t.charAt(0)?"x"===t.charAt(1)?String.fromCharCode(parseInt(t.substring(2),16)):String.fromCharCode(+t.substring(1)):""))}const u=/(^|[^\[])\^/g;function k(e,t){let n="string"==typeof e?e:e.source;t=t||"";const s={replace:(e,t)=>{let r="string"==typeof t?t:t.source;return r=r.replace(u,"$1"),n=n.replace(e,r),s},getRegex:()=>new RegExp(n,t)};return s}function g(e){try{e=encodeURI(e).replace(/%25/g,"%")}catch(e){return null}return e}const f={exec:()=>null};function d(e,t){const n=e.replace(/\|/g,((e,t,n)=>{let s=!1,r=t;for(;--r>=0&&"\\"===n[r];)s=!s;return s?"|":" |"})).split(/ \|/);let s=0;if(n[0].trim()||n.shift(),n.length>0&&!n[n.length-1].trim()&&n.pop(),t)if(n.length>t)n.splice(t);else for(;n.length<t;)n.push("");for(;s<n.length;s++)n[s]=n[s].trim().replace(/\\\|/g,"|");return n}function x(e,t,n){const s=e.length;if(0===s)return"";let r=0;for(;r<s;){const i=e.charAt(s-r-1);if(i!==t||n){if(i===t||!n)break;r++}else r++}return e.slice(0,s-r)}function b(e,t,n,s){const r=t.href,i=t.title?c(t.title):null,l=e[1].replace(/\\([\[\]])/g,"$1");if("!"!==e[0].charAt(0)){s.state.inLink=!0;const e={type:"link",raw:n,href:r,title:i,text:l,tokens:s.inlineTokens(l)};return s.state.inLink=!1,e}return{type:"image",raw:n,href:r,title:i,text:c(l)}}class w{options;rules;lexer;constructor(t){this.options=t||e.defaults}space(e){const t=this.rules.block.newline.exec(e);if(t&&t[0].length>0)return{type:"space",raw:t[0]}}code(e){const t=this.rules.block.code.exec(e);if(t){const e=t[0].replace(/^ {1,4}/gm,"");return{type:"code",raw:t[0],codeBlockStyle:"indented",text:this.options.pedantic?e:x(e,"\n")}}}fences(e){const t=this.rules.block.fences.exec(e);if(t){const e=t[0],n=function(e,t){const n=e.match(/^(\s+)(?:```)/);if(null===n)return t;const s=n[1];return t.split("\n").map((e=>{const t=e.match(/^\s+/);if(null===t)return e;const[n]=t;return n.length>=s.length?e.slice(s.length):e})).join("\n")}(e,t[3]||"");return{type:"code",raw:e,lang:t[2]?t[2].trim().replace(this.rules.inline.anyPunctuation,"$1"):t[2],text:n}}}heading(e){const t=this.rules.block.heading.exec(e);if(t){let e=t[2].trim();if(/#$/.test(e)){const t=x(e,"#");this.options.pedantic?e=t.trim():t&&!/ $/.test(t)||(e=t.trim())}return{type:"heading",raw:t[0],depth:t[1].length,text:e,tokens:this.lexer.inline(e)}}}hr(e){const t=this.rules.block.hr.exec(e);if(t)return{type:"hr",raw:t[0]}}blockquote(e){const t=this.rules.block.blockquote.exec(e);if(t){let e=t[0].replace(/\n {0,3}((?:=+|-+) *)(?=\n|$)/g,"\n    $1");e=x(e.replace(/^ *>[ \t]?/gm,""),"\n");const n=this.lexer.state.top;this.lexer.state.top=!0;const s=this.lexer.blockTokens(e);return this.lexer.state.top=n,{type:"blockquote",raw:t[0],tokens:s,text:e}}}list(e){let t=this.rules.block.list.exec(e);if(t){let n=t[1].trim();const s=n.length>1,r={type:"list",raw:"",ordered:s,start:s?+n.slice(0,-1):"",loose:!1,items:[]};n=s?`\\d{1,9}\\${n.slice(-1)}`:`\\${n}`,this.options.pedantic&&(n=s?n:"[*+-]");const i=new RegExp(`^( {0,3}${n})((?:[\t ][^\\n]*)?(?:\\n|$))`);let l="",o="",a=!1;for(;e;){let n=!1;if(!(t=i.exec(e)))break;if(this.rules.block.hr.test(e))break;l=t[0],e=e.substring(l.length);let s=t[2].split("\n",1)[0].replace(/^\t+/,(e=>" ".repeat(3*e.length))),c=e.split("\n",1)[0],h=0;this.options.pedantic?(h=2,o=s.trimStart()):(h=t[2].search(/[^ ]/),h=h>4?1:h,o=s.slice(h),h+=t[1].length);let p=!1;if(!s&&/^ *$/.test(c)&&(l+=c+"\n",e=e.substring(c.length+1),n=!0),!n){const t=new RegExp(`^ {0,${Math.min(3,h-1)}}(?:[*+-]|\\d{1,9}[.)])((?:[ \t][^\\n]*)?(?:\\n|$))`),n=new RegExp(`^ {0,${Math.min(3,h-1)}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`),r=new RegExp(`^ {0,${Math.min(3,h-1)}}(?:\`\`\`|~~~)`),i=new RegExp(`^ {0,${Math.min(3,h-1)}}#`);for(;e;){const a=e.split("\n",1)[0];if(c=a,this.options.pedantic&&(c=c.replace(/^ {1,4}(?=( {4})*[^ ])/g,"  ")),r.test(c))break;if(i.test(c))break;if(t.test(c))break;if(n.test(e))break;if(c.search(/[^ ]/)>=h||!c.trim())o+="\n"+c.slice(h);else{if(p)break;if(s.search(/[^ ]/)>=4)break;if(r.test(s))break;if(i.test(s))break;if(n.test(s))break;o+="\n"+c}p||c.trim()||(p=!0),l+=a+"\n",e=e.substring(a.length+1),s=c.slice(h)}}r.loose||(a?r.loose=!0:/\n *\n *$/.test(l)&&(a=!0));let u,k=null;this.options.gfm&&(k=/^\[[ xX]\] /.exec(o),k&&(u="[ ] "!==k[0],o=o.replace(/^\[[ xX]\] +/,""))),r.items.push({type:"list_item",raw:l,task:!!k,checked:u,loose:!1,text:o,tokens:[]}),r.raw+=l}r.items[r.items.length-1].raw=l.trimEnd(),r.items[r.items.length-1].text=o.trimEnd(),r.raw=r.raw.trimEnd();for(let e=0;e<r.items.length;e++)if(this.lexer.state.top=!1,r.items[e].tokens=this.lexer.blockTokens(r.items[e].text,[]),!r.loose){const t=r.items[e].tokens.filter((e=>"space"===e.type)),n=t.length>0&&t.some((e=>/\n.*\n/.test(e.raw)));r.loose=n}if(r.loose)for(let e=0;e<r.items.length;e++)r.items[e].loose=!0;return r}}html(e){const t=this.rules.block.html.exec(e);if(t){return{type:"html",block:!0,raw:t[0],pre:"pre"===t[1]||"script"===t[1]||"style"===t[1],text:t[0]}}}def(e){const t=this.rules.block.def.exec(e);if(t){const e=t[1].toLowerCase().replace(/\s+/g," "),n=t[2]?t[2].replace(/^<(.*)>$/,"$1").replace(this.rules.inline.anyPunctuation,"$1"):"",s=t[3]?t[3].substring(1,t[3].length-1).replace(this.rules.inline.anyPunctuation,"$1"):t[3];return{type:"def",tag:e,raw:t[0],href:n,title:s}}}table(e){const t=this.rules.block.table.exec(e);if(!t)return;if(!/[:|]/.test(t[2]))return;const n=d(t[1]),s=t[2].replace(/^\||\| *$/g,"").split("|"),r=t[3]&&t[3].trim()?t[3].replace(/\n[ \t]*$/,"").split("\n"):[],i={type:"table",raw:t[0],header:[],align:[],rows:[]};if(n.length===s.length){for(const e of s)/^ *-+: *$/.test(e)?i.align.push("right"):/^ *:-+: *$/.test(e)?i.align.push("center"):/^ *:-+ *$/.test(e)?i.align.push("left"):i.align.push(null);for(const e of n)i.header.push({text:e,tokens:this.lexer.inline(e)});for(const e of r)i.rows.push(d(e,i.header.length).map((e=>({text:e,tokens:this.lexer.inline(e)}))));return i}}lheading(e){const t=this.rules.block.lheading.exec(e);if(t)return{type:"heading",raw:t[0],depth:"="===t[2].charAt(0)?1:2,text:t[1],tokens:this.lexer.inline(t[1])}}paragraph(e){const t=this.rules.block.paragraph.exec(e);if(t){const e="\n"===t[1].charAt(t[1].length-1)?t[1].slice(0,-1):t[1];return{type:"paragraph",raw:t[0],text:e,tokens:this.lexer.inline(e)}}}text(e){const t=this.rules.block.text.exec(e);if(t)return{type:"text",raw:t[0],text:t[0],tokens:this.lexer.inline(t[0])}}escape(e){const t=this.rules.inline.escape.exec(e);if(t)return{type:"escape",raw:t[0],text:c(t[1])}}tag(e){const t=this.rules.inline.tag.exec(e);if(t)return!this.lexer.state.inLink&&/^<a /i.test(t[0])?this.lexer.state.inLink=!0:this.lexer.state.inLink&&/^<\/a>/i.test(t[0])&&(this.lexer.state.inLink=!1),!this.lexer.state.inRawBlock&&/^<(pre|code|kbd|script)(\s|>)/i.test(t[0])?this.lexer.state.inRawBlock=!0:this.lexer.state.inRawBlock&&/^<\/(pre|code|kbd|script)(\s|>)/i.test(t[0])&&(this.lexer.state.inRawBlock=!1),{type:"html",raw:t[0],inLink:this.lexer.state.inLink,inRawBlock:this.lexer.state.inRawBlock,block:!1,text:t[0]}}link(e){const t=this.rules.inline.link.exec(e);if(t){const e=t[2].trim();if(!this.options.pedantic&&/^</.test(e)){if(!/>$/.test(e))return;const t=x(e.slice(0,-1),"\\");if((e.length-t.length)%2==0)return}else{const e=function(e,t){if(-1===e.indexOf(t[1]))return-1;let n=0;for(let s=0;s<e.length;s++)if("\\"===e[s])s++;else if(e[s]===t[0])n++;else if(e[s]===t[1]&&(n--,n<0))return s;return-1}(t[2],"()");if(e>-1){const n=(0===t[0].indexOf("!")?5:4)+t[1].length+e;t[2]=t[2].substring(0,e),t[0]=t[0].substring(0,n).trim(),t[3]=""}}let n=t[2],s="";if(this.options.pedantic){const e=/^([^'"]*[^\s])\s+(['"])(.*)\2/.exec(n);e&&(n=e[1],s=e[3])}else s=t[3]?t[3].slice(1,-1):"";return n=n.trim(),/^</.test(n)&&(n=this.options.pedantic&&!/>$/.test(e)?n.slice(1):n.slice(1,-1)),b(t,{href:n?n.replace(this.rules.inline.anyPunctuation,"$1"):n,title:s?s.replace(this.rules.inline.anyPunctuation,"$1"):s},t[0],this.lexer)}}reflink(e,t){let n;if((n=this.rules.inline.reflink.exec(e))||(n=this.rules.inline.nolink.exec(e))){const e=t[(n[2]||n[1]).replace(/\s+/g," ").toLowerCase()];if(!e){const e=n[0].charAt(0);return{type:"text",raw:e,text:e}}return b(n,e,n[0],this.lexer)}}emStrong(e,t,n=""){let s=this.rules.inline.emStrongLDelim.exec(e);if(!s)return;if(s[3]&&n.match(/[\p{L}\p{N}]/u))return;if(!(s[1]||s[2]||"")||!n||this.rules.inline.punctuation.exec(n)){const n=[...s[0]].length-1;let r,i,l=n,o=0;const a="*"===s[0][0]?this.rules.inline.emStrongRDelimAst:this.rules.inline.emStrongRDelimUnd;for(a.lastIndex=0,t=t.slice(-1*e.length+n);null!=(s=a.exec(t));){if(r=s[1]||s[2]||s[3]||s[4]||s[5]||s[6],!r)continue;if(i=[...r].length,s[3]||s[4]){l+=i;continue}if((s[5]||s[6])&&n%3&&!((n+i)%3)){o+=i;continue}if(l-=i,l>0)continue;i=Math.min(i,i+l+o);const t=[...s[0]][0].length,a=e.slice(0,n+s.index+t+i);if(Math.min(n,i)%2){const e=a.slice(1,-1);return{type:"em",raw:a,text:e,tokens:this.lexer.inlineTokens(e)}}const c=a.slice(2,-2);return{type:"strong",raw:a,text:c,tokens:this.lexer.inlineTokens(c)}}}}codespan(e){const t=this.rules.inline.code.exec(e);if(t){let e=t[2].replace(/\n/g," ");const n=/[^ ]/.test(e),s=/^ /.test(e)&&/ $/.test(e);return n&&s&&(e=e.substring(1,e.length-1)),e=c(e,!0),{type:"codespan",raw:t[0],text:e}}}br(e){const t=this.rules.inline.br.exec(e);if(t)return{type:"br",raw:t[0]}}del(e){const t=this.rules.inline.del.exec(e);if(t)return{type:"del",raw:t[0],text:t[2],tokens:this.lexer.inlineTokens(t[2])}}autolink(e){const t=this.rules.inline.autolink.exec(e);if(t){let e,n;return"@"===t[2]?(e=c(t[1]),n="mailto:"+e):(e=c(t[1]),n=e),{type:"link",raw:t[0],text:e,href:n,tokens:[{type:"text",raw:e,text:e}]}}}url(e){let t;if(t=this.rules.inline.url.exec(e)){let e,n;if("@"===t[2])e=c(t[0]),n="mailto:"+e;else{let s;do{s=t[0],t[0]=this.rules.inline._backpedal.exec(t[0])?.[0]??""}while(s!==t[0]);e=c(t[0]),n="www."===t[1]?"http://"+t[0]:t[0]}return{type:"link",raw:t[0],text:e,href:n,tokens:[{type:"text",raw:e,text:e}]}}}inlineText(e){const t=this.rules.inline.text.exec(e);if(t){let e;return e=this.lexer.state.inRawBlock?t[0]:c(t[0]),{type:"text",raw:t[0],text:e}}}}const m=/^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/,y=/(?:[*+-]|\d{1,9}[.)])/,$=k(/^(?!bull |blockCode|fences|blockquote|heading|html)((?:.|\n(?!\s*?\n|bull |blockCode|fences|blockquote|heading|html))+?)\n {0,3}(=+|-+) *(?:\n+|$)/).replace(/bull/g,y).replace(/blockCode/g,/ {4}/).replace(/fences/g,/ {0,3}(?:`{3,}|~{3,})/).replace(/blockquote/g,/ {0,3}>/).replace(/heading/g,/ {0,3}#{1,6}/).replace(/html/g,/ {0,3}<[^\n>]+>\n/).getRegex(),z=/^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/,T=/(?!\s*\])(?:\\.|[^\[\]\\])+/,R=k(/^ {0,3}\[(label)\]: *(?:\n *)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n *)?| *\n *)(title))? *(?:\n+|$)/).replace("label",T).replace("title",/(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/).getRegex(),_=k(/^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/).replace(/bull/g,y).getRegex(),A="address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|search|section|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul",S=/<!--(?:-?>|[\s\S]*?(?:-->|$))/,I=k("^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>\\n*|$)|<![A-Z][\\s\\S]*?(?:>\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n *)+\\n|$)|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$)|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$))","i").replace("comment",S).replace("tag",A).replace("attribute",/ +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/).getRegex(),E=k(z).replace("hr",m).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("|lheading","").replace("|table","").replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",A).getRegex(),q={blockquote:k(/^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/).replace("paragraph",E).getRegex(),code:/^( {4}[^\n]+(?:\n(?: *(?:\n|$))*)?)+/,def:R,fences:/^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}\1[~`]* *(?=\n|$)|$)/,heading:/^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/,hr:m,html:I,lheading:$,list:_,newline:/^(?: *(?:\n|$))+/,paragraph:E,table:f,text:/^[^\n]+/},Z=k("^ *([^\\n ].*)\\n {0,3}((?:\\| *)?:?-+:? *(?:\\| *:?-+:? *)*(?:\\| *)?)(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)").replace("hr",m).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("blockquote"," {0,3}>").replace("code"," {4}[^\\n]").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",A).getRegex(),L={...q,table:Z,paragraph:k(z).replace("hr",m).replace("heading"," {0,3}#{1,6}(?:\\s|$)").replace("|lheading","").replace("table",Z).replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",A).getRegex()},P={...q,html:k("^ *(?:comment *(?:\\n|\\s*$)|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)|<tag(?:\"[^\"]*\"|'[^']*'|\\s[^'\"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))").replace("comment",S).replace(/tag/g,"(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\\b)\\w+(?!:|[^\\w\\s@]*@)\\b").getRegex(),def:/^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,heading:/^(#{1,6})(.*)(?:\n+|$)/,fences:f,lheading:/^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,paragraph:k(z).replace("hr",m).replace("heading"," *#{1,6} *[^\n]").replace("lheading",$).replace("|table","").replace("blockquote"," {0,3}>").replace("|fences","").replace("|list","").replace("|html","").replace("|tag","").getRegex()},Q=/^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/,v=/^( {2,}|\\)\n(?!\s*$)/,B="\\p{P}\\p{S}",C=k(/^((?![*_])[\spunctuation])/,"u").replace(/punctuation/g,B).getRegex(),M=k(/^(?:\*+(?:((?!\*)[punct])|[^\s*]))|^_+(?:((?!_)[punct])|([^\s_]))/,"u").replace(/punct/g,B).getRegex(),O=k("^[^_*]*?__[^_*]*?\\*[^_*]*?(?=__)|[^*]+(?=[^*])|(?!\\*)[punct](\\*+)(?=[\\s]|$)|[^punct\\s](\\*+)(?!\\*)(?=[punct\\s]|$)|(?!\\*)[punct\\s](\\*+)(?=[^punct\\s])|[\\s](\\*+)(?!\\*)(?=[punct])|(?!\\*)[punct](\\*+)(?!\\*)(?=[punct])|[^punct\\s](\\*+)(?=[^punct\\s])","gu").replace(/punct/g,B).getRegex(),D=k("^[^_*]*?\\*\\*[^_*]*?_[^_*]*?(?=\\*\\*)|[^_]+(?=[^_])|(?!_)[punct](_+)(?=[\\s]|$)|[^punct\\s](_+)(?!_)(?=[punct\\s]|$)|(?!_)[punct\\s](_+)(?=[^punct\\s])|[\\s](_+)(?!_)(?=[punct])|(?!_)[punct](_+)(?!_)(?=[punct])","gu").replace(/punct/g,B).getRegex(),j=k(/\\([punct])/,"gu").replace(/punct/g,B).getRegex(),H=k(/^<(scheme:[^\s\x00-\x1f<>]*|email)>/).replace("scheme",/[a-zA-Z][a-zA-Z0-9+.-]{1,31}/).replace("email",/[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/).getRegex(),U=k(S).replace("(?:--\x3e|$)","--\x3e").getRegex(),X=k("^comment|^</[a-zA-Z][\\w:-]*\\s*>|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>").replace("comment",U).replace("attribute",/\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/).getRegex(),F=/(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/,N=k(/^!?\[(label)\]\(\s*(href)(?:\s+(title))?\s*\)/).replace("label",F).replace("href",/<(?:\\.|[^\n<>\\])+>|[^\s\x00-\x1f]*/).replace("title",/"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/).getRegex(),G=k(/^!?\[(label)\]\[(ref)\]/).replace("label",F).replace("ref",T).getRegex(),J=k(/^!?\[(ref)\](?:\[\])?/).replace("ref",T).getRegex(),K={_backpedal:f,anyPunctuation:j,autolink:H,blockSkip:/\[[^[\]]*?\]\([^\(\)]*?\)|`[^`]*?`|<[^<>]*?>/g,br:v,code:/^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/,del:f,emStrongLDelim:M,emStrongRDelimAst:O,emStrongRDelimUnd:D,escape:Q,link:N,nolink:J,punctuation:C,reflink:G,reflinkSearch:k("reflink|nolink(?!\\()","g").replace("reflink",G).replace("nolink",J).getRegex(),tag:X,text:/^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/,url:f},V={...K,link:k(/^!?\[(label)\]\((.*?)\)/).replace("label",F).getRegex(),reflink:k(/^!?\[(label)\]\s*\[([^\]]*)\]/).replace("label",F).getRegex()},W={...K,escape:k(Q).replace("])","~|])").getRegex(),url:k(/^((?:ftp|https?):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/,"i").replace("email",/[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![-_])/).getRegex(),_backpedal:/(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,del:/^(~~?)(?=[^\s~])([\s\S]*?[^\s~])\1(?=[^~]|$)/,text:/^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|https?:\/\/|ftp:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/},Y={...W,br:k(v).replace("{2,}","*").getRegex(),text:k(W.text).replace("\\b_","\\b_| {2,}\\n").replace(/\{2,\}/g,"*").getRegex()},ee={normal:q,gfm:L,pedantic:P},te={normal:K,gfm:W,breaks:Y,pedantic:V};class ne{tokens;options;state;tokenizer;inlineQueue;constructor(t){this.tokens=[],this.tokens.links=Object.create(null),this.options=t||e.defaults,this.options.tokenizer=this.options.tokenizer||new w,this.tokenizer=this.options.tokenizer,this.tokenizer.options=this.options,this.tokenizer.lexer=this,this.inlineQueue=[],this.state={inLink:!1,inRawBlock:!1,top:!0};const n={block:ee.normal,inline:te.normal};this.options.pedantic?(n.block=ee.pedantic,n.inline=te.pedantic):this.options.gfm&&(n.block=ee.gfm,this.options.breaks?n.inline=te.breaks:n.inline=te.gfm),this.tokenizer.rules=n}static get rules(){return{block:ee,inline:te}}static lex(e,t){return new ne(t).lex(e)}static lexInline(e,t){return new ne(t).inlineTokens(e)}lex(e){e=e.replace(/\r\n|\r/g,"\n"),this.blockTokens(e,this.tokens);for(let e=0;e<this.inlineQueue.length;e++){const t=this.inlineQueue[e];this.inlineTokens(t.src,t.tokens)}return this.inlineQueue=[],this.tokens}blockTokens(e,t=[]){let n,s,r,i;for(e=this.options.pedantic?e.replace(/\t/g,"    ").replace(/^ +$/gm,""):e.replace(/^( *)(\t+)/gm,((e,t,n)=>t+"    ".repeat(n.length)));e;)if(!(this.options.extensions&&this.options.extensions.block&&this.options.extensions.block.some((s=>!!(n=s.call({lexer:this},e,t))&&(e=e.substring(n.raw.length),t.push(n),!0)))))if(n=this.tokenizer.space(e))e=e.substring(n.raw.length),1===n.raw.length&&t.length>0?t[t.length-1].raw+="\n":t.push(n);else if(n=this.tokenizer.code(e))e=e.substring(n.raw.length),s=t[t.length-1],!s||"paragraph"!==s.type&&"text"!==s.type?t.push(n):(s.raw+="\n"+n.raw,s.text+="\n"+n.text,this.inlineQueue[this.inlineQueue.length-1].src=s.text);else if(n=this.tokenizer.fences(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.heading(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.hr(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.blockquote(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.list(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.html(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.def(e))e=e.substring(n.raw.length),s=t[t.length-1],!s||"paragraph"!==s.type&&"text"!==s.type?this.tokens.links[n.tag]||(this.tokens.links[n.tag]={href:n.href,title:n.title}):(s.raw+="\n"+n.raw,s.text+="\n"+n.raw,this.inlineQueue[this.inlineQueue.length-1].src=s.text);else if(n=this.tokenizer.table(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.lheading(e))e=e.substring(n.raw.length),t.push(n);else{if(r=e,this.options.extensions&&this.options.extensions.startBlock){let t=1/0;const n=e.slice(1);let s;this.options.extensions.startBlock.forEach((e=>{s=e.call({lexer:this},n),"number"==typeof s&&s>=0&&(t=Math.min(t,s))})),t<1/0&&t>=0&&(r=e.substring(0,t+1))}if(this.state.top&&(n=this.tokenizer.paragraph(r)))s=t[t.length-1],i&&"paragraph"===s.type?(s.raw+="\n"+n.raw,s.text+="\n"+n.text,this.inlineQueue.pop(),this.inlineQueue[this.inlineQueue.length-1].src=s.text):t.push(n),i=r.length!==e.length,e=e.substring(n.raw.length);else if(n=this.tokenizer.text(e))e=e.substring(n.raw.length),s=t[t.length-1],s&&"text"===s.type?(s.raw+="\n"+n.raw,s.text+="\n"+n.text,this.inlineQueue.pop(),this.inlineQueue[this.inlineQueue.length-1].src=s.text):t.push(n);else if(e){const t="Infinite loop on byte: "+e.charCodeAt(0);if(this.options.silent){console.error(t);break}throw new Error(t)}}return this.state.top=!0,t}inline(e,t=[]){return this.inlineQueue.push({src:e,tokens:t}),t}inlineTokens(e,t=[]){let n,s,r,i,l,o,a=e;if(this.tokens.links){const e=Object.keys(this.tokens.links);if(e.length>0)for(;null!=(i=this.tokenizer.rules.inline.reflinkSearch.exec(a));)e.includes(i[0].slice(i[0].lastIndexOf("[")+1,-1))&&(a=a.slice(0,i.index)+"["+"a".repeat(i[0].length-2)+"]"+a.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex))}for(;null!=(i=this.tokenizer.rules.inline.blockSkip.exec(a));)a=a.slice(0,i.index)+"["+"a".repeat(i[0].length-2)+"]"+a.slice(this.tokenizer.rules.inline.blockSkip.lastIndex);for(;null!=(i=this.tokenizer.rules.inline.anyPunctuation.exec(a));)a=a.slice(0,i.index)+"++"+a.slice(this.tokenizer.rules.inline.anyPunctuation.lastIndex);for(;e;)if(l||(o=""),l=!1,!(this.options.extensions&&this.options.extensions.inline&&this.options.extensions.inline.some((s=>!!(n=s.call({lexer:this},e,t))&&(e=e.substring(n.raw.length),t.push(n),!0)))))if(n=this.tokenizer.escape(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.tag(e))e=e.substring(n.raw.length),s=t[t.length-1],s&&"text"===n.type&&"text"===s.type?(s.raw+=n.raw,s.text+=n.text):t.push(n);else if(n=this.tokenizer.link(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.reflink(e,this.tokens.links))e=e.substring(n.raw.length),s=t[t.length-1],s&&"text"===n.type&&"text"===s.type?(s.raw+=n.raw,s.text+=n.text):t.push(n);else if(n=this.tokenizer.emStrong(e,a,o))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.codespan(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.br(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.del(e))e=e.substring(n.raw.length),t.push(n);else if(n=this.tokenizer.autolink(e))e=e.substring(n.raw.length),t.push(n);else if(this.state.inLink||!(n=this.tokenizer.url(e))){if(r=e,this.options.extensions&&this.options.extensions.startInline){let t=1/0;const n=e.slice(1);let s;this.options.extensions.startInline.forEach((e=>{s=e.call({lexer:this},n),"number"==typeof s&&s>=0&&(t=Math.min(t,s))})),t<1/0&&t>=0&&(r=e.substring(0,t+1))}if(n=this.tokenizer.inlineText(r))e=e.substring(n.raw.length),"_"!==n.raw.slice(-1)&&(o=n.raw.slice(-1)),l=!0,s=t[t.length-1],s&&"text"===s.type?(s.raw+=n.raw,s.text+=n.text):t.push(n);else if(e){const t="Infinite loop on byte: "+e.charCodeAt(0);if(this.options.silent){console.error(t);break}throw new Error(t)}}else e=e.substring(n.raw.length),t.push(n);return t}}class se{options;constructor(t){this.options=t||e.defaults}code(e,t,n){const s=(t||"").match(/^\S*/)?.[0];return e=e.replace(/\n$/,"")+"\n",s?'<pre><code class="language-'+c(s)+'">'+(n?e:c(e,!0))+"</code></pre>\n":"<pre><code>"+(n?e:c(e,!0))+"</code></pre>\n"}blockquote(e){return`<blockquote>\n${e}</blockquote>\n`}html(e,t){return e}heading(e,t,n){return`<h${t}>${e}</h${t}>\n`}hr(){return"<hr>\n"}list(e,t,n){const s=t?"ol":"ul";return"<"+s+(t&&1!==n?' start="'+n+'"':"")+">\n"+e+"</"+s+">\n"}listitem(e,t,n){return`<li>${e}</li>\n`}checkbox(e){return"<input "+(e?'checked="" ':"")+'disabled="" type="checkbox">'}paragraph(e){return`<p>${e}</p>\n`}table(e,t){return t&&(t=`<tbody>${t}</tbody>`),"<table>\n<thead>\n"+e+"</thead>\n"+t+"</table>\n"}tablerow(e){return`<tr>\n${e}</tr>\n`}tablecell(e,t){const n=t.header?"th":"td";return(t.align?`<${n} align="${t.align}">`:`<${n}>`)+e+`</${n}>\n`}strong(e){return`<strong>${e}</strong>`}em(e){return`<em>${e}</em>`}codespan(e){return`<code>${e}</code>`}br(){return"<br>"}del(e){return`<del>${e}</del>`}link(e,t,n){const s=g(e);if(null===s)return n;let r='<a href="'+(e=s)+'"';return t&&(r+=' title="'+t+'"'),r+=">"+n+"</a>",r}image(e,t,n){const s=g(e);if(null===s)return n;let r=`<img src="${e=s}" alt="${n}"`;return t&&(r+=` title="${t}"`),r+=">",r}text(e){return e}}class re{strong(e){return e}em(e){return e}codespan(e){return e}del(e){return e}html(e){return e}text(e){return e}link(e,t,n){return""+n}image(e,t,n){return""+n}br(){return""}}class ie{options;renderer;textRenderer;constructor(t){this.options=t||e.defaults,this.options.renderer=this.options.renderer||new se,this.renderer=this.options.renderer,this.renderer.options=this.options,this.textRenderer=new re}static parse(e,t){return new ie(t).parse(e)}static parseInline(e,t){return new ie(t).parseInline(e)}parse(e,t=!0){let n="";for(let s=0;s<e.length;s++){const r=e[s];if(this.options.extensions&&this.options.extensions.renderers&&this.options.extensions.renderers[r.type]){const e=r,t=this.options.extensions.renderers[e.type].call({parser:this},e);if(!1!==t||!["space","hr","heading","code","table","blockquote","list","html","paragraph","text"].includes(e.type)){n+=t||"";continue}}switch(r.type){case"space":continue;case"hr":n+=this.renderer.hr();continue;case"heading":{const e=r;n+=this.renderer.heading(this.parseInline(e.tokens),e.depth,p(this.parseInline(e.tokens,this.textRenderer)));continue}case"code":{const e=r;n+=this.renderer.code(e.text,e.lang,!!e.escaped);continue}case"table":{const e=r;let t="",s="";for(let t=0;t<e.header.length;t++)s+=this.renderer.tablecell(this.parseInline(e.header[t].tokens),{header:!0,align:e.align[t]});t+=this.renderer.tablerow(s);let i="";for(let t=0;t<e.rows.length;t++){const n=e.rows[t];s="";for(let t=0;t<n.length;t++)s+=this.renderer.tablecell(this.parseInline(n[t].tokens),{header:!1,align:e.align[t]});i+=this.renderer.tablerow(s)}n+=this.renderer.table(t,i);continue}case"blockquote":{const e=r,t=this.parse(e.tokens);n+=this.renderer.blockquote(t);continue}case"list":{const e=r,t=e.ordered,s=e.start,i=e.loose;let l="";for(let t=0;t<e.items.length;t++){const n=e.items[t],s=n.checked,r=n.task;let o="";if(n.task){const e=this.renderer.checkbox(!!s);i?n.tokens.length>0&&"paragraph"===n.tokens[0].type?(n.tokens[0].text=e+" "+n.tokens[0].text,n.tokens[0].tokens&&n.tokens[0].tokens.length>0&&"text"===n.tokens[0].tokens[0].type&&(n.tokens[0].tokens[0].text=e+" "+n.tokens[0].tokens[0].text)):n.tokens.unshift({type:"text",text:e+" "}):o+=e+" "}o+=this.parse(n.tokens,i),l+=this.renderer.listitem(o,r,!!s)}n+=this.renderer.list(l,t,s);continue}case"html":{const e=r;n+=this.renderer.html(e.text,e.block);continue}case"paragraph":{const e=r;n+=this.renderer.paragraph(this.parseInline(e.tokens));continue}case"text":{let i=r,l=i.tokens?this.parseInline(i.tokens):i.text;for(;s+1<e.length&&"text"===e[s+1].type;)i=e[++s],l+="\n"+(i.tokens?this.parseInline(i.tokens):i.text);n+=t?this.renderer.paragraph(l):l;continue}default:{const e='Token with "'+r.type+'" type was not found.';if(this.options.silent)return console.error(e),"";throw new Error(e)}}}return n}parseInline(e,t){t=t||this.renderer;let n="";for(let s=0;s<e.length;s++){const r=e[s];if(this.options.extensions&&this.options.extensions.renderers&&this.options.extensions.renderers[r.type]){const e=this.options.extensions.renderers[r.type].call({parser:this},r);if(!1!==e||!["escape","html","link","image","strong","em","codespan","br","del","text"].includes(r.type)){n+=e||"";continue}}switch(r.type){case"escape":{const e=r;n+=t.text(e.text);break}case"html":{const e=r;n+=t.html(e.text);break}case"link":{const e=r;n+=t.link(e.href,e.title,this.parseInline(e.tokens,t));break}case"image":{const e=r;n+=t.image(e.href,e.title,e.text);break}case"strong":{const e=r;n+=t.strong(this.parseInline(e.tokens,t));break}case"em":{const e=r;n+=t.em(this.parseInline(e.tokens,t));break}case"codespan":{const e=r;n+=t.codespan(e.text);break}case"br":n+=t.br();break;case"del":{const e=r;n+=t.del(this.parseInline(e.tokens,t));break}case"text":{const e=r;n+=t.text(e.text);break}default:{const e='Token with "'+r.type+'" type was not found.';if(this.options.silent)return console.error(e),"";throw new Error(e)}}}return n}}class le{options;constructor(t){this.options=t||e.defaults}static passThroughHooks=new Set(["preprocess","postprocess","processAllTokens"]);preprocess(e){return e}postprocess(e){return e}processAllTokens(e){return e}}class oe{defaults={async:!1,breaks:!1,extensions:null,gfm:!0,hooks:null,pedantic:!1,renderer:null,silent:!1,tokenizer:null,walkTokens:null};options=this.setOptions;parse=this.#e(ne.lex,ie.parse);parseInline=this.#e(ne.lexInline,ie.parseInline);Parser=ie;Renderer=se;TextRenderer=re;Lexer=ne;Tokenizer=w;Hooks=le;constructor(...e){this.use(...e)}walkTokens(e,t){let n=[];for(const s of e)switch(n=n.concat(t.call(this,s)),s.type){case"table":{const e=s;for(const s of e.header)n=n.concat(this.walkTokens(s.tokens,t));for(const s of e.rows)for(const e of s)n=n.concat(this.walkTokens(e.tokens,t));break}case"list":{const e=s;n=n.concat(this.walkTokens(e.items,t));break}default:{const e=s;this.defaults.extensions?.childTokens?.[e.type]?this.defaults.extensions.childTokens[e.type].forEach((s=>{const r=e[s].flat(1/0);n=n.concat(this.walkTokens(r,t))})):e.tokens&&(n=n.concat(this.walkTokens(e.tokens,t)))}}return n}use(...e){const t=this.defaults.extensions||{renderers:{},childTokens:{}};return e.forEach((e=>{const n={...e};if(n.async=this.defaults.async||n.async||!1,e.extensions&&(e.extensions.forEach((e=>{if(!e.name)throw new Error("extension name required");if("renderer"in e){const n=t.renderers[e.name];t.renderers[e.name]=n?function(...t){let s=e.renderer.apply(this,t);return!1===s&&(s=n.apply(this,t)),s}:e.renderer}if("tokenizer"in e){if(!e.level||"block"!==e.level&&"inline"!==e.level)throw new Error("extension level must be 'block' or 'inline'");const n=t[e.level];n?n.unshift(e.tokenizer):t[e.level]=[e.tokenizer],e.start&&("block"===e.level?t.startBlock?t.startBlock.push(e.start):t.startBlock=[e.start]:"inline"===e.level&&(t.startInline?t.startInline.push(e.start):t.startInline=[e.start]))}"childTokens"in e&&e.childTokens&&(t.childTokens[e.name]=e.childTokens)})),n.extensions=t),e.renderer){const t=this.defaults.renderer||new se(this.defaults);for(const n in e.renderer){if(!(n in t))throw new Error(`renderer '${n}' does not exist`);if("options"===n)continue;const s=n,r=e.renderer[s],i=t[s];t[s]=(...e)=>{let n=r.apply(t,e);return!1===n&&(n=i.apply(t,e)),n||""}}n.renderer=t}if(e.tokenizer){const t=this.defaults.tokenizer||new w(this.defaults);for(const n in e.tokenizer){if(!(n in t))throw new Error(`tokenizer '${n}' does not exist`);if(["options","rules","lexer"].includes(n))continue;const s=n,r=e.tokenizer[s],i=t[s];t[s]=(...e)=>{let n=r.apply(t,e);return!1===n&&(n=i.apply(t,e)),n}}n.tokenizer=t}if(e.hooks){const t=this.defaults.hooks||new le;for(const n in e.hooks){if(!(n in t))throw new Error(`hook '${n}' does not exist`);if("options"===n)continue;const s=n,r=e.hooks[s],i=t[s];le.passThroughHooks.has(n)?t[s]=e=>{if(this.defaults.async)return Promise.resolve(r.call(t,e)).then((e=>i.call(t,e)));const n=r.call(t,e);return i.call(t,n)}:t[s]=(...e)=>{let n=r.apply(t,e);return!1===n&&(n=i.apply(t,e)),n}}n.hooks=t}if(e.walkTokens){const t=this.defaults.walkTokens,s=e.walkTokens;n.walkTokens=function(e){let n=[];return n.push(s.call(this,e)),t&&(n=n.concat(t.call(this,e))),n}}this.defaults={...this.defaults,...n}})),this}setOptions(e){return this.defaults={...this.defaults,...e},this}lexer(e,t){return ne.lex(e,t??this.defaults)}parser(e,t){return ie.parse(e,t??this.defaults)}#e(e,t){return(n,s)=>{const r={...s},i={...this.defaults,...r};!0===this.defaults.async&&!1===r.async&&(i.silent||console.warn("marked(): The async option was set to true by an extension. The async: false option sent to parse will be ignored."),i.async=!0);const l=this.#t(!!i.silent,!!i.async);if(null==n)return l(new Error("marked(): input parameter is undefined or null"));if("string"!=typeof n)return l(new Error("marked(): input parameter is of type "+Object.prototype.toString.call(n)+", string expected"));if(i.hooks&&(i.hooks.options=i),i.async)return Promise.resolve(i.hooks?i.hooks.preprocess(n):n).then((t=>e(t,i))).then((e=>i.hooks?i.hooks.processAllTokens(e):e)).then((e=>i.walkTokens?Promise.all(this.walkTokens(e,i.walkTokens)).then((()=>e)):e)).then((e=>t(e,i))).then((e=>i.hooks?i.hooks.postprocess(e):e)).catch(l);try{i.hooks&&(n=i.hooks.preprocess(n));let s=e(n,i);i.hooks&&(s=i.hooks.processAllTokens(s)),i.walkTokens&&this.walkTokens(s,i.walkTokens);let r=t(s,i);return i.hooks&&(r=i.hooks.postprocess(r)),r}catch(e){return l(e)}}}#t(e,t){return n=>{if(n.message+="\nPlease report this to https://github.com/markedjs/marked.",e){const e="<p>An error occurred:</p><pre>"+c(n.message+"",!0)+"</pre>";return t?Promise.resolve(e):e}if(t)return Promise.reject(n);throw n}}}const ae=new oe;function ce(e,t){return ae.parse(e,t)}ce.options=ce.setOptions=function(e){return ae.setOptions(e),ce.defaults=ae.defaults,n(ce.defaults),ce},ce.getDefaults=t,ce.defaults=e.defaults,ce.use=function(...e){return ae.use(...e),ce.defaults=ae.defaults,n(ce.defaults),ce},ce.walkTokens=function(e,t){return ae.walkTokens(e,t)},ce.parseInline=ae.parseInline,ce.Parser=ie,ce.parser=ie.parse,ce.Renderer=se,ce.TextRenderer=re,ce.Lexer=ne,ce.lexer=ne.lex,ce.Tokenizer=w,ce.Hooks=le,ce.parse=ce;const he=ce.options,pe=ce.setOptions,ue=ce.use,ke=ce.walkTokens,ge=ce.parseInline,fe=ce,de=ie.parse,xe=ne.lex;e.Hooks=le,e.Lexer=ne,e.Marked=oe,e.Parser=ie,e.Renderer=se,e.TextRenderer=re,e.Tokenizer=w,e.getDefaults=t,e.lexer=xe,e.marked=ce,e.options=he,e.parse=fe,e.parseInline=ge,e.parser=de,e.setOptions=pe,e.use=ue,e.walkTokens=ke}));
+
+</script>
+<script>
+  var panels = Array.prototype.slice.call(document.querySelectorAll('.panel'));
+  var tabs   = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  panels.forEach(function (p) {
+    var src = p.querySelector('script').textContent;
+    var body = document.createElement('div');
+    body.className = 'md-body';
+    if (window.marked) {
+      body.innerHTML = (marked.parse ? marked.parse(src) : marked(src));
+    } else {
+      var pre = document.createElement('pre');
+      pre.textContent = src;
+      body.appendChild(pre);
+    }
+    p.appendChild(body);
+  });
+  function show(n) {
+    panels.forEach(function (p, i) { p.style.display = (i === n) ? 'block' : 'none'; });
+    tabs.forEach(function (t, i) { t.classList.toggle('active', i === n); });
+    window.scrollTo(0, 0);
+  }
+  tabs.forEach(function (t, i) { t.addEventListener('click', function () { show(i); }); });
+  // overview's "#tab-N" links jump to the matching book tab
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="#tab-"]');
+    if (!a) return;
+    e.preventDefault();
+    show(parseInt(a.getAttribute('href').slice(5), 10));
+  });
+  show(0);
+</script>
+</body>
+</html>
